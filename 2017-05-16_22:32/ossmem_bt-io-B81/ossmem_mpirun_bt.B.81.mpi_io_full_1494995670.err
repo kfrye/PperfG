@@ -1,0 +1,8 @@
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-16_22:32/ossmem_bt-io-B81/bt.B.81.mpi_io_full-mem-0.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.

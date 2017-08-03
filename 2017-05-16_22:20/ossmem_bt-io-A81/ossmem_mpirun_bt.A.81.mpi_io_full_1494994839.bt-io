@@ -1,0 +1,174 @@
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc083
+Running mem collector.
+Program: mpirun -n 81 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.81.mpi_io_full 
+Number of mrnet backends: 81
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 81  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.81.mpi_io_full 
+App launch reported: 11 (out of 11) daemons - 73 (out of 81) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    81
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3009110424621E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.7956428132027E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1382916787630E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          15.41
+   I/O timing percentage   :          58.15
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          27.22
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    26.49
+ Total processes =                       81
+ Compiled procs  =                       81
+ Mop/s total     =                  6352.13
+ Mop/s/process   =                    78.42
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+openss>>[openss]: The restored experiment identifier is:  -x 1
+openss>>expview
+
+ Exclusive       % of   Number      Min        Min      Max        Max  Total Bytes  Function (defining location)
+      (ms)      Total       of  Request  Requested  Request  Requested    Requested
+                 Time    Calls    Count      Bytes    Count      Bytes
+109.372702  50.606636  5182509      243          1       22   16777216  17421359102  __GI___libc_malloc (libc-2.17.so: malloc.c,2882)
+ 79.432473  36.753323  6627902                                                       __GI___libc_free (libc-2.17.so: malloc.c,2918)
+ 21.140906   9.781875  1514705      809          3        2       4640    913082253  __calloc (libc-2.17.so: malloc.c,3177)
+  6.177159   2.858165     4526     2344          4       11       2048       827871  __realloc (libc-2.17.so: malloc.c,2952)
