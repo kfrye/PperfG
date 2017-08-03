@@ -1,0 +1,230 @@
+RunDataBegin
+LaunchDateTime=1494795357
+UserName=kfrye
+ApplicationName=bt-io
+ExecutableName=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full
+RunMachine=wc054
+RunOSName=Linux
+RunOSReleaseVersion=#1 SMP Tue Jan 10 18:46:38 PST 2017
+RunOSReleaseType=3.10.0-514.2.2.2chaos.ch6_0.x86_64
+RunEnv=SLURM_NODELIST=wc054@@@REMOTEHOST=wtrw2.lanl.gov@@@SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint@@@SLURM_JOB_NAME=slurm_mpi004@@@MANPATH=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/share/man:/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/share/man:/usr/share/lmod/lmod/share/man::@@@MOABTOOLSLANL=/opt/MOAB/tools/lanl@@@XDG_SESSION_ID=12232@@@LCOMPILER=gcc@@@_ModuleTable003_=WyJGTiJdPSIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21waS9vcGVubXBpLzEuMTAuNSIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09Im9wZW5tcGkvMS4xMC41IixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxtcGF0aEE9eyIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9kZWJ1Z2dlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbGlicmFyaWVzIiwi@@@HOSTNAME=wc054@@@SLURM_TOPOLOGY_ADDR=wc054@@@SLURMD_NODENAME=wc054@@@SLURM_PRIO_PROCESS=0@@@SLURM_SRUN_COMM_PORT=35320@@@SLURM_NODE_ALIASES=(null)@@@HOST=wc049.localdomain@@@TERM=xterm-256color@@@SHELL=/bin/tcsh@@@SLURM_JOB_QOS=standard@@@ORTE_CC=gcc@@@WISECONFIGDIR=/usr/share/wise2/@@@SLURM_PTY_WIN_ROW=48@@@LMPI=openmpi@@@LMOD_DEFAULT_MODULEPATH=/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core@@@MODULEPATH_ROOT=/usr/share/modulefiles@@@SSH_CLIENT=204.121.65.2 35880 22@@@SLURM_TOPOLOGY_ADDR_PATTERN=node@@@TMPDIR=/tmp@@@PERL5LIB=/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5@@@LMOD_PKG=/usr/share/lmod/lmod@@@ORTE_CXX=g++@@@OMPI_F77=gfortran@@@QTDIR=/usr/lib64/qt-3.3@@@OMPI_FC=gfortran@@@LMOD_VERSION=6.5@@@QTINC=/usr/lib64/qt-3.3/include@@@SSH_TTY=/dev/pts/3@@@LMPIVER=1.10.5@@@TARG_TITLE_BAR_PAREN= @@@QT_GRAPHICSSYSTEM_CHECKED=1@@@SLURM_NNODES=1@@@GROUP=kfrye@@@USER=kfrye@@@LD_LIBRARY_PATH=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/lib:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib:/usr/projects/workflow_perf/oss_install_dirs/openss/lib64:/usr/projects/workflow_perf/oss_install_dirs/cbtf/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib:/usr/projects/workflow_perf/oss_install_dirs/cbtf/lib64:/usr/projects/workflow_perf/oss_install_dirs/openss/lib64@@@LMOD_sys=Linux@@@LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:@@@SLURM_STEP_NUM_NODES=1@@@SLURM_JOBID=212285@@@CPATH=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/include@@@_ModuleTable004_=L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9tcGkiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL3Rvb2xzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlcjovdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9k@@@HOSTTYPE=x86_64-linux@@@SRUN_DEBUG=3@@@RUN_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_14:55/bt-io-A4@@@SLURM_NTASKS=4@@@SLURM_LAUNCH_NODE_IPADDR=192.168.1.232@@@SLURM_STEP_ID=0@@@CPP=cpp@@@LMOD_PREPEND_BLOCK=normal@@@ROOT_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc@@@SLURM_TASKS_PER_NODE=4@@@_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MixiYXNlTXBhdGhBPXsiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2xpYnJhcmllcyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbWlzYyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dv@@@MAIL=/var/spool/mail/kfrye@@@PATH=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/bin:/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin:/usr/lib64/qt-3.3/bin:/opt/MOAB/bin:/usr/local/bin:/usr/bin:/opt/dell/srvadmin/bin:/usr/local/sbin:/usr/sbin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_ml/bin:/usr/projects/workflow_perf/krellroot_ml/bin:/usr/projects/workflow_perf/cbtf_ml/sbin:/usr/projects/workflow_perf/cbtf_ml/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin@@@SLURM_STEP_LAUNCHER_PORT=35320@@@MPI_NAME=openmpi@@@_=/usr/bin/env@@@SLURM_JOB_ID=212285@@@LMOD_SETTARG_CMD=:@@@F90=gfortran@@@PWD=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_14:55/bt-io-A4@@@SLURM_STEPID=0@@@SLURM_JOB_USER=kfrye@@@_LMFILES_=/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler/gcc/5.3.0:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi/openmpi/1.10.5@@@SLURM_SRUN_COMM_HOST=192.168.1.232@@@F95=gfortran@@@DYNINSTAPI_RT_LIB=/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64/libdyninstAPI_RT.so@@@DARSHAN_LOG_PATH=/usr/projects/workflow_perf/darshan@@@LANG=en_US.UTF-8@@@SCRIPTS_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/scripts@@@MOABHOMEDIR=/opt/MOAB@@@MODULEPATH=/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core@@@SLURM_PTY_WIN_COL=87@@@LOADEDMODULES=gcc/5.3.0:openmpi/1.10.5@@@_ModuleTable_Sz_=5@@@KDEDIRS=/usr@@@SLURM_JOB_UID=28309@@@OPAL_CC=gcc@@@PROJECT_DIR=/usr/projects/workflow_perf@@@SLURM_NODEID=0@@@SLURM_SUBMIT_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_14:55@@@F77=gfortran@@@SLURM_NPROCS=4@@@MPI_VERSION=1.10.5@@@_ModuleTable005_=dWxlZmlsZXMvd29vZGNodWNrL2RlYnVnZ2VyOi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbGlicmFyaWVzOi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbWlzYzovdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21waTovdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL3Rvb2xzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLFsidmVyc2lvbiJdPTIsfQ==@@@LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod@@@SLURM_TASK_PID=1581@@@SLURM_CPUS_ON_NODE=16@@@CXX=g++@@@SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass@@@SLURM_PROCID=0@@@ENVIRONMENT=BATCH@@@SLURM_JOB_NODELIST=wc054@@@OPAL_CXX=g++@@@SHLVL=7@@@HOME=/users/kfrye@@@SLURM_PTY_PORT=39161@@@OMPI_CC=gcc@@@OSTYPE=linux@@@SLURM_LOCALID=0@@@SLURM_CLUSTER_NAME=woodchuck@@@SLURM_JOB_CPUS_PER_NODE=16@@@LCOMPILERMAJVER=5@@@_ModuleTable002_=b2RjaHVjay90b29scyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxmYW1pbHk9e30saW5hY3RpdmU9e30sbVQ9e2djYz17WyJGTiJdPSIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2NvbXBpbGVyL2djYy81LjMuMCIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09ImdjYy81LjMuMCIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic2hvcnQiXT0iZ2NjIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sb3Blbm1waT17@@@SLURM_JOB_GID=28309@@@SLURM_SUBMIT_HOST=wc049.localdomain@@@MPIHOME=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0@@@GCC=/usr/projects/hpcsoft/toss3/common/gcc/5.3.0@@@FC=gfortran@@@SLURM_GTIDS=0@@@SLURM_JOB_PARTITION=standard@@@BASH_ENV=/usr/share/lmod/lmod/init/bash@@@VENDOR=unknown@@@RUNS_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_14:55@@@MPI_ROOT=/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0@@@PYTHONPATH=/usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack@@@LMOD_arch=x86_64@@@MACHTYPE=x86_64@@@LOGNAME=kfrye@@@QTLIB=/usr/lib64/qt-3.3/lib@@@CVS_RSH=ssh@@@SLURM_STEP_NUM_TASKS=1@@@BUILD_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin@@@SLURM_JOB_ACCOUNT=hpcdev@@@SSH_CONNECTION=204.121.65.2 35880 204.121.65.81 22@@@SLURM_JOB_NUM_NODES=1@@@MODULESHOME=/usr/share/lmod/lmod@@@OMPI_CXX=g++@@@LMPIMAJVER=1.10@@@LESSOPEN=||/usr/bin/lesspipe.sh %s@@@SLURM_STEP_TASKS_PER_NODE=1@@@INFOPATH=/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/share/info@@@LMOD_FULL_SETTARG_SUPPORT=no@@@SLURM_STEP_NODELIST=wc049@@@LCOMPILERVER=5.3.0@@@CC=gcc@@@PTDB=PG_PYGRESQL@@@XDG_RUNTIME_DIR=/run/user/28309@@@QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins@@@LMOD_DIR=/usr/share/lmod/lmod/libexec@@@SLURM_MEM_PER_NODE=193338@@@LMOD_COLORIZE=yes@@@_MODULES_CC=gcc/5.3.0@@@BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");@@@ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)@@@}@@@BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")@@@}
+PageSize=4096
+NumberOfProcesses=4
+UsesMPI=False
+UsesOpenMP=False
+UsesPthreads=False
+SubmissionBegin
+launcher = mpirun
+launcherVersion = mpirun (Open MPI) 1.10.5
+programVersion = 3.3.1
+batchFile = None
+runCmd_1=mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full 
+SubmissionEnd
+FileSystemBegin
+Name = lustre
+Version = lustre: 2.5.5
+kernel: patchless_client
+build:  -10chaos.8-CHANGED-3.10.0-514.2.2.2chaos.ch6_0.x86_64
+DeviceBegin
+Name = l1
+deviceName = 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1
+mountPoint = /net/scratch1
+Size = 3.4P
+Used = 360T
+Avail = 3.0P
+Used% = 11%
+DeviceEnd
+DeviceBegin
+Name = l2
+deviceName = 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2
+mountPoint = /net/scratch2
+Size = 2.3P
+Used = 1.3P
+Avail = 982T
+Used% = 58%
+DeviceEnd
+DeviceBegin
+Name = l3
+deviceName = 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3
+mountPoint = /net/scratch3
+Size = 9.2P
+Used = 3.4P
+Avail = 5.8P
+Used% = 37%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = tmpfs
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /dev/shm
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /run
+Size = 95G
+Used = 17M
+Avail = 95G
+Used% = 1%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /sys/fs/cgroup
+Size = 95G
+Used = 0
+Avail = 95G
+Used% = 0%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /var/tmp
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /tmp
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = nfs
+DeviceBegin
+Name = compute
+deviceName = 192.168.1.233:/var/lib/perceus/vnfs/compute
+mountPoint = /var/lib/perceus/vnfs/compute
+Size = 463G
+Used = 179G
+Avail = 285G
+Used% = 39%
+DeviceEnd
+DeviceBegin
+Name = fs1
+deviceName = wc-fs1-bond0:/fs1
+mountPoint = /fs1
+Size = 338T
+Used = 312M
+Avail = 338T
+Used% = 1%
+DeviceEnd
+DeviceBegin
+Name = fs4
+deviceName = wc-fs4-bond0:/fs4
+mountPoint = /fs4
+Size = 338T
+Used = 25T
+Avail = 313T
+Used% = 8%
+DeviceEnd
+DeviceBegin
+Name = hook
+deviceName = wc-fs5-bond0:/hook
+mountPoint = /fs5
+Size = 239T
+Used = 239T
+Avail = 0
+Used% = 100%
+DeviceEnd
+DeviceBegin
+Name = sparow
+deviceName = wc-fs6-bond0:/sparow
+mountPoint = /fs6
+Size = 471T
+Used = 468T
+Avail = 2.9T
+Used% = 100%
+DeviceEnd
+DeviceBegin
+Name = users
+deviceName = filer4:/users
+mountPoint = /turquoise/users
+Size = 2.1T
+Used = 809G
+Avail = 1.3T
+Used% = 39%
+DeviceEnd
+DeviceBegin
+Name = cint
+deviceName = filer4:/cint
+mountPoint = /turquoise/usr/projects/cint
+Size = 651G
+Used = 242G
+Avail = 409G
+Used% = 38%
+DeviceEnd
+DeviceBegin
+Name = hpcsoft
+deviceName = filer4:/hpcsoft
+mountPoint = /turquoise/usr/projects/hpcsoft
+Size = 1.2T
+Used = 1.1T
+Avail = 79G
+Used% = 94%
+DeviceEnd
+DeviceBegin
+Name = packages
+deviceName = filer4:/packages
+mountPoint = /turquoise/usr/projects/packages
+Size = 338G
+Used = 313G
+Avail = 26G
+Used% = 93%
+DeviceEnd
+DeviceBegin
+Name = workflow_perf
+deviceName = filer3:/workflow_perf
+mountPoint = /turquoise/usr/projects/workflow_perf
+Size = 101G
+Used = 12G
+Avail = 90G
+Used% = 12%
+DeviceEnd
+DeviceBegin
+Name = darshan
+deviceName = filer3:/darshan
+mountPoint = /turquoise/usr/projects/darshan
+Size = 2.3G
+Used = 84M
+Avail = 2.2G
+Used% = 4%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = devtmpfs
+DeviceBegin
+Name = devtmpfs
+deviceName = devtmpfs
+mountPoint = /dev
+Size = 95G
+Used = 0
+Avail = 95G
+Used% = 0%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = rootfs
+DeviceBegin
+Name = rootfs
+deviceName = rootfs
+mountPoint = /
+Size = 95G
+Used = 624M
+Avail = 94G
+Used% = 1%
+DeviceEnd
+FileSystemEnd
+RunDataEnd
