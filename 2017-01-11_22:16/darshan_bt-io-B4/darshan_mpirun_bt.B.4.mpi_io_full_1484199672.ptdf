@@ -1,0 +1,215 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application bt-io
+Execution darshan_mpirun_bt.B.4.mpi_io_full_1484199672 bt-io
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 LaunchDateTime 1484199672 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 UserName kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 ApplicationName bt-io string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 ExecutableName /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin/bt.B.4.mpi_io_full string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_CHECKPOINT_IMAGE_DIR /opt/MOAB string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NODELIST wc187 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_REMOTEHOST wtrw1.lanl.gov string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env__MODULES_FC intel/16.0.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOB_NAME msub_mpi004 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MANPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/share/man:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/man/common: string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURMD_NODENAME wc187 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_TOPOLOGY_ADDR wc187 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NTASKS_PER_NODE 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_HOSTNAME wc187 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LCOMPILER intel string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_INTEL_LICENSE_FILE /usr/projects/hpcsoft/toss2/common/intel/license.dat string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_HOST wc187.localdomain string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SHELL /bin/tcsh string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_TERM xterm-256color string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_ORTE_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_TMPDIR /tmp string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SSH_CLIENT "204.121.65.1 50488 22" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LMPI openmpi string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LD_PRELOAD /usr/projects/darshan/sw/toss-x86_64_wc/lib/libdarshan.so string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_ORTE_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OMPI_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OMPI_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SSH_TTY /dev/pts/12 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LMPIVER 1.10.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_INTEL /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NNODES 1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_GROUP kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_USER kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/lib:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/lib64:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/lib/intel64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib:/usr/projects/workflow_perf/osscbtf_v2.3.0/lib64:/usr/projects/workflow_perf/cbtf_v2.30/lib64 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LS_COLORS rs string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOBID 112885 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_CPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/include string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NTASKS 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_ROOT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_TASKS_PER_NODE 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/bin:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/bin:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/opt/MOAB/bin:/opt/PBS/bin:/opt/dell/srvadmin/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MPI_NAME openmpi string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOB_ID 112885 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_PWD /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env__LMFILES_ /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler/intel/16.0.3:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi/openmpi/1.10.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/scripts string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LANG en_US.UTF-8 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/krellroot_v2.3.0/lib64/libdyninstAPI_RT.so string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MODULEPATH /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/tools string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LOADEDMODULES intel/16.0.3:openmpi/1.10.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NODEID 0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OPAL_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_TASK_PID 1793 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_NPROCS 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MPI_VERSION 1.10.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_PROCID 0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_ENVIRONMENT BATCH string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOB_NODELIST wc187 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OPAL_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SHLVL 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_HOME /users/kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_LOCALID 0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_GET_USER_ENV 1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OMPI_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OSTYPE linux string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOB_CPUS_PER_NODE 16 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LCOMPILERMAJVER 16 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_GTIDS 0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MPIHOME /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_GCC /usr/projects/hpcsoft/toss2/common/gcc/5.3.0 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_VENDOR unknown string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MPI_ROOT /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MACHTYPE x86_64 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LOGNAME kfrye string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LUSTRE_JOBID wc.112885 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_CVS_RSH ssh string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SSH_CONNECTION "204.121.65.1 50488 204.121.65.81 22" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_SLURM_JOB_NUM_NODES 1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_MODULESHOME /usr/share/Modules string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_OMPI_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LMPIMAJVER 1.10 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_LCOMPILERVER 16.0.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_PTDB PG_PYGRESQL string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env_G_BROKEN_FILENAMES 1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env__MODULES_CC intel/16.0.3 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Env__ /bin/env string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 PageSize 4096 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 NumberOfProcesses 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 UsesMPI False string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 UsesOpenMP False string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 UsesPthreads False string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 performanceTool darshan string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Class B string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Size "102x 102x 102" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Iterations 200 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Total_processes 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Compiled_procs 4 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Operation_type "floating point" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Verification SUCCESSFUL string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Version 3.3.1 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 Compile_date "05 Jan 2017" string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 MPIF77 mpif77 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 FLINK $MPIF77 string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 FMPI_LIB none string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 FMPI_INC none string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 FFLAGS -O string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 FLINKFLAGS -O string
+ResourceAttribute darshan_mpirun_bt.B.4.mpi_io_full_1484199672 RAND none string
+Resource IO_data_rate_MBsec metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource IO_timing_in_seconds metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource IO_timing_percentage metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource LANL|Woodchuck|turquoise|wc187 grid|machine|partition|node darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814" operatingSystem darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource Mops_total metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource Mopsprocess metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource Time_in_seconds metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource Total_data_written_MB metric darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-0 execution|process darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-1 execution|process darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-2 execution|process darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-3 execution|process darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource env-1815 environment darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource lustre-1817 fileSystem darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+ResourceAttribute lustre-1817 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-1817 fs_type lustre string
+Resource lustre-1817|l1 fileSystem|device darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+ResourceAttribute lustre-1817|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-1817|l1 mountPoint /lustre/scratch1 string
+ResourceAttribute lustre-1817|l1 Size 3.4P string
+ResourceAttribute lustre-1817|l1 Used 66T string
+ResourceAttribute lustre-1817|l1 Avail 3.3P string
+ResourceAttribute lustre-1817|l1 Used% 2% string
+Resource lustre-1817|l2 fileSystem|device darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+ResourceAttribute lustre-1817|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-1817|l2 mountPoint /lustre/scratch2 string
+ResourceAttribute lustre-1817|l2 Size 2.3P string
+ResourceAttribute lustre-1817|l2 Used 1.3P string
+ResourceAttribute lustre-1817|l2 Avail 983T string
+ResourceAttribute lustre-1817|l2 Used% 58% string
+Resource lustre-1817|l3 fileSystem|device darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+ResourceAttribute lustre-1817|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-1817|l3 mountPoint /lustre/scratch3 string
+ResourceAttribute lustre-1817|l3 Size 9.2P string
+ResourceAttribute lustre-1817|l3 Used 2.1P string
+ResourceAttribute lustre-1817|l3 Avail 7.1P string
+ResourceAttribute lustre-1817|l3 Used% 23% string
+Resource "self instrumentation" performanceTool darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+Resource submission-1816 submission darshan_mpirun_bt.B.4.mpi_io_full_1484199672
+ResourceAttribute submission-1816 launcher mpirun string
+ResourceAttribute submission-1816 launcherVersion "mpirun (Open MPI) 1.10.3" string
+ResourceAttribute submission-1816 programVersion 0.0 string
+ResourceAttribute submission-1816 batchFile None string
+ResourceAttribute submission-1816 runCmd_1 "mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin/bt.B.4.mpi_io_full" string
+ResourceConstraint IO_data_rate_MBsec "self instrumentation"
+ResourceConstraint IO_timing_in_seconds "self instrumentation"
+ResourceConstraint IO_timing_percentage "self instrumentation"
+ResourceConstraint Mops_total "self instrumentation"
+ResourceConstraint Mopsprocess "self instrumentation"
+ResourceConstraint Time_in_seconds "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-0 env-1815
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-0 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814"
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-0 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-1 env-1815
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-1 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814"
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-1 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-2 env-1815
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-2 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814"
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-2 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-3 env-1815
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-3 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814"
+ResourceConstraint darshan_mpirun_bt.B.4.mpi_io_full_1484199672|Process-3 LANL|Woodchuck|turquoise|wc187
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" IO_timing_in_seconds 9.59 s noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" IO_timing_percentage 11.66 percent noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" Total_data_written_MB 1697.93 MB noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" IO_data_rate_MBsec 177.08 MB/sec noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" Time_in_seconds 82.25 s noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" Mops_total 8536.94 each noValue noValue
+PerfResult darshan_mpirun_bt.B.4.mpi_io_full_1484199672 "bt-io,env-1815,darshan_mpirun_bt.B.4.mpi_io_full_1484199672,lustre-1817,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1814,submission-1816" "self instrumentation" Mopsprocess 2134.23 each noValue noValue

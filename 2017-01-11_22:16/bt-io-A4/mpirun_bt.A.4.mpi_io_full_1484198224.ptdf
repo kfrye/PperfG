@@ -1,0 +1,214 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application bt-io
+Execution mpirun_bt.A.4.mpi_io_full_1484198224 bt-io
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 LaunchDateTime 1484198224 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 UserName kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 ApplicationName bt-io string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 ExecutableName /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin/bt.A.4.mpi_io_full string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_CHECKPOINT_IMAGE_DIR /opt/MOAB string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NODELIST wc187 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_REMOTEHOST wtrw1.lanl.gov string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env__MODULES_FC intel/16.0.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOB_NAME msub_mpi004 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MANPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/share/man:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/man/common: string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURMD_NODENAME wc187 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_TOPOLOGY_ADDR wc187 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NTASKS_PER_NODE 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_HOSTNAME wc187 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LCOMPILER intel string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_INTEL_LICENSE_FILE /usr/projects/hpcsoft/toss2/common/intel/license.dat string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_HOST wc187.localdomain string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SHELL /bin/tcsh string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_TERM xterm-256color string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_ORTE_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_TMPDIR /tmp string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SSH_CLIENT "204.121.65.1 50488 22" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LMPI openmpi string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_ORTE_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OMPI_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OMPI_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SSH_TTY /dev/pts/12 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LMPIVER 1.10.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_INTEL /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NNODES 1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_GROUP kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_USER kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/lib:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/lib64:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/lib/intel64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib:/usr/projects/workflow_perf/osscbtf_v2.3.0/lib64:/usr/projects/workflow_perf/cbtf_v2.30/lib64 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LS_COLORS rs string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOBID 112885 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_CPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/include string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/bt-io-A4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NTASKS 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_ROOT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_TASKS_PER_NODE 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/bin:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/bin:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/opt/MOAB/bin:/opt/PBS/bin:/opt/dell/srvadmin/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MPI_NAME openmpi string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOB_ID 112885 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_PWD /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/bt-io-A4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env__LMFILES_ /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler/intel/16.0.3:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi/openmpi/1.10.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/scripts string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LANG en_US.UTF-8 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/krellroot_v2.3.0/lib64/libdyninstAPI_RT.so string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MODULEPATH /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/tools string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LOADEDMODULES intel/16.0.3:openmpi/1.10.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NODEID 0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OPAL_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_TASK_PID 1793 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_NPROCS 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MPI_VERSION 1.10.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_PROCID 0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_ENVIRONMENT BATCH string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOB_NODELIST wc187 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OPAL_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SHLVL 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_HOME /users/kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_LOCALID 0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_GET_USER_ENV 1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OMPI_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OSTYPE linux string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOB_CPUS_PER_NODE 16 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LCOMPILERMAJVER 16 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_GTIDS 0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MPIHOME /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_GCC /usr/projects/hpcsoft/toss2/common/gcc/5.3.0 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_VENDOR unknown string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MPI_ROOT /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MACHTYPE x86_64 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LOGNAME kfrye string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LUSTRE_JOBID wc.112885 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_CVS_RSH ssh string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SSH_CONNECTION "204.121.65.1 50488 204.121.65.81 22" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_SLURM_JOB_NUM_NODES 1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_MODULESHOME /usr/share/Modules string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_OMPI_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LMPIMAJVER 1.10 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_LCOMPILERVER 16.0.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_PTDB PG_PYGRESQL string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env_G_BROKEN_FILENAMES 1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env__MODULES_CC intel/16.0.3 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Env__ /bin/env string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 PageSize 4096 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 NumberOfProcesses 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 UsesMPI False string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 UsesOpenMP False string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 UsesPthreads False string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 performanceTool None string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Class A string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Size "64x  64x  64" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Iterations 200 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Total_processes 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Compiled_procs 4 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Operation_type "floating point" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Verification SUCCESSFUL string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Version 3.3.1 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 Compile_date "05 Jan 2017" string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 MPIF77 mpif77 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 FLINK $MPIF77 string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 FMPI_LIB none string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 FMPI_INC none string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 FFLAGS -O string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 FLINKFLAGS -O string
+ResourceAttribute mpirun_bt.A.4.mpi_io_full_1484198224 RAND none string
+Resource IO_data_rate_MBsec metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource IO_timing_in_seconds metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource IO_timing_percentage metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource LANL|Woodchuck|turquoise|wc187 grid|machine|partition|node mpirun_bt.A.4.mpi_io_full_1484198224
+Resource "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718" operatingSystem mpirun_bt.A.4.mpi_io_full_1484198224
+Resource Mops_total metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource Mopsprocess metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource Time_in_seconds metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource Total_data_written_MB metric mpirun_bt.A.4.mpi_io_full_1484198224
+Resource env-1719 environment mpirun_bt.A.4.mpi_io_full_1484198224
+Resource lustre-1721 fileSystem mpirun_bt.A.4.mpi_io_full_1484198224
+ResourceAttribute lustre-1721 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-1721 fs_type lustre string
+Resource lustre-1721|l1 fileSystem|device mpirun_bt.A.4.mpi_io_full_1484198224
+ResourceAttribute lustre-1721|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-1721|l1 mountPoint /lustre/scratch1 string
+ResourceAttribute lustre-1721|l1 Size 3.4P string
+ResourceAttribute lustre-1721|l1 Used 66T string
+ResourceAttribute lustre-1721|l1 Avail 3.3P string
+ResourceAttribute lustre-1721|l1 Used% 2% string
+Resource lustre-1721|l2 fileSystem|device mpirun_bt.A.4.mpi_io_full_1484198224
+ResourceAttribute lustre-1721|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-1721|l2 mountPoint /lustre/scratch2 string
+ResourceAttribute lustre-1721|l2 Size 2.3P string
+ResourceAttribute lustre-1721|l2 Used 1.3P string
+ResourceAttribute lustre-1721|l2 Avail 983T string
+ResourceAttribute lustre-1721|l2 Used% 58% string
+Resource lustre-1721|l3 fileSystem|device mpirun_bt.A.4.mpi_io_full_1484198224
+ResourceAttribute lustre-1721|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-1721|l3 mountPoint /lustre/scratch3 string
+ResourceAttribute lustre-1721|l3 Size 9.2P string
+ResourceAttribute lustre-1721|l3 Used 2.1P string
+ResourceAttribute lustre-1721|l3 Avail 7.1P string
+ResourceAttribute lustre-1721|l3 Used% 23% string
+Resource mpirun_bt.A.4.mpi_io_full_1484198224|Process-0 execution|process mpirun_bt.A.4.mpi_io_full_1484198224
+Resource mpirun_bt.A.4.mpi_io_full_1484198224|Process-1 execution|process mpirun_bt.A.4.mpi_io_full_1484198224
+Resource mpirun_bt.A.4.mpi_io_full_1484198224|Process-2 execution|process mpirun_bt.A.4.mpi_io_full_1484198224
+Resource mpirun_bt.A.4.mpi_io_full_1484198224|Process-3 execution|process mpirun_bt.A.4.mpi_io_full_1484198224
+Resource "self instrumentation" performanceTool mpirun_bt.A.4.mpi_io_full_1484198224
+Resource submission-1720 submission mpirun_bt.A.4.mpi_io_full_1484198224
+ResourceAttribute submission-1720 launcher mpirun string
+ResourceAttribute submission-1720 launcherVersion "mpirun (Open MPI) 1.10.3" string
+ResourceAttribute submission-1720 programVersion 0.0 string
+ResourceAttribute submission-1720 batchFile None string
+ResourceAttribute submission-1720 runCmd_1 "mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin/bt.A.4.mpi_io_full" string
+ResourceConstraint IO_data_rate_MBsec "self instrumentation"
+ResourceConstraint IO_timing_in_seconds "self instrumentation"
+ResourceConstraint IO_timing_percentage "self instrumentation"
+ResourceConstraint Mops_total "self instrumentation"
+ResourceConstraint Mopsprocess "self instrumentation"
+ResourceConstraint Time_in_seconds "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-0 env-1719
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-0 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718"
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-0 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-1 env-1719
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-1 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718"
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-1 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-2 env-1719
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-2 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718"
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-2 LANL|Woodchuck|turquoise|wc187
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-3 env-1719
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-3 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718"
+ResourceConstraint mpirun_bt.A.4.mpi_io_full_1484198224|Process-3 LANL|Woodchuck|turquoise|wc187
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" IO_timing_in_seconds 2.31 s noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" IO_timing_percentage 11.67 percent noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" Total_data_written_MB 419.43 MB noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" IO_data_rate_MBsec 181.46 MB/sec noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" Time_in_seconds 19.81 s noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" Mops_total 8494.74 each noValue noValue
+PerfResult mpirun_bt.A.4.mpi_io_full_1484198224 "bt-io,env-1719,mpirun_bt.A.4.mpi_io_full_1484198224,lustre-1721,LANL|Woodchuck|turquoise|wc187,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-1718,submission-1720" "self instrumentation" Mopsprocess 2123.68 each noValue noValue

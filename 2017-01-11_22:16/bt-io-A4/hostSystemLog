@@ -1,0 +1,168 @@
+Wed Jan 11 22:16:40 2017|START|Host System Method Version: 1.0.1
+Wed Jan 11 22:16:40 2017|STATUS|Loading Atribute Module Name: pt_proc
+Wed Jan 11 22:16:40 2017|STATUS|Loaded Atribute Module Name: pt_proc 1.0.1
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_AIX_amountMem
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_amountMemKB
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by object Node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_numOfProc
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_CPUVendorID
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL processor
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_CPUModel
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL processor
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_CPUMhz
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL processor
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_Linux_Version
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by object Node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_AIX_numOfProc
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_amountMem
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_amountSwap
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_AIX_CPUMhz
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_CPUCacheSize
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL processor
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_infiniband_networkInterfaceFWver
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_getArch
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_AIX_CPUModel
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_linux_numOfScsiDevices
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by object Machine
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_Unix_hostName
+Wed Jan 11 22:16:40 2017|STATUS|Resource Type determined by iMDL node
+Wed Jan 11 22:16:40 2017|STATUS|Found Attribute Object: attribFunc_infiniband_networkInterfaceID
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource LANL
+Wed Jan 11 22:16:40 2017|STATUS|There are no attribute functions for LANL
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: grid Hierarchy is 
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource Woodchuck
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: machine Hierarchy is /grid
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by object. 'NumberOfSCSIDevices'
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource turquoise
+Wed Jan 11 22:16:40 2017|STATUS|There are no attribute functions for turquoise
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: partition Hierarchy is /grid/machine
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource wc187
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: node Hierarchy is /grid/machine/partition
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by object. 'AmountMemKB'
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. NumOfProcs
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by object. 'Version'
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Main Memory GB
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. AmountSwap KB
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Architecture
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. HostName
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 0
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/0
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 1
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/1
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 2
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/2
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 3
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/3
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 4
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/4
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 5
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/5
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 6
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/6
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 7
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/7
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 8
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/8
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 9
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/9
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 10
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/10
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 11
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/11
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 12
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/12
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 13
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/13
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 14
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/14
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|STATUS|Working on resource 15
+Wed Jan 11 22:16:40 2017|STATUS|Resource Name Hierarchy has been constructed: /LANL/Woodchuck/turquoise/wc187/15
+Wed Jan 11 22:16:40 2017|STATUS|iMDL determined Resource Type: processor Hierarchy is /grid/machine/partition/node
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Vendor
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. Type
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. MHz
+Wed Jan 11 22:16:40 2017|STATUS|Attribute Name determined by iMDL. CacheSize KB
+Wed Jan 11 22:16:40 2017|END|Host System Method

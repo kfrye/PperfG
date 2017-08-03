@@ -1,0 +1,8 @@
+Timings (s) Dataset A
+---------
+bt-io-A16           1.37	1.33	1.32	1.28	1.33	
+ossiot_bt-io-A16    1.62	1.55	1.62	1.53	1.54	
+
+Timings (s) Dataset B
+---------
+bt-io-B16           4.81	4.73	4.66	4.75	4.69	

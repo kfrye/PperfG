@@ -1,0 +1,261 @@
+# darshan log version: 3.10
+# compression method: ZLIB
+# exe: /turquoise/usr/projects/workflow_perf/NPB3.3.1/NPB3.3-MPI/bin/bt.B.4.mpi_io_full <unknown args>
+# uid: 28309
+# jobid: 3207
+# start_time: 1484200090
+# start_time_asci: Wed Jan 11 22:48:10 2017
+# end_time: 1484200187
+# end_time_asci: Wed Jan 11 22:49:47 2017
+# nprocs: 4
+# run time: 98
+# metadata: lib_ver = 3.1.2
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 360 bytes (uncompressed)
+# job data: 261 bytes (compressed)
+# record table: 112 bytes (compressed)
+# POSIX module: 207 bytes (compressed), ver=3
+# MPI-IO module: 172 bytes (compressed), ver=2
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/turquoise/usr/projects/workflow_perf	nfs
+# mount entry:	/turquoise/usr/projects/hpctools	nfs
+# mount entry:	/turquoise/usr/projects/hpcsoft	nfs
+# mount entry:	/turquoise/usr/projects/darshan	nfs
+# mount entry:	/turquoise/usr/projects/cint	nfs
+# mount entry:	/var/lib/perceus/vnfs	nfs
+# mount entry:	/lustre/scratch2	lustre
+# mount entry:	/lustre/scratch3	lustre
+# mount entry:	/lustre/scratch1	lustre
+# mount entry:	/turquoise/users	nfs
+# mount entry:	/fs4	nfs
+# mount entry:	/fs5	nfs
+# mount entry:	/fs6	nfs
+
+# description of columns:
+#   <module>: module responsible for this I/O record.
+#   <rank>: MPI rank.  -1 indicates that the file is shared
+#      across all processes and statistics are aggregated.
+#   <record id>: hash of the record's file path
+#   <counter name> and <counter value>: statistical counters.
+#      A value of -1 indicates that Darshan could not monitor
+#      that counter, and its value should be ignored.
+#   <file name>: full file path for the record.
+#   <mount pt>: mount point that the file resides on.
+#   <fs type>: type of file system that the file resides on.
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# description of POSIX counters:
+#   POSIX_*: posix operation counts.
+#   READS,WRITES,OPENS,SEEKS,STATS, and MMAPS are types of operations.
+#   POSIX_MODE: mode that file was opened in.
+#   POSIX_BYTES_*: total bytes read and written.
+#   POSIX_MAX_BYTE_*: highest offset byte read and written.
+#   POSIX_CONSEC_*: number of exactly adjacent reads and writes.
+#   POSIX_SEQ_*: number of reads and writes from increasing offsets.
+#   POSIX_RW_SWITCHES: number of times access alternated between read and write.
+#   POSIX_*_ALIGNMENT: memory and file alignment.
+#   POSIX_*_NOT_ALIGNED: number of reads and writes that were not aligned.
+#   POSIX_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   POSIX_SIZE_*_*: histogram of read and write access sizes.
+#   POSIX_STRIDE*_STRIDE: the four most common strides detected.
+#   POSIX_STRIDE*_COUNT: count of the four most common strides.
+#   POSIX_ACCESS*_ACCESS: the four most common access sizes.
+#   POSIX_ACCESS*_COUNT: count of the four most common access sizes.
+#   POSIX_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   POSIX_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   POSIX_F_*_START_TIMESTAMP: timestamp of first open/read/write/close.
+#   POSIX_F_*_END_TIMESTAMP: timestamp of last open/read/write/close.
+#   POSIX_F_READ/WRITE/META_TIME: cumulative time spent in read, write, or metadata operations.
+#   POSIX_F_MAX_*_TIME: duration of the slowest read and write operations.
+#   POSIX_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   POSIX_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+POSIX	-1	665305365163700737	POSIX_OPENS	8	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_READS	120	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_WRITES	120	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SEEKS	78	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STATS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MODE	436	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_BYTES_READ	1697932800	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_BYTES_WRITTEN	1697932800	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MAX_BYTE_READ	1697932799	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MAX_BYTE_WRITTEN	1697932799	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_CONSEC_READS	119	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_CONSEC_WRITES	119	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SEQ_READS	119	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SEQ_WRITES	119	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_RW_SWITCHES	1	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FILE_NOT_ALIGNED	234	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MAX_READ_TIME_SIZE	16777216	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_MAX_WRITE_TIME_SIZE	16777216	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_0_100	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_100_1K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_4M_10M	40	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_10M_100M	80	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_0_100	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_100_1K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_1K_10K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_100K_1M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_4M_10M	40	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_10M_100M	80	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE1_STRIDE	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE2_STRIDE	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE3_STRIDE	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE4_STRIDE	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE1_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE2_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE3_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_STRIDE4_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS1_ACCESS	16777216	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS2_ACCESS	8893888	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS3_ACCESS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS4_ACCESS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS1_COUNT	160	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS2_COUNT	80	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS3_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_ACCESS4_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_FASTEST_RANK_BYTES	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_SLOWEST_RANK_BYTES	3395865600	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_OPEN_START_TIMESTAMP	0.196719	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_READ_START_TIMESTAMP	82.877518	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_WRITE_START_TIMESTAMP	2.483698	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_CLOSE_START_TIMESTAMP	82.871651	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_OPEN_END_TIMESTAMP	82.873003	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_READ_END_TIMESTAMP	96.216153	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_WRITE_END_TIMESTAMP	82.832506	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_CLOSE_END_TIMESTAMP	96.225211	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_READ_TIME	11.914463	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_WRITE_TIME	0.795343	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_META_TIME	0.034731	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_MAX_READ_TIME	0.220426	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_MAX_WRITE_TIME	0.008692	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_FASTEST_RANK_TIME	0.008956	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_SLOWEST_RANK_TIME	12.715149	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_VARIANCE_RANK_TIME	30.267375	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	665305365163700737	POSIX_F_VARIANCE_RANK_BYTES	2162231844986880000.000000	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+
+# *******************************************************
+# MPI-IO module data
+# *******************************************************
+
+# description of MPIIO counters:
+#   MPIIO_INDEP_*: MPI independent operation counts.
+#   MPIIO_COLL_*: MPI collective operation counts.
+#   MPIIO_SPLIT_*: MPI split collective operation counts.
+#   MPIIO_NB_*: MPI non blocking operation counts.
+#   READS,WRITES,and OPENS are types of operations.
+#   MPIIO_SYNCS: MPI file sync operation counts.
+#   MPIIO_HINTS: number of times MPI hints were used.
+#   MPIIO_VIEWS: number of times MPI file views were used.
+#   MPIIO_MODE: MPI-IO access mode that file was opened with.
+#   MPIIO_BYTES_*: total bytes read and written at MPI-IO layer.
+#   MPIIO_RW_SWITCHES: number of times access alternated between read and write.
+#   MPIIO_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   MPIIO_SIZE_*_AGG_*: histogram of MPI datatype total sizes for read and write operations.
+#   MPIIO_ACCESS*_ACCESS: the four most common total access sizes.
+#   MPIIO_ACCESS*_COUNT: count of the four most common total access sizes.
+#   MPIIO_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   MPIIO_*_RANK_BYTES: total bytes transferred at MPI-IO layer by the fastest and slowest ranks (for shared files).
+#   MPIIO_F_OPEN_TIMESTAMP: timestamp of first open.
+#   MPIIO_F_*_START_TIMESTAMP: timestamp of first MPI-IO read/write.
+#   MPIIO_F_*_END_TIMESTAMP: timestamp of last MPI-IO read/write.
+#   MPIIO_F_CLOSE_TIMESTAMP: timestamp of last close.
+#   MPIIO_F_READ/WRITE/META_TIME: cumulative time spent in MPI-IO read, write, or metadata operations.
+#   MPIIO_F_MAX_*_TIME: duration of the slowest MPI-IO read and write operations.
+#   MPIIO_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   MPIIO_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+MPI-IO	-1	665305365163700737	MPIIO_INDEP_OPENS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_COLL_OPENS	8	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_INDEP_READS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_INDEP_WRITES	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_COLL_READS	160	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_COLL_WRITES	160	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SPLIT_READS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SPLIT_WRITES	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_NB_READS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_NB_WRITES	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SYNCS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_HINTS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_VIEWS	8	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_MODE	2	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_BYTES_READ	1697932800	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_BYTES_WRITTEN	1697932800	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_RW_SWITCHES	4	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_MAX_READ_TIME_SIZE	10612080	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_MAX_WRITE_TIME_SIZE	10612080	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_0_100	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_100_1K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_1K_10K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_10K_100K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_100K_1M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_1M_4M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_4M_10M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_10M_100M	160	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_100M_1G	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_READ_AGG_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_0_100	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_100_1K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_1K_10K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_10K_100K	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_100K_1M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_1M_4M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_4M_10M	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_10M_100M	160	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_100M_1G	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SIZE_WRITE_AGG_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS1_ACCESS	10612080	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS2_ACCESS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS3_ACCESS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS4_ACCESS	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS1_COUNT	320	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS2_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS3_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_ACCESS4_COUNT	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_FASTEST_RANK_BYTES	848966400	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_SLOWEST_RANK_BYTES	848966400	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_OPEN_TIMESTAMP	0.191507	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_READ_START_TIMESTAMP	82.876517	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_WRITE_START_TIMESTAMP	2.472400	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_READ_END_TIMESTAMP	96.219382	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_WRITE_END_TIMESTAMP	82.871631	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_CLOSE_TIMESTAMP	96.225230	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_READ_TIME	52.435236	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_WRITE_TIME	38.587661	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_META_TIME	0.069106	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_MAX_READ_TIME	0.411935	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_MAX_WRITE_TIME	0.267240	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_FASTEST_RANK_TIME	22.756295	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_SLOWEST_RANK_TIME	22.780243	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_VARIANCE_RANK_TIME	0.000095	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
+MPI-IO	-1	665305365163700737	MPIIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/NPB3.3.1/run/2017-01-11_22:16/darshan_bt-io-B4/btio.full.out	/turquoise/usr/projects/workflow_perf	nfs
