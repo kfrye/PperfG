@@ -1,0 +1,3292 @@
+JOBID: 213005
+NUM_NODES: 7
+TASKS: 49
+Wed May 24 13:10:00 MDT 2017
+/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49 exists.
+outfile: /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/machines/wc067.ptdf
+calling get_sys_info
+calling systemScan
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          12.54
+   I/O timing percentage   :          68.12
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          33.44
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    18.41
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                  9138.84
+ Mop/s/process   =                   186.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/bt.A.49.mpi_io_full-mem-0.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 28 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          11.46
+   I/O timing percentage   :          65.07
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          36.60
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    17.61
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                  9553.99
+ Mop/s/process   =                   194.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/bt.A.49.mpi_io_full-mem-1.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          12.46
+   I/O timing percentage   :          68.03
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          33.67
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    18.31
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                  9189.30
+ Mop/s/process   =                   187.54
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/bt.A.49.mpi_io_full-mem-2.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          12.38
+   I/O timing percentage   :          69.14
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          33.89
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    17.90
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                  9400.10
+ Mop/s/process   =                   191.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/bt.A.49.mpi_io_full-mem-3.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          12.21
+   I/O timing percentage   :          66.83
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          34.35
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    18.27
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                  9209.77
+ Mop/s/process   =                   187.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/bt.A.49.mpi_io_full-mem-4.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+Destination path '/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-A49/ossmem_mpirun_bt.A.49.mpi_io_full_1495653001.run' already exists
+/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49 exists.
+outfile: /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/machines/wc067.ptdf
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          20.44
+   I/O timing percentage   :          48.97
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :          83.06
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    41.75
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 16820.06
+ Mop/s/process   =                   343.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/bt.B.49.mpi_io_full-mem-0.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          21.64
+   I/O timing percentage   :          50.24
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :          78.47
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    43.07
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 16304.58
+ Mop/s/process   =                   332.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/bt.B.49.mpi_io_full-mem-1.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          20.59
+   I/O timing percentage   :          49.69
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :          82.47
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    41.44
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 16945.51
+ Mop/s/process   =                   345.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/bt.B.49.mpi_io_full-mem-2.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          20.10
+   I/O timing percentage   :          49.05
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :          84.47
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    40.98
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 17135.03
+ Mop/s/process   =                   349.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/bt.B.49.mpi_io_full-mem-3.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+[openss]: mem using default experiment trace function list.
+Creating topology file for SLURM frontend node wc067
+Running mem collector.
+Program: mpirun -n 49 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+Number of mrnet backends: 49
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 49  cbtfrun  --mpi  --mrnet  -c mem /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.B.49.mpi_io_full 
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :          20.28
+   I/O timing percentage   :          49.24
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :          83.74
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    41.18
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 17051.02
+ Mop/s/process   =                   347.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/bt.B.49.mpi_io_full-mem-4.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+Destination path '/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/ossmem_bt-io-B49/ossmem_mpirun_bt.B.49.mpi_io_full_1495653265.run' already exists
+/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/darshan_bt-io-A49 exists.
+outfile: /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/machines/wc067.ptdf
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           1.93
+   I/O timing percentage   :          29.18
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :         217.39
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     6.61
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 25453.27
+ Mop/s/process   =                   519.45
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           1.76
+   I/O timing percentage   :          27.15
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :         238.38
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     6.48
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 25964.33
+ Mop/s/process   =                   529.88
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 35 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           2.05
+   I/O timing percentage   :          29.59
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :         204.75
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     6.92
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 24306.62
+ Mop/s/process   =                   496.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           2.04
+   I/O timing percentage   :          29.36
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :         205.12
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     6.96
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 24162.33
+ Mop/s/process   =                   493.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4888789989895E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2246121379734E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1238859647002E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           2.09
+   I/O timing percentage   :          28.54
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :         200.65
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     7.33
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 22973.04
+ Mop/s/process   =                   468.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+Destination path '/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/darshan_bt-io-A49/darshan_mpirun_bt.A.49.mpi_io_full_1495653590.run' already exists
+sh: darshan-parser: command not found
+/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/darshan_bt-io-B49 exists.
+outfile: /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/machines/wc067.ptdf
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           8.19
+   I/O timing percentage   :          27.95
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :         207.35
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    29.30
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 23965.82
+ Mop/s/process   =                   489.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 7 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           9.23
+   I/O timing percentage   :          30.66
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :         183.87
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    30.12
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 23313.64
+ Mop/s/process   =                   475.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           8.60
+   I/O timing percentage   :          29.00
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :         197.32
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    29.67
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 23664.29
+ Mop/s/process   =                   482.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 42 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           8.49
+   I/O timing percentage   :          28.88
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :         199.94
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    29.40
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 23881.52
+ Mop/s/process   =                   487.38
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+App launch reported: 7 (out of 7) daemons - 35 (out of 49) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    49
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1006389412470E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3433592256150E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9089582404996E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7368823418834E-14
+ Comparison of RMS-norms of solution error
+           1 0.1477545106464E+03 0.1477545106464E+03 0.2037067440792E-12
+           2 0.1108895555053E+02 0.1108895555053E+02 0.3506592756846E-12
+           3 0.3698065590331E+02 0.3698065590331E+02 0.8127480973090E-13
+           4 0.3310505581440E+02 0.3310505581440E+02 0.1159016554636E-13
+           5 0.3157928282563E+03 0.3157928282563E+03 0.1188014834133E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           8.62
+   I/O timing percentage   :          29.09
+   Total data written (MB) :        1697.93
+   I/O data rate  (MB/sec) :         197.01
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    29.63
+ Total processes =                       49
+ Compiled procs  =                       49
+ Mop/s total     =                 23698.26
+ Mop/s/process   =                   483.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+Destination path '/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:09/darshan_bt-io-B49/darshan_mpirun_bt.B.49.mpi_io_full_1495653628.run' already exists
+sh: darshan-parser: command not found
+Wed May 24 13:22:32 MDT 2017
+Done

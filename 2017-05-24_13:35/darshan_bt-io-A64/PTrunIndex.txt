@@ -1,0 +1,5 @@
+darshan_mpirun_bt.A.64.mpi_io_full_1495655240 bt-io NONE 64 1 1495655240 1495655240 darshan
+darshan_mpirun_bt.A.64.mpi_io_full_1495655247 bt-io NONE 64 1 1495655247 1495655247 darshan
+darshan_mpirun_bt.A.64.mpi_io_full_1495655253 bt-io NONE 64 1 1495655253 1495655253 darshan
+darshan_mpirun_bt.A.64.mpi_io_full_1495655260 bt-io NONE 64 1 1495655260 1495655260 darshan
+darshan_mpirun_bt.A.64.mpi_io_full_1495655266 bt-io NONE 64 1 1495655266 1495655266 darshan

@@ -1,0 +1,1179 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application bt-io
+Execution darshan_mpirun_bt.A.64.mpi_io_full_1495655260 bt-io
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 LaunchDateTime 1495655260 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 UserName kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 ApplicationName bt-io string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 ExecutableName /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.64.mpi_io_full string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_REMOTEHOST wtrw2.lanl.gov string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NODELIST wc[076-083] string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_CHECKPOINT_IMAGE_DIR /var/slurm/checkpoint string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MANPATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/share/man:/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/share/man:/usr/share/lmod/lmod/share/man:: string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MOABTOOLSLANL /opt/MOAB/tools/lanl string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_NAME slurm_mpi064 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_XDG_SESSION_ID 2950 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_HOSTNAME wc076 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LCOMPILER gcc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable003_ PTQscHJvcFQ9e30sWyJzaG9ydCJdPSJkYXJzaGFuLXV0aWwiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxbImZyaWVuZGx5LXRlc3RpbmciXT17WyJGTiJdPSIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21pc2MvZnJpZW5kbHktdGVzdGluZyIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09ImZyaWVuZGx5LXRlc3RpbmciLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInNob3J0Il09ImZyaWVuZGx5LXRlc3RpbmciLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxnY2M9e1siRk4iXT0iL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlci9nY2MvNS4zLjAiLFsiZGVmYXVsdCJdPTEsWyJm string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_TOPOLOGY_ADDR wc076 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURMD_NODENAME wc076 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NODE_ALIASES (null) string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_HOST wc-fe1.lanl.gov string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SHELL /bin/tcsh string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_TERM screen string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_QOS standard string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_ORTE_CC gcc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_DEFAULT_MODULEPATH /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MODULEPATH_ROOT /usr/share/modulefiles string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SSH_CLIENT "204.121.65.2 34722 22" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_TMPDIR /tmp string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMPI openmpi string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PERL5LIB /opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LD_PRELOAD /usr/projects/hpcsoft/toss3/common/darshan/default/runtime-openmpi-1.10.5/lib/libdarshan.so string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_PKG /usr/share/lmod/lmod string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OMPI_F77 gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_ORTE_CXX g++ string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_VERSION 6.5 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OMPI_FC gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SSH_TTY /dev/pts/23 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMPIVER 1.10.5 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable007_ b2R1bGVmaWxlcy93b29kY2h1Y2svbXBpOi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svdG9vbHM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_QT_GRAPHICSSYSTEM_CHECKED 1 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_GROUP kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_USER kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NNODES 8 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/lib:/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib:/usr/projects/workflow_perf/oss_install_dirs/openss/lib64:/usr/projects/workflow_perf/oss_install_dirs/cbtf/lib64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_sys Linux string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LS_COLORS rs string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable004_ dWxsTmFtZSJdPSJnY2MvNS4zLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09ImdjYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsib3Blbm1waS1kYXJzaGFuIl09e1siRk4iXT0iL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9mcmllbmRseS10ZXN0aW5nL29wZW5tcGktZGFyc2hhbi8xLjEwLjUiLFsiZGVmYXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJvcGVubXBpLWRhcnNoYW4vMS4xMC41IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpLWRhcnNoYW4iLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOBID 213016 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_CPATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/include string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NTASKS 64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_TMUX /tmp/tmux-28309/default,70596,0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_CPP cpp string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_PREPEND_BLOCK normal string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_ROOT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PATH /usr/projects/hpcsoft/toss3/common/darshan/3.1.3/util/bin:/usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0/bin:/usr/projects/hpcsoft/toss3/common/gcc/5.3.0/bin:/usr/lib64/qt-3.3/bin:/opt/MOAB/bin:/usr/local/bin:/usr/bin:/opt/dell/srvadmin/bin:/usr/local/sbin:/usr/sbin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/usr/projects/workflow_perf/PerfTrack/build/bin string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable001_ X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2xpYnJhcmllcyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbWlzYyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dv string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_TASKS_PER_NODE 8(x8) string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MPI_NAME openmpi string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ /usr/bin/env string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_ID 213016 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_SETTARG_CMD : string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_F90 gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PWD /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_USER kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__LMFILES_ /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler/gcc/5.3.0:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc/friendly-testing:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/friendly-testing/openmpi-darshan/1.10.5:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/friendly-testing/darshan-util/3.1.3 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64/libdyninstAPI_RT.so string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_F95 gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LANG en_US.UTF-8 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/scripts string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MODULEPATH /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/friendly-testing string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_KDEDIRS /usr string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LOADEDMODULES gcc/5.3.0:friendly-testing:openmpi-darshan/1.10.5:darshan-util/3.1.3 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable_Sz_ 7 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_UID 28309 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_TMUX_PANE %0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NODEID 0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OPAL_CC gcc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_F77 gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_CMD /usr/share/lmod/lmod/libexec/lmod string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable005_ b29kY2h1Y2svY29tcGlsZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2RlYnVnZ2VyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21pc2MiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21waSIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svdG9vbHMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFy string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_NPROCS 64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_TASK_PID 33777 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MPI_VERSION 1.10.5 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_CXX g++ string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_ENVIRONMENT BATCH string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_PROCID 0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_NODELIST wc[076-083] string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OPAL_CXX g++ string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_HOME /users/kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SHLVL 4 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OSTYPE linux string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_LOCALID 0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OMPI_CC gcc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LCOMPILERMAJVER 5 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable002_ b2RjaHVjay90b29scyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTU2MC44MzgxMTc1OTk0OSxbImNfc2hvcnRUaW1lIl09NC42NzM2NTA5Nzk5OTU3LGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17WyJkYXJzaGFuLXV0aWwiXT17WyJGTiJdPSIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2ZyaWVuZGx5LXRlc3RpbmcvZGFyc2hhbi11dGlsLzMuMS4zIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0iZGFyc2hhbi11dGlsLzMuMS4zIixbImxvYWRPcmRlciJd string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_CLUSTER_NAME woodchuck string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_CPUS_PER_NODE 16(x8) string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_GID 28309 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_FC gfortran string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_GCC /usr/projects/hpcsoft/toss3/common/gcc/5.3.0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_SUBMIT_HOST wc-fe1.lanl.gov string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_GTIDS 0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MPIHOME /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_BASH_ENV /usr/share/lmod/lmod/init/bash string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_VENDOR unknown string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_PARTITION standard string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_arch x86_64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LOGNAME kfrye string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MACHTYPE x86_64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MPI_ROOT /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-5.3.0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_CVS_RSH ssh string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SSH_CONNECTION "204.121.65.2 34722 204.121.65.81 22" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_ACCOUNT hpcdev string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_MODULESHOME /usr/share/lmod/lmod string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_JOB_NUM_NODES 8 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMPIMAJVER 1.10 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_OMPI_CXX g++ string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_INFOPATH /usr/projects/hpcsoft/toss3/common/gcc/5.3.0/share/info string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_FULL_SETTARG_SUPPORT no string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_CC gcc string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LCOMPILERVER 5.3.0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_PTDB PG_PYGRESQL string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_XDG_RUNTIME_DIR /run/user/28309 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_QT_PLUGIN_PATH /usr/lib64/kde4/plugins:/usr/lib/kde4/plugins string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_DIR /usr/share/lmod/lmod/libexec string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__ModuleTable006_ ZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZnJpZW5kbHktdGVzdGluZyIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2NvbXBpbGVyOi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZGVidWdnZXI6L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9saWJyYXJpZXM6L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9taXNjOi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9t string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_LMOD_COLORIZE yes string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_SLURM_MEM_PER_NODE 193337 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env__MODULES_CC gcc/5.3.0 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_BASH_FUNC_module() "() {  eval $($LMOD_CMD bash \"$@\");" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "Env_ [ $? " "0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Env_BASH_FUNC_ml() "() {  eval $($LMOD_DIR/ml_cmd \"$@\")" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 PageSize 4096 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 NumberOfProcesses 64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 UsesMPI False string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 UsesOpenMP False string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 UsesPthreads False string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 performanceTool darshan string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Class A string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Size "64x  64x  64" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Iterations 200 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Total_processes 64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Compiled_procs 64 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Operation_type "floating point" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Verification SUCCESSFUL string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Version 3.3.1 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 Compile_date "14 May 2017" string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 MPIF77 mpif77 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 FLINK $MPIF77 string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 FMPI_LIB none string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 FMPI_INC none string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 FFLAGS -O string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 FLINKFLAGS -O string
+ResourceAttribute darshan_mpirun_bt.A.64.mpi_io_full_1495655260 RAND none string
+Resource IO_data_rate_MBsec metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource IO_timing_in_seconds metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource IO_timing_percentage metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource LANL|Woodchuck|turquoise|wc076 grid|machine|partition|node darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006" operatingSystem darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource MPIIO_ACCESS1_ACCESS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_ACCESS1_ACCESS performanceTool darshan string
+ResourceAttribute MPIIO_ACCESS1_ACCESS module MPI-IO string
+ResourceAttribute MPIIO_ACCESS1_ACCESS rank -1 string
+ResourceAttribute MPIIO_ACCESS1_ACCESS "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_ACCESS1_ACCESS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_ACCESS1_ACCESS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_ACCESS1_ACCESS "fs type" nfs string
+Resource MPIIO_ACCESS1_COUNT metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_ACCESS1_COUNT performanceTool darshan string
+ResourceAttribute MPIIO_ACCESS1_COUNT module MPI-IO string
+ResourceAttribute MPIIO_ACCESS1_COUNT rank -1 string
+ResourceAttribute MPIIO_ACCESS1_COUNT "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_ACCESS1_COUNT "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_ACCESS1_COUNT "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_ACCESS1_COUNT "fs type" nfs string
+Resource MPIIO_BYTES_READ metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_BYTES_READ performanceTool darshan string
+ResourceAttribute MPIIO_BYTES_READ module MPI-IO string
+ResourceAttribute MPIIO_BYTES_READ rank -1 string
+ResourceAttribute MPIIO_BYTES_READ "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_BYTES_READ "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_BYTES_READ "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_BYTES_READ "fs type" nfs string
+Resource MPIIO_BYTES_WRITTEN metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_BYTES_WRITTEN performanceTool darshan string
+ResourceAttribute MPIIO_BYTES_WRITTEN module MPI-IO string
+ResourceAttribute MPIIO_BYTES_WRITTEN rank -1 string
+ResourceAttribute MPIIO_BYTES_WRITTEN "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_BYTES_WRITTEN "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_BYTES_WRITTEN "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_BYTES_WRITTEN "fs type" nfs string
+Resource MPIIO_COLL_OPENS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_COLL_OPENS performanceTool darshan string
+ResourceAttribute MPIIO_COLL_OPENS module MPI-IO string
+ResourceAttribute MPIIO_COLL_OPENS rank -1 string
+ResourceAttribute MPIIO_COLL_OPENS "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_COLL_OPENS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_COLL_OPENS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_COLL_OPENS "fs type" nfs string
+Resource MPIIO_COLL_READS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_COLL_READS performanceTool darshan string
+ResourceAttribute MPIIO_COLL_READS module MPI-IO string
+ResourceAttribute MPIIO_COLL_READS rank -1 string
+ResourceAttribute MPIIO_COLL_READS "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_COLL_READS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_COLL_READS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_COLL_READS "fs type" nfs string
+Resource MPIIO_COLL_WRITES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_COLL_WRITES performanceTool darshan string
+ResourceAttribute MPIIO_COLL_WRITES module MPI-IO string
+ResourceAttribute MPIIO_COLL_WRITES rank -1 string
+ResourceAttribute MPIIO_COLL_WRITES "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_COLL_WRITES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_COLL_WRITES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_COLL_WRITES "fs type" nfs string
+Resource MPIIO_FASTEST_RANK metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_FASTEST_RANK performanceTool darshan string
+ResourceAttribute MPIIO_FASTEST_RANK module MPI-IO string
+ResourceAttribute MPIIO_FASTEST_RANK rank -1 string
+ResourceAttribute MPIIO_FASTEST_RANK "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_FASTEST_RANK "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_FASTEST_RANK "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_FASTEST_RANK "fs type" nfs string
+Resource MPIIO_FASTEST_RANK_BYTES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES performanceTool darshan string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES module MPI-IO string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES rank -1 string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_FASTEST_RANK_BYTES "fs type" nfs string
+Resource MPIIO_F_CLOSE_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_CLOSE_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_FASTEST_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME rank -1 string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_FASTEST_RANK_TIME "fs type" nfs string
+Resource MPIIO_F_MAX_READ_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_MAX_READ_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_MAX_READ_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_MAX_READ_TIME rank -1 string
+ResourceAttribute MPIIO_F_MAX_READ_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_MAX_READ_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_MAX_READ_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_MAX_READ_TIME "fs type" nfs string
+Resource MPIIO_F_MAX_WRITE_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME rank -1 string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_MAX_WRITE_TIME "fs type" nfs string
+Resource MPIIO_F_META_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_META_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_META_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_META_TIME rank -1 string
+ResourceAttribute MPIIO_F_META_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_META_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_META_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_META_TIME "fs type" nfs string
+Resource MPIIO_F_OPEN_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_OPEN_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_READ_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_READ_END_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_READ_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_READ_START_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_READ_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_READ_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_READ_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_READ_TIME rank -1 string
+ResourceAttribute MPIIO_F_READ_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_READ_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_READ_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_READ_TIME "fs type" nfs string
+Resource MPIIO_F_SLOWEST_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME rank -1 string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_SLOWEST_RANK_TIME "fs type" nfs string
+Resource MPIIO_F_VARIANCE_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME rank -1 string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_VARIANCE_RANK_TIME "fs type" nfs string
+Resource MPIIO_F_WRITE_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_WRITE_END_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_WRITE_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP module MPI-IO string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP rank -1 string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_WRITE_START_TIMESTAMP "fs type" nfs string
+Resource MPIIO_F_WRITE_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_F_WRITE_TIME performanceTool darshan string
+ResourceAttribute MPIIO_F_WRITE_TIME module MPI-IO string
+ResourceAttribute MPIIO_F_WRITE_TIME rank -1 string
+ResourceAttribute MPIIO_F_WRITE_TIME "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_F_WRITE_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_F_WRITE_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_F_WRITE_TIME "fs type" nfs string
+Resource MPIIO_MAX_READ_TIME_SIZE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE performanceTool darshan string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE module MPI-IO string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE rank -1 string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_MAX_READ_TIME_SIZE "fs type" nfs string
+Resource MPIIO_MAX_WRITE_TIME_SIZE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE performanceTool darshan string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE module MPI-IO string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE rank -1 string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_MAX_WRITE_TIME_SIZE "fs type" nfs string
+Resource MPIIO_MODE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_MODE performanceTool darshan string
+ResourceAttribute MPIIO_MODE module MPI-IO string
+ResourceAttribute MPIIO_MODE rank -1 string
+ResourceAttribute MPIIO_MODE "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_MODE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_MODE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_MODE "fs type" nfs string
+Resource MPIIO_RW_SWITCHES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_RW_SWITCHES performanceTool darshan string
+ResourceAttribute MPIIO_RW_SWITCHES module MPI-IO string
+ResourceAttribute MPIIO_RW_SWITCHES rank -1 string
+ResourceAttribute MPIIO_RW_SWITCHES "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_RW_SWITCHES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_RW_SWITCHES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_RW_SWITCHES "fs type" nfs string
+Resource MPIIO_SIZE_READ_AGG_100K_1M metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M performanceTool darshan string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M module MPI-IO string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M rank -1 string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_SIZE_READ_AGG_100K_1M "fs type" nfs string
+Resource MPIIO_SIZE_WRITE_AGG_100K_1M metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M performanceTool darshan string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M module MPI-IO string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M rank -1 string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_SIZE_WRITE_AGG_100K_1M "fs type" nfs string
+Resource MPIIO_SLOWEST_RANK metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_SLOWEST_RANK performanceTool darshan string
+ResourceAttribute MPIIO_SLOWEST_RANK module MPI-IO string
+ResourceAttribute MPIIO_SLOWEST_RANK rank -1 string
+ResourceAttribute MPIIO_SLOWEST_RANK "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_SLOWEST_RANK "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_SLOWEST_RANK "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_SLOWEST_RANK "fs type" nfs string
+Resource MPIIO_SLOWEST_RANK_BYTES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES performanceTool darshan string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES module MPI-IO string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES rank -1 string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_SLOWEST_RANK_BYTES "fs type" nfs string
+Resource MPIIO_VIEWS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute MPIIO_VIEWS performanceTool darshan string
+ResourceAttribute MPIIO_VIEWS module MPI-IO string
+ResourceAttribute MPIIO_VIEWS rank -1 string
+ResourceAttribute MPIIO_VIEWS "record id" 3077689365019092693 string
+ResourceAttribute MPIIO_VIEWS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute MPIIO_VIEWS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute MPIIO_VIEWS "fs type" nfs string
+Resource Mops_total metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource Mopsprocess metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource POSIX_ACCESS1_ACCESS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_ACCESS1_ACCESS performanceTool darshan string
+ResourceAttribute POSIX_ACCESS1_ACCESS module POSIX string
+ResourceAttribute POSIX_ACCESS1_ACCESS rank -1 string
+ResourceAttribute POSIX_ACCESS1_ACCESS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_ACCESS1_ACCESS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_ACCESS1_ACCESS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_ACCESS1_ACCESS "fs type" nfs string
+Resource POSIX_ACCESS1_COUNT metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_ACCESS1_COUNT performanceTool darshan string
+ResourceAttribute POSIX_ACCESS1_COUNT module POSIX string
+ResourceAttribute POSIX_ACCESS1_COUNT rank -1 string
+ResourceAttribute POSIX_ACCESS1_COUNT "record id" 3077689365019092693 string
+ResourceAttribute POSIX_ACCESS1_COUNT "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_ACCESS1_COUNT "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_ACCESS1_COUNT "fs type" nfs string
+Resource POSIX_BYTES_READ metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_BYTES_READ performanceTool darshan string
+ResourceAttribute POSIX_BYTES_READ module POSIX string
+ResourceAttribute POSIX_BYTES_READ rank -1 string
+ResourceAttribute POSIX_BYTES_READ "record id" 3077689365019092693 string
+ResourceAttribute POSIX_BYTES_READ "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_BYTES_READ "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_BYTES_READ "fs type" nfs string
+Resource POSIX_BYTES_WRITTEN metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_BYTES_WRITTEN performanceTool darshan string
+ResourceAttribute POSIX_BYTES_WRITTEN module POSIX string
+ResourceAttribute POSIX_BYTES_WRITTEN rank -1 string
+ResourceAttribute POSIX_BYTES_WRITTEN "record id" 3077689365019092693 string
+ResourceAttribute POSIX_BYTES_WRITTEN "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_BYTES_WRITTEN "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_BYTES_WRITTEN "fs type" nfs string
+Resource POSIX_FASTEST_RANK metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_FASTEST_RANK performanceTool darshan string
+ResourceAttribute POSIX_FASTEST_RANK module POSIX string
+ResourceAttribute POSIX_FASTEST_RANK rank -1 string
+ResourceAttribute POSIX_FASTEST_RANK "record id" 3077689365019092693 string
+ResourceAttribute POSIX_FASTEST_RANK "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_FASTEST_RANK "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_FASTEST_RANK "fs type" nfs string
+Resource POSIX_FILE_ALIGNMENT metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_FILE_ALIGNMENT performanceTool darshan string
+ResourceAttribute POSIX_FILE_ALIGNMENT module POSIX string
+ResourceAttribute POSIX_FILE_ALIGNMENT rank -1 string
+ResourceAttribute POSIX_FILE_ALIGNMENT "record id" 3077689365019092693 string
+ResourceAttribute POSIX_FILE_ALIGNMENT "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_FILE_ALIGNMENT "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_FILE_ALIGNMENT "fs type" nfs string
+Resource POSIX_F_CLOSE_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_CLOSE_END_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_CLOSE_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_CLOSE_START_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_FASTEST_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME module POSIX string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME rank -1 string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_FASTEST_RANK_TIME "fs type" nfs string
+Resource POSIX_F_MAX_READ_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_MAX_READ_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_MAX_READ_TIME module POSIX string
+ResourceAttribute POSIX_F_MAX_READ_TIME rank -1 string
+ResourceAttribute POSIX_F_MAX_READ_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_MAX_READ_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_MAX_READ_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_MAX_READ_TIME "fs type" nfs string
+Resource POSIX_F_MAX_WRITE_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_MAX_WRITE_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME module POSIX string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME rank -1 string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_MAX_WRITE_TIME "fs type" nfs string
+Resource POSIX_F_META_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_META_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_META_TIME module POSIX string
+ResourceAttribute POSIX_F_META_TIME rank -1 string
+ResourceAttribute POSIX_F_META_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_META_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_META_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_META_TIME "fs type" nfs string
+Resource POSIX_F_OPEN_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_OPEN_END_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_OPEN_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_OPEN_START_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_READ_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_READ_END_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_READ_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_READ_START_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_READ_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_READ_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_READ_TIME module POSIX string
+ResourceAttribute POSIX_F_READ_TIME rank -1 string
+ResourceAttribute POSIX_F_READ_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_READ_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_READ_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_READ_TIME "fs type" nfs string
+Resource POSIX_F_SLOWEST_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME module POSIX string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME rank -1 string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_SLOWEST_RANK_TIME "fs type" nfs string
+Resource POSIX_F_VARIANCE_RANK_BYTES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES performanceTool darshan string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES module POSIX string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES rank -1 string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_VARIANCE_RANK_BYTES "fs type" nfs string
+Resource POSIX_F_VARIANCE_RANK_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME module POSIX string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME rank -1 string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_VARIANCE_RANK_TIME "fs type" nfs string
+Resource POSIX_F_WRITE_END_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_WRITE_END_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_WRITE_START_TIMESTAMP metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP performanceTool darshan string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP module POSIX string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP rank -1 string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_WRITE_START_TIMESTAMP "fs type" nfs string
+Resource POSIX_F_WRITE_TIME metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_F_WRITE_TIME performanceTool darshan string
+ResourceAttribute POSIX_F_WRITE_TIME module POSIX string
+ResourceAttribute POSIX_F_WRITE_TIME rank -1 string
+ResourceAttribute POSIX_F_WRITE_TIME "record id" 3077689365019092693 string
+ResourceAttribute POSIX_F_WRITE_TIME "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_F_WRITE_TIME "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_F_WRITE_TIME "fs type" nfs string
+Resource POSIX_MAX_BYTE_READ metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MAX_BYTE_READ performanceTool darshan string
+ResourceAttribute POSIX_MAX_BYTE_READ module POSIX string
+ResourceAttribute POSIX_MAX_BYTE_READ rank -1 string
+ResourceAttribute POSIX_MAX_BYTE_READ "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MAX_BYTE_READ "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MAX_BYTE_READ "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MAX_BYTE_READ "fs type" nfs string
+Resource POSIX_MAX_BYTE_WRITTEN metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN performanceTool darshan string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN module POSIX string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN rank -1 string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MAX_BYTE_WRITTEN "fs type" nfs string
+Resource POSIX_MAX_READ_TIME_SIZE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE performanceTool darshan string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE module POSIX string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE rank -1 string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MAX_READ_TIME_SIZE "fs type" nfs string
+Resource POSIX_MAX_WRITE_TIME_SIZE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE performanceTool darshan string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE module POSIX string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE rank -1 string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MAX_WRITE_TIME_SIZE "fs type" nfs string
+Resource POSIX_MEM_ALIGNMENT metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MEM_ALIGNMENT performanceTool darshan string
+ResourceAttribute POSIX_MEM_ALIGNMENT module POSIX string
+ResourceAttribute POSIX_MEM_ALIGNMENT rank -1 string
+ResourceAttribute POSIX_MEM_ALIGNMENT "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MEM_ALIGNMENT "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MEM_ALIGNMENT "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MEM_ALIGNMENT "fs type" nfs string
+Resource POSIX_MMAPS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MMAPS performanceTool darshan string
+ResourceAttribute POSIX_MMAPS module POSIX string
+ResourceAttribute POSIX_MMAPS rank -1 string
+ResourceAttribute POSIX_MMAPS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MMAPS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MMAPS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MMAPS "fs type" nfs string
+Resource POSIX_MODE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_MODE performanceTool darshan string
+ResourceAttribute POSIX_MODE module POSIX string
+ResourceAttribute POSIX_MODE rank -1 string
+ResourceAttribute POSIX_MODE "record id" 3077689365019092693 string
+ResourceAttribute POSIX_MODE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_MODE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_MODE "fs type" nfs string
+Resource POSIX_OPENS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_OPENS performanceTool darshan string
+ResourceAttribute POSIX_OPENS module POSIX string
+ResourceAttribute POSIX_OPENS rank -1 string
+ResourceAttribute POSIX_OPENS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_OPENS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_OPENS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_OPENS "fs type" nfs string
+Resource POSIX_READS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_READS performanceTool darshan string
+ResourceAttribute POSIX_READS module POSIX string
+ResourceAttribute POSIX_READS rank -1 string
+ResourceAttribute POSIX_READS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_READS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_READS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_READS "fs type" nfs string
+Resource POSIX_RW_SWITCHES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_RW_SWITCHES performanceTool darshan string
+ResourceAttribute POSIX_RW_SWITCHES module POSIX string
+ResourceAttribute POSIX_RW_SWITCHES rank -1 string
+ResourceAttribute POSIX_RW_SWITCHES "record id" 3077689365019092693 string
+ResourceAttribute POSIX_RW_SWITCHES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_RW_SWITCHES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_RW_SWITCHES "fs type" nfs string
+Resource POSIX_SEEKS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SEEKS performanceTool darshan string
+ResourceAttribute POSIX_SEEKS module POSIX string
+ResourceAttribute POSIX_SEEKS rank -1 string
+ResourceAttribute POSIX_SEEKS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SEEKS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SEEKS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SEEKS "fs type" nfs string
+Resource POSIX_SEQ_READS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SEQ_READS performanceTool darshan string
+ResourceAttribute POSIX_SEQ_READS module POSIX string
+ResourceAttribute POSIX_SEQ_READS rank -1 string
+ResourceAttribute POSIX_SEQ_READS "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SEQ_READS "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SEQ_READS "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SEQ_READS "fs type" nfs string
+Resource POSIX_SEQ_WRITES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SEQ_WRITES performanceTool darshan string
+ResourceAttribute POSIX_SEQ_WRITES module POSIX string
+ResourceAttribute POSIX_SEQ_WRITES rank -1 string
+ResourceAttribute POSIX_SEQ_WRITES "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SEQ_WRITES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SEQ_WRITES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SEQ_WRITES "fs type" nfs string
+Resource POSIX_SIZE_READ_1M_4M metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SIZE_READ_1M_4M performanceTool darshan string
+ResourceAttribute POSIX_SIZE_READ_1M_4M module POSIX string
+ResourceAttribute POSIX_SIZE_READ_1M_4M rank -1 string
+ResourceAttribute POSIX_SIZE_READ_1M_4M "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SIZE_READ_1M_4M "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SIZE_READ_1M_4M "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SIZE_READ_1M_4M "fs type" nfs string
+Resource POSIX_SIZE_WRITE_1M_4M metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M performanceTool darshan string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M module POSIX string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M rank -1 string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SIZE_WRITE_1M_4M "fs type" nfs string
+Resource POSIX_SLOWEST_RANK metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SLOWEST_RANK performanceTool darshan string
+ResourceAttribute POSIX_SLOWEST_RANK module POSIX string
+ResourceAttribute POSIX_SLOWEST_RANK rank -1 string
+ResourceAttribute POSIX_SLOWEST_RANK "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SLOWEST_RANK "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SLOWEST_RANK "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SLOWEST_RANK "fs type" nfs string
+Resource POSIX_SLOWEST_RANK_BYTES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES performanceTool darshan string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES module POSIX string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES rank -1 string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES "record id" 3077689365019092693 string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_SLOWEST_RANK_BYTES "fs type" nfs string
+Resource POSIX_STRIDE1_COUNT metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_STRIDE1_COUNT performanceTool darshan string
+ResourceAttribute POSIX_STRIDE1_COUNT module POSIX string
+ResourceAttribute POSIX_STRIDE1_COUNT rank -1 string
+ResourceAttribute POSIX_STRIDE1_COUNT "record id" 3077689365019092693 string
+ResourceAttribute POSIX_STRIDE1_COUNT "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_STRIDE1_COUNT "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_STRIDE1_COUNT "fs type" nfs string
+Resource POSIX_STRIDE1_STRIDE metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_STRIDE1_STRIDE performanceTool darshan string
+ResourceAttribute POSIX_STRIDE1_STRIDE module POSIX string
+ResourceAttribute POSIX_STRIDE1_STRIDE rank -1 string
+ResourceAttribute POSIX_STRIDE1_STRIDE "record id" 3077689365019092693 string
+ResourceAttribute POSIX_STRIDE1_STRIDE "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_STRIDE1_STRIDE "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_STRIDE1_STRIDE "fs type" nfs string
+Resource POSIX_WRITES metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute POSIX_WRITES performanceTool darshan string
+ResourceAttribute POSIX_WRITES module POSIX string
+ResourceAttribute POSIX_WRITES rank -1 string
+ResourceAttribute POSIX_WRITES "record id" 3077689365019092693 string
+ResourceAttribute POSIX_WRITES "file name" /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-24_13:35/darshan_bt-io-A64/btio.full.out string
+ResourceAttribute POSIX_WRITES "mount pt" /turquoise/usr/projects/workflow_perf string
+ResourceAttribute POSIX_WRITES "fs type" nfs string
+Resource STDIO_OPENS metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute STDIO_OPENS performanceTool darshan string
+ResourceAttribute STDIO_OPENS module STDIO string
+ResourceAttribute STDIO_OPENS rank 0 string
+ResourceAttribute STDIO_OPENS "record id" 7238257241479193519 string
+ResourceAttribute STDIO_OPENS "file name" <STDERR> string
+ResourceAttribute STDIO_OPENS "mount pt" UNKNOWN string
+ResourceAttribute STDIO_OPENS "fs type" UNKNOWN string
+Resource Time_in_seconds metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource Total_data_written_MB metric darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-0 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-1 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-10 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-11 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-12 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-13 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-14 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-15 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-16 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-17 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-18 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-19 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-2 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-20 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-21 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-22 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-23 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-24 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-25 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-26 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-27 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-28 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-29 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-3 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-30 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-31 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-32 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-33 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-34 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-35 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-36 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-37 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-38 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-39 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-4 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-40 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-41 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-42 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-43 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-44 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-45 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-46 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-47 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-48 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-49 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-5 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-50 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-51 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-52 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-53 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-54 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-55 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-56 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-57 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-58 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-59 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-6 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-60 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-61 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-62 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-63 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-7 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-8 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-9 execution|process darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource env-4007 environment darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource lustre-4009 fileSystem darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute lustre-4009 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-4009 fs_type lustre string
+Resource lustre-4009|l1 fileSystem|device darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute lustre-4009|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-4009|l1 mountPoint /net/scratch1 string
+ResourceAttribute lustre-4009|l1 Size 3.4P string
+ResourceAttribute lustre-4009|l1 Used 386T string
+ResourceAttribute lustre-4009|l1 Avail 3.0P string
+ResourceAttribute lustre-4009|l1 Used% 12% string
+Resource lustre-4009|l2 fileSystem|device darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute lustre-4009|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-4009|l2 mountPoint /net/scratch2 string
+ResourceAttribute lustre-4009|l2 Size 2.3P string
+ResourceAttribute lustre-4009|l2 Used 1.4P string
+ResourceAttribute lustre-4009|l2 Avail 965T string
+ResourceAttribute lustre-4009|l2 Used% 59% string
+Resource lustre-4009|l3 fileSystem|device darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute lustre-4009|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-4009|l3 mountPoint /net/scratch3 string
+ResourceAttribute lustre-4009|l3 Size 9.1P string
+ResourceAttribute lustre-4009|l3 Used 3.4P string
+ResourceAttribute lustre-4009|l3 Avail 5.7P string
+ResourceAttribute lustre-4009|l3 Used% 38% string
+Resource "self instrumentation" performanceTool darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+Resource submission-4008 submission darshan_mpirun_bt.A.64.mpi_io_full_1495655260
+ResourceAttribute submission-4008 launcher mpirun string
+ResourceAttribute submission-4008 launcherVersion "mpirun (Open MPI) 1.10.5" string
+ResourceAttribute submission-4008 programVersion 3.3.1 string
+ResourceAttribute submission-4008 batchFile None string
+ResourceAttribute submission-4008 runCmd_1 "mpirun -n 64 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.64.mpi_io_full" string
+ResourceConstraint IO_data_rate_MBsec "self instrumentation"
+ResourceConstraint IO_timing_in_seconds "self instrumentation"
+ResourceConstraint IO_timing_percentage "self instrumentation"
+ResourceConstraint Mops_total "self instrumentation"
+ResourceConstraint Mopsprocess "self instrumentation"
+ResourceConstraint Time_in_seconds "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-0 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-0 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-0 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-1 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-1 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-1 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-10 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-10 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-10 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-11 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-11 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-11 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-12 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-12 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-12 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-13 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-13 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-13 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-14 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-14 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-14 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-15 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-15 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-15 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-16 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-16 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-16 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-17 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-17 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-17 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-18 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-18 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-18 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-19 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-19 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-19 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-2 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-2 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-2 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-20 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-20 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-20 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-21 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-21 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-21 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-22 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-22 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-22 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-23 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-23 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-23 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-24 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-24 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-24 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-25 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-25 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-25 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-26 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-26 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-26 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-27 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-27 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-27 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-28 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-28 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-28 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-29 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-29 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-29 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-3 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-3 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-3 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-30 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-30 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-30 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-31 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-31 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-31 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-32 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-32 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-32 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-33 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-33 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-33 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-34 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-34 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-34 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-35 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-35 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-35 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-36 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-36 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-36 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-37 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-37 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-37 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-38 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-38 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-38 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-39 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-39 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-39 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-4 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-4 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-4 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-40 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-40 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-40 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-41 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-41 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-41 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-42 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-42 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-42 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-43 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-43 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-43 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-44 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-44 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-44 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-45 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-45 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-45 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-46 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-46 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-46 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-47 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-47 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-47 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-48 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-48 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-48 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-49 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-49 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-49 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-5 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-5 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-5 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-50 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-50 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-50 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-51 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-51 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-51 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-52 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-52 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-52 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-53 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-53 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-53 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-54 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-54 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-54 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-55 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-55 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-55 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-56 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-56 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-56 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-57 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-57 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-57 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-58 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-58 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-58 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-59 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-59 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-59 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-6 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-6 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-6 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-60 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-60 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-60 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-61 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-61 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-61 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-62 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-62 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-62 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-63 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-63 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-63 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-7 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-7 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-7 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-8 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-8 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-8 LANL|Woodchuck|turquoise|wc076
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-9 env-4007
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-9 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006"
+ResourceConstraint darshan_mpirun_bt.A.64.mpi_io_full_1495655260|Process-9 LANL|Woodchuck|turquoise|wc076
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" IO_timing_in_seconds 2.22 s noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" IO_timing_percentage 35.21 percent noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" Total_data_written_MB 419.43 MB noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" IO_data_rate_MBsec 188.60 MB/sec noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" Time_in_seconds 6.32 s noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" Mops_total 26645.92 each noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" "self instrumentation" Mopsprocess 416.34 each noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_OPENS 128 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_READS 320 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_WRITES 320 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SEEKS 638 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MMAPS -64 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MODE 436 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_BYTES_READ 419430400 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_BYTES_WRITTEN 419430400 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MAX_BYTE_READ 419430399 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MAX_BYTE_WRITTEN 419430399 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SEQ_READS 319 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SEQ_WRITES 319 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_RW_SWITCHES 8 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MEM_ALIGNMENT 8 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_FILE_ALIGNMENT 32768 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MAX_READ_TIME_SIZE 1310720 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_MAX_WRITE_TIME_SIZE 1310720 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SIZE_READ_1M_4M 320 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SIZE_WRITE_1M_4M 320 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_STRIDE1_STRIDE 9175040 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_STRIDE1_COUNT 624 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_ACCESS1_ACCESS 1310720 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_ACCESS1_COUNT 640 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_FASTEST_RANK 51 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SLOWEST_RANK 32 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_SLOWEST_RANK_BYTES 104857600 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_OPEN_START_TIMESTAMP 0.159627 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_READ_START_TIMESTAMP 6.382683 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_WRITE_START_TIMESTAMP 0.364077 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_CLOSE_START_TIMESTAMP 6.043746 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_OPEN_END_TIMESTAMP 6.613612 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_READ_END_TIMESTAMP 8.779549 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_WRITE_END_TIMESTAMP 6.511518 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_CLOSE_END_TIMESTAMP 8.811765 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_READ_TIME 7.136478 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_WRITE_TIME 0.583106 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_META_TIME 1.174055 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_MAX_READ_TIME 0.044613 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_MAX_WRITE_TIME 0.002251 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_FASTEST_RANK_TIME 0.004175 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_SLOWEST_RANK_TIME 1.073910 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_VARIANCE_RANK_TIME 0.103989 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan POSIX_F_VARIANCE_RANK_BYTES 1202590842880000.000000 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_COLL_OPENS 128 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_COLL_READS 2560 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_COLL_WRITES 2560 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_VIEWS 128 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_MODE 2 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_BYTES_READ 419430400 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_BYTES_WRITTEN 419430400 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_RW_SWITCHES 64 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_MAX_READ_TIME_SIZE 163840 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_MAX_WRITE_TIME_SIZE 163840 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_SIZE_READ_AGG_100K_1M 2560 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_SIZE_WRITE_AGG_100K_1M 2560 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_ACCESS1_ACCESS 163840 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_ACCESS1_COUNT 5120 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_FASTEST_RANK 28 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_FASTEST_RANK_BYTES 13107200 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_SLOWEST_RANK 39 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_SLOWEST_RANK_BYTES 13107200 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_OPEN_TIMESTAMP 0.119356 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_READ_START_TIMESTAMP 6.109057 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_WRITE_START_TIMESTAMP 0.304080 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_READ_END_TIMESTAMP 8.809913 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_WRITE_END_TIMESTAMP 6.549609 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_CLOSE_TIMESTAMP 8.811813 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_READ_TIME 129.183167 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_WRITE_TIME 142.373344 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_META_TIME 8.553851 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_MAX_READ_TIME 0.090344 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_MAX_WRITE_TIME 0.144641 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_FASTEST_RANK_TIME 4.234589 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_SLOWEST_RANK_TIME 4.622022 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan MPIIO_F_VARIANCE_RANK_TIME 0.015527 noValue noValue noValue
+PerfResult darshan_mpirun_bt.A.64.mpi_io_full_1495655260 "bt-io,env-4007,darshan_mpirun_bt.A.64.mpi_io_full_1495655260,lustre-4009,LANL|Woodchuck|turquoise|wc076,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-4006,submission-4008" darshan STDIO_OPENS 1 noValue noValue noValue

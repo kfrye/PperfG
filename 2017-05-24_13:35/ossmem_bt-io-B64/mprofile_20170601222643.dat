@@ -1,0 +1,3 @@
+CMDLINE /usr/bin/python /usr/projects/workflow_perf/PerfTrack/build/bin/ptGo.py
+MEM 1.417969 1496377603.5723
+MEM 8.687500 1496377603.6726
