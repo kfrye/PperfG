@@ -1,0 +1,1 @@
+{"layers": ["Storage", "Network", "Job Run Layer"], "tasks": ["Application"], "dataset": {"A": {"usedLayer": ["Application"], "accessMethod": ["Storage"], "createdLayer": "Memory", "type": "binary file", "size": "40"}}}

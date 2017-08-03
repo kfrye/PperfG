@@ -1,0 +1,11 @@
+Timings (s) Dataset A
+---------
+bt-io-A4            2.40	2.32	2.29	2.33	2.25	
+ossiot_bt-io-A4     2.34	2.38	2.41	2.35	2.36	
+darshan_bt-io-A4    2.32	2.35	2.31	2.31	2.35	
+
+Timings (s) Dataset B
+---------
+bt-io-B4            9.82	9.74	9.92	9.86	9.73	
+ossiot_bt-io-B4     9.79	9.63	9.50	9.65	9.64	
+darshan_bt-io-B4    9.63	9.67	9.61	
