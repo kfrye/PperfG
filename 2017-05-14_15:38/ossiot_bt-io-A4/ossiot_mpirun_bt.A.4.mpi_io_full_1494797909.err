@@ -1,0 +1,8 @@
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_15:38/ossiot_bt-io-A4/bt.A.4.mpi_io_full-iot-0.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.

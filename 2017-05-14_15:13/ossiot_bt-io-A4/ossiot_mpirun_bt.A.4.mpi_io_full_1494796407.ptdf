@@ -1,0 +1,329 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application bt-io
+Execution ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 bt-io
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 LaunchDateTime 1494796407 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 UserName kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 ApplicationName bt-io string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 ExecutableName /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_REMOTEHOST wtrw2.lanl.gov string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NODELIST wc049 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_CHECKPOINT_IMAGE_DIR /var/slurm/checkpoint string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MOABTOOLSLANL /opt/MOAB/tools/lanl string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MANPATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5/share/man:/usr/share/lmod/lmod/share/man:: string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_NAME slurm_mpi004 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_XDG_SESSION_ID 12295 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_HOSTNAME wc049 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_TOPOLOGY_ADDR wc049 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURMD_NODENAME wc049 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable003_ Iix9LH0sbXBhdGhBPXsiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2xpYnJhcmllcyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbWlzYyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay90b29scyIsIi91c3Ivc2hhcmUvbW9k string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NODE_ALIASES (null) string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SHELL /bin/tcsh string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_TERM xterm-256color string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_HOST wc-fe1.lanl.gov string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_QOS standard string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SSH_CLIENT "204.121.65.2 35904 22" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MODULEPATH_ROOT /usr/share/modulefiles string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_TMPDIR /tmp string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_DEFAULT_MODULEPATH /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMPI openmpi string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PERL5LIB /opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5:/opt/MOAB/lib/perl5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_PKG /usr/share/lmod/lmod string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_VERSION 6.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SSH_TTY /dev/pts/3 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMPIVER 1.10.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_QT_GRAPHICSSYSTEM_CHECKED 1 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_USER kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_GROUP kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NNODES 1 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LS_COLORS rs string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_sys Linux string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5/lib:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64:/usr/projects/workflow_perf/oss_install_dirs/krell_root/lib:/usr/projects/workflow_perf/oss_install_dirs/cbtf/lib64:/usr/projects/workflow_perf/oss_install_dirs/openss/lib64 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOBID 212291 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_CPATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5/include string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable004_ dWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svY29tcGlsZXI6L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9kZWJ1Z2dlcjovdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2xpYnJhcmllczovdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL21pc2M6L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dv string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_15:13/ossiot_bt-io-A4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NTASKS 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_PREPEND_BLOCK normal string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_ROOT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PATH /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5/bin:/usr/lib64/qt-3.3/bin:/opt/MOAB/bin:/usr/local/bin:/usr/bin:/opt/dell/srvadmin/bin:/usr/local/sbin:/usr/sbin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/bin:/usr/projects/workflow_perf/oss_install_dirs/krell_root/bin:/usr/projects/workflow_perf/oss_install_dirs/cbtf/sbin:/usr/projects/workflow_perf/oss_install_dirs/openss/bin string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_TASKS_PER_NODE 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable001_ X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MSxiYXNlTXBhdGhBPXsiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9jb21waWxlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvdG9zczMvbW9kdWxlZmlsZXMvd29vZGNodWNrL2xpYnJhcmllcyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbWlzYyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC90b3NzMy9tb2R1bGVmaWxlcy93b29kY2h1Y2svbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dv string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MPI_NAME openmpi string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ /usr/bin/env string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_ID 212291 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_SETTARG_CMD : string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PWD /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_15:13/ossiot_bt-io-A4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_USER kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__LMFILES_ /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi/openmpi/1.10.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LANG en_US.UTF-8 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/scripts string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/oss_install_dirs/krell_root/lib64/libdyninstAPI_RT.so string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MODULEPATH /usr/projects/hpcsoft/toss3/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss3/modulefiles/woodchuck/tools:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_KDEDIRS /usr string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_UID 28309 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LOADEDMODULES openmpi/1.10.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable_Sz_ 5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NODEID 0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_15:13 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_CMD /usr/share/lmod/lmod/libexec/lmod string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_NPROCS 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_TASK_PID 113542 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MPI_VERSION 1.10.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable005_ b2RjaHVjay9tcGk6L3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay90b29sczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_ENVIRONMENT BATCH string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_PROCID 0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_NODELIST wc049 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_HOME /users/kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SHLVL 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_OSTYPE linux string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_LOCALID 0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_CLUSTER_NAME woodchuck string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_CPUS_PER_NODE 16 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_GID 28309 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env__ModuleTable002_ b2RjaHVjay90b29scyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxmYW1pbHk9e30saW5hY3RpdmU9e30sbVQ9e29wZW5tcGk9e1siRk4iXT0iL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L3Rvc3MzL21vZHVsZWZpbGVzL3dvb2RjaHVjay9tcGkvb3Blbm1waS8xLjEwLjUiLFsiZGVmYXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJvcGVubXBpLzEuMTAuNSIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic2hvcnQiXT0ib3Blbm1waSIsWyJzdGF0dXMiXT0iYWN0aXZl string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_SUBMIT_HOST wc-fe1.lanl.gov string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_GTIDS 0 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MPIHOME /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_VENDOR unknown string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_BASH_ENV /usr/share/lmod/lmod/init/bash string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-05-14_15:13 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_PARTITION standard string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LOGNAME kfrye string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MACHTYPE x86_64 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_arch x86_64 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MPI_ROOT /usr/projects/hpcsoft/toss3/woodchuck/openmpi/1.10.5-gcc-4.8.5 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_CVS_RSH ssh string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SSH_CONNECTION "204.121.65.2 35904 204.121.65.81 22" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_ACCOUNT hpcdev string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_MODULESHOME /usr/share/lmod/lmod string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_JOB_NUM_NODES 1 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMPIMAJVER 1.10 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_FULL_SETTARG_SUPPORT no string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_XDG_RUNTIME_DIR /run/user/28309 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_PTDB PG_PYGRESQL string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_QT_PLUGIN_PATH /usr/lib64/kde4/plugins:/usr/lib/kde4/plugins string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_DIR /usr/share/lmod/lmod/libexec string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_LMOD_COLORIZE yes string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_SLURM_MEM_PER_NODE 193338 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_BASH_FUNC_module() "() {  eval $($LMOD_CMD bash \"$@\");" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "Env_ [ $? " "0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Env_BASH_FUNC_ml() "() {  eval $($LMOD_DIR/ml_cmd \"$@\")" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 PageSize 4096 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 NumberOfProcesses 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 UsesMPI False string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 UsesOpenMP False string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 UsesPthreads False string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 performanceTool ossiot string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Class A string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Size "64x  64x  64" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Iterations 200 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Total_processes 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Compiled_procs 4 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Operation_type "floating point" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Verification SUCCESSFUL string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Version 3.3.1 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 Compile_date "14 May 2017" string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 MPIF77 mpif77 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 FLINK $MPIF77 string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 FMPI_LIB none string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 FMPI_INC none string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 FFLAGS -O string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 FLINKFLAGS -O string
+ResourceAttribute ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 RAND none string
+Resource IO_data_rate_MBsec metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource IO_timing_in_seconds metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource IO_timing_percentage metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource LANL|Woodchuck|turquoise|wc049 grid|machine|partition|node ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834" operatingSystem ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource Mops_total metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource Mopsprocess metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource Time_in_seconds metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource Total_data_written_MB metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource env-3835 environment ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource io_call_time___lseek metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_call_time___lseek performanceTool ossiot string
+ResourceAttribute io_call_time___lseek description (libpthread-2.17.so) string
+Resource io_call_time_close metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_call_time_close performanceTool ossiot string
+ResourceAttribute io_call_time_close description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_call_time_open metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_call_time_open performanceTool ossiot string
+ResourceAttribute io_call_time_open description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_call_time_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_call_time_read performanceTool ossiot string
+ResourceAttribute io_call_time_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_call_time_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_call_time_write performanceTool ossiot string
+ResourceAttribute io_call_time_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_max_bytes_count_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_max_bytes_count_read performanceTool ossiot string
+ResourceAttribute io_max_bytes_count_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_max_bytes_count_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_max_bytes_count_write performanceTool ossiot string
+ResourceAttribute io_max_bytes_count_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_max_bytes_read_written_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_max_bytes_read_written_read performanceTool ossiot string
+ResourceAttribute io_max_bytes_read_written_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_max_bytes_read_written_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_max_bytes_read_written_write performanceTool ossiot string
+ResourceAttribute io_max_bytes_read_written_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_min_bytes_count_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_min_bytes_count_read performanceTool ossiot string
+ResourceAttribute io_min_bytes_count_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_min_bytes_count_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_min_bytes_count_write performanceTool ossiot string
+ResourceAttribute io_min_bytes_count_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_min_bytes_read_written_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_min_bytes_read_written_read performanceTool ossiot string
+ResourceAttribute io_min_bytes_read_written_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_min_bytes_read_written_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_min_bytes_read_written_write performanceTool ossiot string
+ResourceAttribute io_min_bytes_read_written_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_number_of_calls___lseek metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_number_of_calls___lseek performanceTool ossiot string
+ResourceAttribute io_number_of_calls___lseek description (libpthread-2.17.so) string
+Resource io_number_of_calls_close metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_number_of_calls_close performanceTool ossiot string
+ResourceAttribute io_number_of_calls_close description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_number_of_calls_open metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_number_of_calls_open performanceTool ossiot string
+ResourceAttribute io_number_of_calls_open description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_number_of_calls_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_number_of_calls_read performanceTool ossiot string
+ResourceAttribute io_number_of_calls_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_number_of_calls_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_number_of_calls_write performanceTool ossiot string
+ResourceAttribute io_number_of_calls_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_percent___lseek metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_percent___lseek performanceTool ossiot string
+ResourceAttribute io_percent___lseek description (libpthread-2.17.so) string
+Resource io_percent_close metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_percent_close performanceTool ossiot string
+ResourceAttribute io_percent_close description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_percent_open metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_percent_open performanceTool ossiot string
+ResourceAttribute io_percent_open description (libpthread-2.17.so:syscall-template.S,81) string
+Resource io_percent_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_percent_read performanceTool ossiot string
+ResourceAttribute io_percent_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_percent_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_percent_write performanceTool ossiot string
+ResourceAttribute io_percent_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_total_byes_read_written_read metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_total_byes_read_written_read performanceTool ossiot string
+ResourceAttribute io_total_byes_read_written_read description read(libpthread-2.17.so:syscall-template.S,81) string
+Resource io_total_byes_read_written_write metric ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute io_total_byes_read_written_write performanceTool ossiot string
+ResourceAttribute io_total_byes_read_written_write description write(libpthread-2.17.so:syscall-template.S,81) string
+Resource lustre-3837 fileSystem ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute lustre-3837 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-3837 fs_type lustre string
+Resource lustre-3837|l1 fileSystem|device ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute lustre-3837|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-3837|l1 mountPoint /net/scratch1 string
+ResourceAttribute lustre-3837|l1 Size 3.4P string
+ResourceAttribute lustre-3837|l1 Used 360T string
+ResourceAttribute lustre-3837|l1 Avail 3.0P string
+ResourceAttribute lustre-3837|l1 Used% 11% string
+Resource lustre-3837|l2 fileSystem|device ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute lustre-3837|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-3837|l2 mountPoint /net/scratch2 string
+ResourceAttribute lustre-3837|l2 Size 2.3P string
+ResourceAttribute lustre-3837|l2 Used 1.3P string
+ResourceAttribute lustre-3837|l2 Avail 982T string
+ResourceAttribute lustre-3837|l2 Used% 58% string
+Resource lustre-3837|l3 fileSystem|device ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute lustre-3837|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-3837|l3 mountPoint /net/scratch3 string
+ResourceAttribute lustre-3837|l3 Size 9.2P string
+ResourceAttribute lustre-3837|l3 Used 3.4P string
+ResourceAttribute lustre-3837|l3 Avail 5.8P string
+ResourceAttribute lustre-3837|l3 Used% 37% string
+Resource ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-0 execution|process ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-1 execution|process ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-2 execution|process ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-3 execution|process ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource "self instrumentation" performanceTool ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+Resource submission-3836 submission ossiot_mpirun_bt.A.4.mpi_io_full_1494796407
+ResourceAttribute submission-3836 launcher mpirun string
+ResourceAttribute submission-3836 launcherVersion "mpirun (Open MPI) 1.10.5" string
+ResourceAttribute submission-3836 programVersion 3.3.1 string
+ResourceAttribute submission-3836 batchFile None string
+ResourceAttribute submission-3836 runCmd_1 "ossiot\"\"mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full \"\"" string
+ResourceConstraint IO_data_rate_MBsec "self instrumentation"
+ResourceConstraint IO_timing_in_seconds "self instrumentation"
+ResourceConstraint IO_timing_percentage "self instrumentation"
+ResourceConstraint Mops_total "self instrumentation"
+ResourceConstraint Mopsprocess "self instrumentation"
+ResourceConstraint Time_in_seconds "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-0 env-3835
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-0 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834"
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-0 LANL|Woodchuck|turquoise|wc049
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-1 env-3835
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-1 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834"
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-1 LANL|Woodchuck|turquoise|wc049
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-2 env-3835
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-2 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834"
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-2 LANL|Woodchuck|turquoise|wc049
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-3 env-3835
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-3 "Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834"
+ResourceConstraint ossiot_mpirun_bt.A.4.mpi_io_full_1494796407|Process-3 LANL|Woodchuck|turquoise|wc049
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" IO_timing_in_seconds 5.00 s noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" IO_timing_percentage 12.33 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" Total_data_written_MB 419.43 MB noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" IO_data_rate_MBsec 83.96 MB/sec noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" Time_in_seconds 40.52 s noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" Mops_total 4152.78 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" "self instrumentation" Mopsprocess 1038.20 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_call_time_read 1099.849266 ms noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_percent_read 84.511207 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_number_of_calls_read 101 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_min_bytes_count_read 33 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_min_bytes_read_written_read 8 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_max_bytes_count_read 40 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_max_bytes_read_written_read 10485760 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_total_byes_read_written_read 419548548 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_call_time_write 195.185916 ms noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_percent_write 14.997871 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_number_of_calls_write 235 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_min_bytes_count_write 14 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_min_bytes_read_written_write 1 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_max_bytes_count_write 40 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_max_bytes_read_written_write 10485760 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_total_byes_read_written_write 419437584 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_call_time_open 5.355874 ms noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_percent_open 0.411539 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_number_of_calls_open 14 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_call_time___lseek 0.802558 ms noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_percent___lseek 0.061668 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_number_of_calls___lseek 78 each noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_call_time_close 0.230548 ms noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_percent_close 0.017715 percent noValue noValue
+PerfResult ossiot_mpirun_bt.A.4.mpi_io_full_1494796407 "bt-io,env-3835,ossiot_mpirun_bt.A.4.mpi_io_full_1494796407,lustre-3837,LANL|Woodchuck|turquoise|wc049,Linux #1 SMP Tue Jan 10 18:46:38 PST 2017 3.10.0-514.2.2.2chaos.ch6_0.x86_64-3834,submission-3836" ossiot io_number_of_calls_close 8 each noValue noValue
