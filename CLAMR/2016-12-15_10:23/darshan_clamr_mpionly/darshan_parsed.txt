@@ -1,0 +1,838 @@
+# darshan log version: 3.10
+# compression method: ZLIB
+# exe: /turquoise/usr/projects/workflow_perf/CLAMR_wc/build/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -0 10
+# uid: 28309
+# jobid: 27987
+# start_time: 1481822687
+# start_time_asci: Thu Dec 15 10:24:47 2016
+# end_time: 1481822711
+# end_time_asci: Thu Dec 15 10:25:11 2016
+# nprocs: 4
+# run time: 25
+# metadata: lib_ver = 3.1.2
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 360 bytes (uncompressed)
+# job data: 282 bytes (compressed)
+# record table: 368 bytes (compressed)
+# POSIX module: 1034 bytes (compressed), ver=3
+# HDF5 module: 164 bytes (compressed), ver=1
+# STDIO module: 765 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/turquoise/usr/projects/workflow_perf	nfs
+# mount entry:	/turquoise/usr/projects/hpcsoft	nfs
+# mount entry:	/turquoise/usr/projects/darshan	nfs
+# mount entry:	/turquoise/usr/projects/cint	nfs
+# mount entry:	/var/lib/perceus/vnfs	nfs
+# mount entry:	/lustre/scratch2	lustre
+# mount entry:	/lustre/scratch3	lustre
+# mount entry:	/lustre/scratch1	lustre
+# mount entry:	/turquoise/users	nfs
+# mount entry:	/fs4	nfs
+# mount entry:	/fs5	nfs
+# mount entry:	/fs6	nfs
+
+# description of columns:
+#   <module>: module responsible for this I/O record.
+#   <rank>: MPI rank.  -1 indicates that the file is shared
+#      across all processes and statistics are aggregated.
+#   <record id>: hash of the record's file path
+#   <counter name> and <counter value>: statistical counters.
+#      A value of -1 indicates that Darshan could not monitor
+#      that counter, and its value should be ignored.
+#   <file name>: full file path for the record.
+#   <mount pt>: mount point that the file resides on.
+#   <fs type>: type of file system that the file resides on.
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# description of POSIX counters:
+#   POSIX_*: posix operation counts.
+#   READS,WRITES,OPENS,SEEKS,STATS, and MMAPS are types of operations.
+#   POSIX_MODE: mode that file was opened in.
+#   POSIX_BYTES_*: total bytes read and written.
+#   POSIX_MAX_BYTE_*: highest offset byte read and written.
+#   POSIX_CONSEC_*: number of exactly adjacent reads and writes.
+#   POSIX_SEQ_*: number of reads and writes from increasing offsets.
+#   POSIX_RW_SWITCHES: number of times access alternated between read and write.
+#   POSIX_*_ALIGNMENT: memory and file alignment.
+#   POSIX_*_NOT_ALIGNED: number of reads and writes that were not aligned.
+#   POSIX_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   POSIX_SIZE_*_*: histogram of read and write access sizes.
+#   POSIX_STRIDE*_STRIDE: the four most common strides detected.
+#   POSIX_STRIDE*_COUNT: count of the four most common strides.
+#   POSIX_ACCESS*_ACCESS: the four most common access sizes.
+#   POSIX_ACCESS*_COUNT: count of the four most common access sizes.
+#   POSIX_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   POSIX_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   POSIX_F_*_START_TIMESTAMP: timestamp of first open/read/write/close.
+#   POSIX_F_*_END_TIMESTAMP: timestamp of last open/read/write/close.
+#   POSIX_F_READ/WRITE/META_TIME: cumulative time spent in read, write, or metadata operations.
+#   POSIX_F_MAX_*_TIME: duration of the slowest read and write operations.
+#   POSIX_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   POSIX_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+POSIX	-1	2621990822061072904	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_BYTES_WRITTEN	9931856	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MAX_BYTE_WRITTEN	2485271	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_MAX_WRITE_TIME_SIZE	549552	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE4_STRIDE	832076	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS4_ACCESS	549552	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_FASTEST_RANK_BYTES	2483524	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_SLOWEST_RANK_BYTES	2483524	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_OPEN_START_TIMESTAMP	18.782082	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_READ_START_TIMESTAMP	18.883559	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_WRITE_START_TIMESTAMP	18.784959	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_CLOSE_START_TIMESTAMP	18.783306	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_OPEN_END_TIMESTAMP	18.784843	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_READ_END_TIMESTAMP	19.199490	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_WRITE_END_TIMESTAMP	19.225394	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_CLOSE_END_TIMESTAMP	19.226083	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_READ_TIME	0.000040	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_WRITE_TIME	1.712549	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_META_TIME	0.034916	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_MAX_WRITE_TIME	0.121123	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_FASTEST_RANK_TIME	0.433083	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_SLOWEST_RANK_TIME	0.439352	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_VARIANCE_RANK_TIME	0.000005	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2621990822061072904	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STATS	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_BYTES_WRITTEN	9627296	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MAX_BYTE_WRITTEN	2409131	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_MAX_WRITE_TIME_SIZE	532632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE4_STRIDE	806696	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS4_ACCESS	532632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_FASTEST_RANK_BYTES	2407384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_SLOWEST_RANK_BYTES	2407384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_OPEN_START_TIMESTAMP	0.283783	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_READ_START_TIMESTAMP	0.371648	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_WRITE_START_TIMESTAMP	0.286038	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_CLOSE_START_TIMESTAMP	0.670521	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_OPEN_END_TIMESTAMP	0.285142	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_READ_END_TIMESTAMP	0.663107	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_WRITE_END_TIMESTAMP	0.674227	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_CLOSE_END_TIMESTAMP	0.679585	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_READ_TIME	0.000042	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_WRITE_TIME	1.530673	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_META_TIME	0.033665	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_MAX_READ_TIME	0.000003	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_MAX_WRITE_TIME	0.107441	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_FASTEST_RANK_TIME	0.389825	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_SLOWEST_RANK_TIME	0.391641	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_VARIANCE_RANK_TIME	0.000001	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	2980782105402916925	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_OPENS	5	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STATS	9	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_BYTES_WRITTEN	9915296	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MAX_BYTE_WRITTEN	2481131	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MAX_READ_TIME_SIZE	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_MAX_WRITE_TIME_SIZE	548632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE4_STRIDE	830696	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS4_ACCESS	548632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_FASTEST_RANK_BYTES	2479384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_SLOWEST_RANK_BYTES	2479384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_OPEN_START_TIMESTAMP	4.880221	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_READ_START_TIMESTAMP	4.971185	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_WRITE_START_TIMESTAMP	4.882290	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_CLOSE_START_TIMESTAMP	4.881280	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_OPEN_END_TIMESTAMP	4.881905	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_READ_END_TIMESTAMP	5.284348	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_WRITE_END_TIMESTAMP	5.302662	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_CLOSE_END_TIMESTAMP	5.310433	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_READ_TIME	0.000054	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_WRITE_TIME	1.650663	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_META_TIME	0.029200	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_MAX_READ_TIME	0.000014	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_MAX_WRITE_TIME	0.091926	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_FASTEST_RANK_TIME	0.416775	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_SLOWEST_RANK_TIME	0.425681	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_VARIANCE_RANK_TIME	0.000011	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	3099089585055751542	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_BYTES_WRITTEN	10037264	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MAX_BYTE_WRITTEN	2511623	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_MAX_WRITE_TIME_SIZE	555408	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE4_STRIDE	840860	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS4_ACCESS	555408	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_FASTEST_RANK_BYTES	2509876	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_SLOWEST_RANK_BYTES	2509876	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_OPEN_START_TIMESTAMP	13.984274	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_READ_START_TIMESTAMP	14.078281	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_WRITE_START_TIMESTAMP	13.987229	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_CLOSE_START_TIMESTAMP	13.985610	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_OPEN_END_TIMESTAMP	13.987034	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_READ_END_TIMESTAMP	14.402336	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_WRITE_END_TIMESTAMP	14.419035	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_CLOSE_END_TIMESTAMP	14.426401	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_READ_TIME	0.000040	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_WRITE_TIME	1.700842	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_META_TIME	0.033353	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_MAX_READ_TIME	0.000003	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_MAX_WRITE_TIME	0.092289	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_FASTEST_RANK_TIME	0.428160	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_SLOWEST_RANK_TIME	0.438092	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_VARIANCE_RANK_TIME	0.000015	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	13158231364682469781	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_BYTES_WRITTEN	10120208	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MAX_BYTE_WRITTEN	2532359	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_MAX_WRITE_TIME_SIZE	560016	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE4_STRIDE	847772	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS4_ACCESS	560016	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_FASTEST_RANK_BYTES	2530612	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_SLOWEST_RANK_BYTES	2530612	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_OPEN_START_TIMESTAMP	23.794048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_READ_START_TIMESTAMP	23.896068	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_WRITE_START_TIMESTAMP	23.796771	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_CLOSE_START_TIMESTAMP	23.795683	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_OPEN_END_TIMESTAMP	23.797739	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_READ_END_TIMESTAMP	24.224957	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_WRITE_END_TIMESTAMP	24.240019	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_CLOSE_END_TIMESTAMP	24.247425	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_READ_TIME	0.000041	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_WRITE_TIME	1.743055	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_META_TIME	0.035096	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_MAX_WRITE_TIME	0.098068	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_FASTEST_RANK_TIME	0.438432	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_SLOWEST_RANK_TIME	0.449980	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_VARIANCE_RANK_TIME	0.000019	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	15674418588009356712	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_BYTES_WRITTEN	9825152	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MAX_BYTE_WRITTEN	2458595	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_MAX_WRITE_TIME_SIZE	543624	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE4_STRIDE	823184	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS4_ACCESS	543624	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_FASTEST_RANK_BYTES	2456848	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_SLOWEST_RANK_BYTES	2456848	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_OPEN_START_TIMESTAMP	9.615147	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_READ_START_TIMESTAMP	9.731596	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_WRITE_START_TIMESTAMP	9.618004	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_CLOSE_START_TIMESTAMP	9.616336	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_OPEN_END_TIMESTAMP	9.617848	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_READ_END_TIMESTAMP	10.037195	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_WRITE_END_TIMESTAMP	10.053882	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_CLOSE_END_TIMESTAMP	10.062433	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_READ_TIME	0.000041	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_WRITE_TIME	1.716101	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_META_TIME	0.038825	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_MAX_WRITE_TIME	0.087324	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_FASTEST_RANK_TIME	0.432907	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_SLOWEST_RANK_TIME	0.443428	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_VARIANCE_RANK_TIME	0.000020	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17077404176340055887	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+
+# *******************************************************
+# HDF5 module data
+# *******************************************************
+
+# description of HDF5 counters:
+#   HDF5_OPENS: HDF5 file open operation counts.
+#   HDF5_F_OPEN_TIMESTAMP: timestamp of first HDF5 file open.
+#   HDF5_F_CLOSE_TIMESTAMP: timestamp of last HDF5 file close.
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+HDF5	-1	2621990822061072904	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	2621990822061072904	HDF5_F_OPEN_TIMESTAMP	18.782072	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	2621990822061072904	HDF5_F_CLOSE_TIMESTAMP	19.226086	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	2980782105402916925	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	2980782105402916925	HDF5_F_OPEN_TIMESTAMP	0.282726	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	2980782105402916925	HDF5_F_CLOSE_TIMESTAMP	0.679589	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	3099089585055751542	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	3099089585055751542	HDF5_F_OPEN_TIMESTAMP	4.880175	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	3099089585055751542	HDF5_F_CLOSE_TIMESTAMP	5.310438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	13158231364682469781	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	13158231364682469781	HDF5_F_OPEN_TIMESTAMP	13.984258	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	13158231364682469781	HDF5_F_CLOSE_TIMESTAMP	14.426404	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	15674418588009356712	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	15674418588009356712	HDF5_F_OPEN_TIMESTAMP	23.794038	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	15674418588009356712	HDF5_F_CLOSE_TIMESTAMP	24.247428	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17077404176340055887	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17077404176340055887	HDF5_F_OPEN_TIMESTAMP	9.615130	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17077404176340055887	HDF5_F_CLOSE_TIMESTAMP	10.062437	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+
+# *******************************************************
+# STDIO module data
+# *******************************************************
+
+# description of STDIO counters:
+#   STDIO_{OPENS|WRITES|READS|SEEKS|FLUSHES} are types of operations.
+#   STDIO_BYTES_*: total bytes read and written.
+#   STDIO_MAX_BYTE_*: highest offset byte read and written.
+#   STDIO_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   STDIO_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   STDIO_F_*_START_TIMESTAMP: timestamp of the first call to that type of function.
+#   STDIO_F_*_END_TIMESTAMP: timestamp of the completion of the last call to that type of function.
+#   STDIO_F_*_TIME: cumulative time spent in different types of functions.
+#   STDIO_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   STDIO_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+STDIO	-1	507113103586971197	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_BYTES_WRITTEN	1517	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_MAX_BYTE_WRITTEN	379	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_FASTEST_RANK_BYTES	380	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_SLOWEST_RANK_BYTES	380	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_META_TIME	0.005327	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_WRITE_TIME	0.000121	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_OPEN_START_TIMESTAMP	0.005591	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_CLOSE_START_TIMESTAMP	24.239596	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_WRITE_START_TIMESTAMP	0.679575	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_OPEN_END_TIMESTAMP	0.007252	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_CLOSE_END_TIMESTAMP	24.249110	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_WRITE_END_TIMESTAMP	24.248857	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_FASTEST_RANK_TIME	0.000934	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_SLOWEST_RANK_TIME	0.001919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	507113103586971197	STDIO_F_VARIANCE_RANK_BYTES	1.687500	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_SLOWEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_META_TIME	0.005286	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_WRITE_TIME	0.000212	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_OPEN_START_TIMESTAMP	18.783286	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_CLOSE_START_TIMESTAMP	19.199698	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_WRITE_START_TIMESTAMP	18.784985	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_OPEN_END_TIMESTAMP	18.786207	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_CLOSE_END_TIMESTAMP	19.200799	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_WRITE_END_TIMESTAMP	19.200453	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_FASTEST_RANK_TIME	0.000978	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_SLOWEST_RANK_TIME	0.001916	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	3015294809769446575	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_META_TIME	0.005106	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_WRITE_TIME	0.000225	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_OPEN_START_TIMESTAMP	4.881316	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_CLOSE_START_TIMESTAMP	5.284713	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_WRITE_START_TIMESTAMP	4.882306	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_OPEN_END_TIMESTAMP	4.883120	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_CLOSE_END_TIMESTAMP	5.286117	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_WRITE_END_TIMESTAMP	5.285613	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_FASTEST_RANK_TIME	0.001101	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_SLOWEST_RANK_TIME	0.001749	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	8582262701789097140	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_META_TIME	0.005230	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_WRITE_TIME	0.000229	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_OPEN_START_TIMESTAMP	13.985558	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_CLOSE_START_TIMESTAMP	14.402590	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_WRITE_START_TIMESTAMP	13.987244	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_OPEN_END_TIMESTAMP	13.988413	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_CLOSE_END_TIMESTAMP	14.403710	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_WRITE_END_TIMESTAMP	14.403371	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_FASTEST_RANK_TIME	0.001104	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_SLOWEST_RANK_TIME	0.001758	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11084445563392835693	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_META_TIME	0.004441	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_WRITE_TIME	0.000189	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_OPEN_START_TIMESTAMP	0.284773	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_CLOSE_START_TIMESTAMP	0.663345	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_WRITE_START_TIMESTAMP	0.286079	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_OPEN_END_TIMESTAMP	0.286698	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_CLOSE_END_TIMESTAMP	0.664270	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_WRITE_END_TIMESTAMP	0.663992	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_FASTEST_RANK_TIME	0.000809	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_SLOWEST_RANK_TIME	0.001364	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	11361474193196755728	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_META_TIME	0.003721	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_WRITE_TIME	0.000186	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_OPEN_START_TIMESTAMP	9.616337	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_CLOSE_START_TIMESTAMP	10.036993	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_WRITE_START_TIMESTAMP	9.618019	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_OPEN_END_TIMESTAMP	9.619101	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_CLOSE_END_TIMESTAMP	10.038302	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_WRITE_END_TIMESTAMP	10.037968	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_FASTEST_RANK_TIME	0.000845	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_SLOWEST_RANK_TIME	0.001183	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15636056138437038357	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15920181672442173319	STDIO_OPENS	4	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_READS	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_WRITES	243	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SEEKS	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FLUSHES	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_BYTES_WRITTEN	5007	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_BYTES_READ	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_MAX_BYTE_READ	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_MAX_BYTE_WRITTEN	4766	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FASTEST_RANK	3	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FASTEST_RANK_BYTES	80	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SLOWEST_RANK	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SLOWEST_RANK_BYTES	4767	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_META_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_TIME	0.000666	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_OPEN_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_CLOSE_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_START_TIMESTAMP	0.282329	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_OPEN_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_CLOSE_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_END_TIMESTAMP	24.248851	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_FASTEST_RANK_TIME	0.000009	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_SLOWEST_RANK_TIME	0.000620	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_VARIANCE_RANK_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_VARIANCE_RANK_BYTES	4118994.187500	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	17191507440008122625	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_FASTEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_META_TIME	0.005288	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_WRITE_TIME	0.000224	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_OPEN_START_TIMESTAMP	23.795610	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_CLOSE_START_TIMESTAMP	24.225186	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_WRITE_START_TIMESTAMP	23.796795	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_OPEN_END_TIMESTAMP	23.798850	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_CLOSE_END_TIMESTAMP	24.226242	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_WRITE_END_TIMESTAMP	24.225965	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_FASTEST_RANK_TIME	0.000910	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_SLOWEST_RANK_TIME	0.002141	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	17191507440008122625	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-15_10:23/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
