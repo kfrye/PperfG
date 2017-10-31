@@ -1,0 +1,181 @@
+RunDataBegin
+LaunchDateTime=1504033254
+UserName=kfrye
+ApplicationName=bt-io
+ExecutableName=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/NPB3.3-MPI/bin/bt.A.4.mpi_io_full
+RunMachine=ml048
+RunOSName=Linux
+RunOSReleaseVersion=#1 SMP Tue Jan 10 17:58:33 PST 2017
+RunOSReleaseType=2.6.32-642.13.1.1chaos.ch5.5.x86_64
+RunEnv=REMOTEHOST=wtrw2.lanl.gov@@@SLURM_NODELIST=ml048@@@SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint@@@MANPATH=/usr/projects/hpcsoft/toss2/common/papi/5.4.3/man:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-krell-root/share/man:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/share/man:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-osscbtf/share/man:/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7/share/man:@@@MRNET_COMM_PATH=/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/sbin/cbtf_mrnet_commnode@@@XPLAT_RSH=ssh@@@SLURM_JOB_NAME=slurm_mpi004@@@HOSTNAME=ml048@@@SLURM_TOPOLOGY_ADDR=ml048@@@SLURMD_NODENAME=ml048@@@SLURM_PRIO_PROCESS=0@@@SLURM_NODE_ALIASES=(null)@@@TERM=xterm-256color@@@SHELL=/bin/bash@@@HOST=ml-fe1.lanl.gov@@@WISECONFIGDIR=/usr/share/wise2/@@@HISTSIZE=1000@@@SLURM_JOB_QOS=standard@@@SSH_CLIENT=204.121.65.2 53528 22@@@LMPI=openmpi@@@SLURM_TOPOLOGY_ADDR_PATTERN=node@@@TMPDIR=/tmp@@@OPENSS_RAWDATA_DIR=/users/kfrye/openss/raw@@@SBATCH_CPU_BIND_LIST=0xFFFF@@@QTDIR=/usr/lib64/qt-3.3@@@QTINC=/usr/lib64/qt-3.3/include@@@SSH_TTY=/dev/pts/29@@@LMPIVER=1.10.5@@@USER=kfrye@@@GROUP=kfrye@@@SLURM_NNODES=1@@@LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:@@@LD_LIBRARY_PATH=/usr/projects/hpcsoft/toss2/common/papi/5.4.3/lib:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/lib64:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-krell-root/lib:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-osscbtf/lib64:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-krell-root/lib64:/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7/lib@@@CBTF_MPI_IMPLEMENTATION=openmpi@@@HOSTTYPE=x86_64-linux@@@CPATH=/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7/include@@@SLURM_JOBID=1177209@@@RUN_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/run/2017-08-29_12:59/ossiot_bt-io-A4@@@SLURM_NTASKS=4@@@OPENSS_PLUGIN_PATH=/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-osscbtf/openspeedshop@@@ROOT_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml@@@MAIL=/var/spool/mail/kfrye@@@PATH=/usr/projects/hpcsoft/toss2/common/papi/5.4.3/bin:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/bin:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/sbin:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-krell-root/bin:/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-osscbtf/bin:/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/projects/workflow_perf/PerfTrack/build/bin:usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/PerfTrack/build/bin@@@OPENSS_DOC_DIR=/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-osscbtf/share/doc/topdir/OpenSpeedShop@@@_MODULES_PAPI=papi/5.4.3@@@SLURM_TASKS_PER_NODE=4@@@MPI_NAME=openmpi@@@_=/bin/env@@@PAPI_ROOT=/usr/projects/hpcsoft/toss2/common/papi/5.4.3@@@SLURM_JOB_ID=1177209@@@SBATCH_CPU_BIND_VERBOSE=quiet@@@PWD=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/run/2017-08-29_12:59/ossiot_bt-io-A4@@@SLURM_JOB_USER=kfrye@@@_LMFILES_=/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/mpi/openmpi/1.10.5:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/misc/friendly-testing:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/libraries/papi/5.4.3:/usr/projects/hpcsoft/toss2/modulefiles/moonlight/friendly-testing/openspeedshop/2.2.4-osscbtf@@@LANG=en_US.UTF-8@@@SCRIPTS_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/scripts@@@DYNINSTAPI_RT_LIB=/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-krell-root/lib64/libdyninstAPI_RT.so@@@MODULEPATH=/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/compiler:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/debugger:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/libraries:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/misc:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/mpi:/usr/projects/hpcsoft/toss2.2/modulefiles/moonlight/tools:/usr/projects/hpcsoft/toss2/modulefiles/moonlight/friendly-testing@@@LOADEDMODULES=openmpi/1.10.5:friendly-testing:papi/5.4.3:openspeedshop/2.2.4-osscbtf@@@SLURM_JOB_UID=28309@@@PROJECT_DIR=/usr/projects/workflow_perf@@@SLURM_NODEID=0@@@SLURM_SUBMIT_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/run/2017-08-29_12:59@@@MPI_VERSION=1.10.5@@@SLURM_NPROCS=4@@@SLURM_TASK_PID=52758@@@SLURM_CPUS_ON_NODE=16@@@SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass@@@HISTCONTROL=ignoredups@@@ENVIRONMENT=BATCH@@@SLURM_PROCID=0@@@SLURM_JOB_NODELIST=ml048@@@SHLVL=4@@@HOME=/users/kfrye@@@OSTYPE=linux@@@SLURM_LOCALID=0@@@SBATCH_CPU_BIND_TYPE=mask_cpu:@@@SLURM_CLUSTER_NAME=moonlight@@@SLURM_JOB_CPUS_PER_NODE=16@@@SLURM_JOB_GID=28309@@@MPIHOME=/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7@@@SLURM_SUBMIT_HOST=ml-fe1.lanl.gov@@@SLURM_GTIDS=0@@@VENDOR=unknown@@@RUNS_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/run/2017-08-29_12:59@@@SLURM_JOB_PARTITION=standard@@@PYTHONPATH=/usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack@@@LOGNAME=kfrye@@@MACHTYPE=x86_64@@@MPI_ROOT=/usr/projects/hpcsoft/toss2/moonlight/openmpi/1.10.5-gcc-4.4.7@@@QTLIB=/usr/lib64/qt-3.3/lib@@@CVS_RSH=ssh@@@BUILD_DIR=/turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/NPB3.3-MPI/bin@@@LUSTRE_JOBID=ml.1177209@@@SSH_CONNECTION=204.121.65.2 53528 204.121.65.78 22@@@PAPI_INCLUDE=/usr/projects/hpcsoft/toss2/common/papi/5.4.3/include@@@SLURM_JOB_ACCOUNT=hpcdev@@@MODULESHOME=/usr/share/Modules@@@SLURM_JOB_NUM_NODES=1@@@LESSOPEN=||/usr/bin/lesspipe.sh %s@@@LMPIMAJVER=1.10@@@SBATCH_CPU_BIND=quiet,mask_cpu:0xFFFF@@@PAPI_LIBDIR=/usr/projects/hpcsoft/toss2/common/papi/5.4.3/lib@@@PTDB=PG_PYGRESQL@@@CBTF_MRNET_BACKEND_PATH=/usr/projects/hpcsoft/toss2/moonlight/openspeedshop/2.2.4-cbtf/sbin/cbtf_libcbtf_mrnet_backend@@@G_BROKEN_FILENAMES=1@@@BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`@@@}
+PageSize=4096
+NumberOfProcesses=4
+UsesMPI=False
+UsesOpenMP=False
+UsesPthreads=False
+SubmissionBegin
+ExecutionName = ossiot_mpirun_bt.A.4.mpi_io_full_1504033186
+LaunchDateTime = 1504033186
+launcher = mpirun
+launcherVersion = mpirun (Open MPI) 1.10.5
+programVersion = 3.3.1
+batchFile = None
+runCmd_1=ossiot "mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/NPB3.3-MPI/bin/bt.A.4.mpi_io_full"
+SubmissionEnd
+SubmissionBegin
+ExecutionName = ossiot_mpirun_bt.A.4.mpi_io_full_1504033220
+LaunchDateTime = 1504033220
+launcher = mpirun
+launcherVersion = mpirun (Open MPI) 1.10.5
+programVersion = 3.3.1
+batchFile = None
+runCmd_1=ossiot "mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_ml/NPB3.3-MPI/bin/bt.A.4.mpi_io_full"
+SubmissionEnd
+FileSystemBegin
+Name = lustre
+Version = lustre: 2.5.5
+kernel: patchless_client
+build:  -11chaos-CHANGED-2.6.32-642.13.1.1chaos.ch5.5.x86_64
+DeviceBegin
+Name = l1
+deviceName = 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1
+mountPoint = /lustre/scratch1
+Size = 3.4P
+Used = 702T
+Avail = 2.7P
+Used% = 21%
+DeviceEnd
+DeviceBegin
+Name = l2
+deviceName = 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2
+mountPoint = /lustre/scratch2
+Size = 2.3P
+Used = 1.7P
+Avail = 645T
+Used% = 72%
+DeviceEnd
+DeviceBegin
+Name = l3
+deviceName = 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3
+mountPoint = /lustre/scratch3
+Size = 9.2P
+Used = 4.2P
+Avail = 5.1P
+Used% = 45%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = tmpfs
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /dev/shm
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /tmp
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = nfs
+DeviceBegin
+Name = vnfs
+deviceName = 192.168.0.151:/var/lib/perceus/vnfs
+mountPoint = /var/lib/perceus/vnfs
+Size = 533G
+Used = 347G
+Avail = 160G
+Used% = 69%
+DeviceEnd
+DeviceBegin
+Name = users
+deviceName = filer4:/users
+mountPoint = /turquoise/users
+Size = 2.1T
+Used = 920G
+Avail = 1.2T
+Used% = 44%
+DeviceEnd
+DeviceBegin
+Name = hpcsoft
+deviceName = filer4:/hpcsoft
+mountPoint = /turquoise/usr/projects/hpcsoft
+Size = 1.2T
+Used = 1.1T
+Avail = 168G
+Used% = 87%
+DeviceEnd
+DeviceBegin
+Name = packages
+deviceName = filer4:/packages
+mountPoint = /turquoise/usr/projects/packages
+Size = 338G
+Used = 305G
+Avail = 34G
+Used% = 91%
+DeviceEnd
+DeviceBegin
+Name = trevimg
+deviceName = filer4:/trevimg
+mountPoint = /turquoise/usr/projects/trevimg
+Size = 120G
+Used = 92G
+Avail = 29G
+Used% = 77%
+DeviceEnd
+DeviceBegin
+Name = higrad
+deviceName = filer3:/higrad
+mountPoint = /turquoise/usr/projects/higrad
+Size = 1005G
+Used = 688G
+Avail = 318G
+Used% = 69%
+DeviceEnd
+DeviceBegin
+Name = illinois
+deviceName = filer3:/illinois
+mountPoint = /turquoise/usr/projects/illinois
+Size = 30G
+Used = 16G
+Avail = 15G
+Used% = 52%
+DeviceEnd
+DeviceBegin
+Name = cesm
+deviceName = filer3:/cesm
+mountPoint = /turquoise/usr/projects/cesm
+Size = 473G
+Used = 470G
+Avail = 2.7G
+Used% = 100%
+DeviceEnd
+DeviceBegin
+Name = large_pdes
+deviceName = filer3:/large_pdes
+mountPoint = /turquoise/usr/projects/large_pdes
+Size = 563G
+Used = 372G
+Avail = 192G
+Used% = 66%
+DeviceEnd
+DeviceBegin
+Name = workflow_perf
+deviceName = filer3:/workflow_perf
+mountPoint = /turquoise/usr/projects/workflow_perf
+Size = 101G
+Used = 50G
+Avail = 52G
+Used% = 49%
+DeviceEnd
+FileSystemEnd
+RunDataEnd
