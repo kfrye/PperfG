@@ -1,0 +1,46 @@
+# direct each plugin to common per-plugin store file (isomorphic case)
+loglevel level=INFO
+loglevel level=DEBUG
+load name=store_csv
+config name=store_csv action=init path=/turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-10-25_14:13/ldms-233881.data/store
+
+# plugin meminfo samplers
+strgp_add name=meminfo plugin=store_csv container=store_csv schema=meminfo
+strgp_prdcr_add name=meminfo regex=\*
+strgp_start name=meminfo
+# plugin procstat samplers
+strgp_add name=procstat plugin=store_csv container=store_csv schema=procstat
+strgp_prdcr_add name=procstat regex=\*
+strgp_start name=procstat
+# add wc112 producer and updater loop to aggregator for
+prdcr_add name=wc112 host=wc112 type=active xprt=sock interval=1000000 port=60411
+prdcr_start name=wc112
+
+updtr_add name=wc112 interval=1000000 offset=300000
+updtr_prdcr_add name=wc112 regex=wc112
+updtr_start name=wc112
+
+# add wc113 producer and updater loop to aggregator for
+prdcr_add name=wc113 host=wc113 type=active xprt=sock interval=1000000 port=60411
+prdcr_start name=wc113
+
+updtr_add name=wc113 interval=1000000 offset=300000
+updtr_prdcr_add name=wc113 regex=wc113
+updtr_start name=wc113
+
+# add wc114 producer and updater loop to aggregator for
+prdcr_add name=wc114 host=wc114 type=active xprt=sock interval=1000000 port=60411
+prdcr_start name=wc114
+
+updtr_add name=wc114 interval=1000000 offset=300000
+updtr_prdcr_add name=wc114 regex=wc114
+updtr_start name=wc114
+
+# add wc115 producer and updater loop to aggregator for
+prdcr_add name=wc115 host=wc115 type=active xprt=sock interval=1000000 port=60411
+prdcr_start name=wc115
+
+updtr_add name=wc115 interval=1000000 offset=300000
+updtr_prdcr_add name=wc115 regex=wc115
+updtr_start name=wc115
+

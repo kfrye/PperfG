@@ -1,0 +1,394 @@
+Wed Oct 25 14:13:20 2017: CRITICAL  : Started LDMS Daemon with authentication version 3.4.4. LDMSD Interface Version 3.2.2.0. LDMS Protocol Version 3.3.0.0. git-SHA bfc06a169fe12c48c659549f3bced434b85116b6
+Wed Oct 25 14:13:20 2017: INFO      : Listening on transport sock:60412
+Wed Oct 25 14:13:20 2017: INFO      : Producer wc112 is connected
+Wed Oct 25 14:13:20 2017: INFO      : Adding the metric set '0/meminfo'
+Wed Oct 25 14:13:20 2017: INFO      : Adding the metric set '0/procstat'
+Wed Oct 25 14:13:20 2017: INFO      : Set 0/meminfo is ready
+Wed Oct 25 14:13:20 2017: INFO      : Set 0/procstat is ready
+Wed Oct 25 14:13:21 2017: INFO      : Producer wc115 is connected
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '3/meminfo'
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '3/procstat'
+Wed Oct 25 14:13:21 2017: INFO      : Set 3/meminfo is ready
+Wed Oct 25 14:13:21 2017: INFO      : Set 3/procstat is ready
+Wed Oct 25 14:13:21 2017: INFO      : Producer wc114 is connected
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '2/meminfo'
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '2/procstat'
+Wed Oct 25 14:13:21 2017: INFO      : Set 2/meminfo is ready
+Wed Oct 25 14:13:21 2017: INFO      : Set 2/procstat is ready
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:21 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:21 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:21 2017: INFO      : Producer wc113 is connected
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '1/meminfo'
+Wed Oct 25 14:13:21 2017: INFO      : Adding the metric set '1/procstat'
+Wed Oct 25 14:13:21 2017: INFO      : Set 1/meminfo is ready
+Wed Oct 25 14:13:21 2017: INFO      : Set 1/procstat is ready
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:22 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:22 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:23 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:23 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:24 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:24 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:25 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:25 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:26 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:26 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:27 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:27 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:28 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:28 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:29 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:29 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:30 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:30 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:31 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:31 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:32 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:32 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:33 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:33 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:34 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:34 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:35 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:35 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:36 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:36 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:37 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:37 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:38 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:38 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:39 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:39 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:40 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:40 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:41 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:41 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:42 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:42 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 0/meminfo
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 2/meminfo
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 2/procstat
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 0/procstat
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 3/meminfo
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 3/procstat
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 0/meminfo with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 0/procstat with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 3/meminfo with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 3/procstat with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 2/meminfo with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 2/procstat with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 1/meminfo
+Wed Oct 25 14:13:43 2017: DEBUG     : Schedule an update for set 1/procstat
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 1/meminfo with status 0
+Wed Oct 25 14:13:43 2017: DEBUG     : Update complete for Set 1/procstat with status 0
+Wed Oct 25 14:13:44 2017: INFO      : Producer wc114 is disconnected
+Wed Oct 25 14:13:44 2017: INFO      : Deleting producer set 2/meminfo
+Wed Oct 25 14:13:44 2017: INFO      : Deleting producer set 2/procstat
+signo : 15
+si_pid: 2447
+Wed Oct 25 14:13:44 2017: DEBUG     : ../../../../ldms/src/store/store_csv.c: Closing store_csv with path </turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-10-25_14:13/ldms-233881.data/store/store_csv/meminfo>
+Wed Oct 25 14:13:44 2017: DEBUG     : ../../../../ldms/src/store/store_csv.c: Closing store_csv with path </turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-10-25_14:13/ldms-233881.data/store/store_csv/procstat>
+Wed Oct 25 14:13:44 2017: INFO      : LDMSD_ LDMS Daemon exiting...status 0, 

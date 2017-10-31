@@ -1,0 +1,34 @@
+#! /bin/false
+# this script runs within the start_ldms.sh and requires preset variables:
+# ldms_prefix, jdir
+# LDMS installation data
+. $ldms_prefix/lib/ovis-lib-configvars-kris.sh
+. $ldms_prefix/lib/ovis-ldms-configvars-kris.sh
+export PATH=${ldms_prefix}/sbin:${ldms_prefix}/bin:$PATH
+export LD_LIBRARY_PATH=${ovis_ldms_libdir}:${ovis_lib_libdir}:${ovis_ldms_pkglibdir}:${ovis_lib_pkglibdir}:$LD_LIBRARY_PATH
+export ZAP_LIBPATH=${ovis_lib_pkglibdir}
+export LDMSD_PLUGIN_LIBPATH=${ovis_ldms_pkglibdir}
+# output controls
+export TESTDIR=$jdir
+export STOREDIR=$TESTDIR/store
+export SOCKDIR=$TESTDIR/run/ldmsd/${SLURM_NODEID}
+export LOGDIR=$TESTDIR/logs
+export LDMSD_PIDFILE=$TESTDIR/run/ldmsd/${SLURM_NODEID}.pid
+export LDMSD_SOCKPATH=$TESTDIR/run
+export LDMS_AUTH_FILE=$HOME/.ldmsauth.conf
+# setup file tree for ldms info
+mkdir -p $STOREDIR $SOCKDIR $LOGDIR $LDMSD_SOCKPATH
+# set up security for the daemon
+if ! test -f $LDMS_AUTH_FILE; then
+	echo "secretword=${RANDOM}${RANDOM}${RANDOM}${RANDOM}${RANDOM}" > $LDMS_AUTH_FILE
+fi
+chmod -R go-rwx $TESTDIR $LDMS_AUTH_FILE
+# set log to ERROR if not already set.
+# other values are
+if test -z "$LDMSD_LOG_LEVEL"; then
+	LDMSD_LOG_LEVEL=ERROR
+fi
+
+if test "0" = "$SLURM_NODEID"; then
+	echo "logs and data stored under $TESTDIR"
+fi

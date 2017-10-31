@@ -1,0 +1,92 @@
+Resource LANL grid
+Resource LANL|Woodchuck grid|machine
+ResourceAttribute LANL|Woodchuck NumberOfSCSIDevices 1 string
+Resource LANL|Woodchuck|turquoise grid|machine|partition
+Resource LANL|Woodchuck|turquoise|wc112 grid|machine|partition|node
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 HostName wc112 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 "AmountSwap KB" 0 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 Version 4.9.53-wc0.1 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 Architecture x86_64 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 AmountMemKB 198001184.00 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 NumOfProcs None string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112 "Main Memory GB" 188.83 string
+Resource LANL|Woodchuck|turquoise|wc112|11 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|11 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|11 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|11 MHz 1200.146 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|11 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|10 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|10 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|10 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|10 MHz 1200.146 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|10 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|13 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|13 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|13 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|13 MHz 1200.292 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|13 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|12 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|12 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|12 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|12 MHz 1200.146 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|12 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|15 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|15 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|15 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|15 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|15 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|14 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|14 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|14 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|14 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|14 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|1 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|1 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|1 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|1 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|1 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|0 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|0 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|0 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|0 MHz 1265.771 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|0 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|3 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|3 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|3 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|3 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|3 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|2 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|2 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|2 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|2 MHz 1287.890 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|2 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|5 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|5 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|5 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|5 MHz 1200.146 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|5 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|4 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|4 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|4 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|4 MHz 1237.353 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|4 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|7 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|7 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|7 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|7 MHz 1287.890 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|7 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|6 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|6 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|6 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|6 MHz 1200.146 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|6 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|9 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|9 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|9 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|9 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|9 "CacheSize KB" 20480 string
+Resource LANL|Woodchuck|turquoise|wc112|8 grid|machine|partition|node|processor
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|8 Type "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz" string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|8 Vendor GenuineIntel string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|8 MHz 1200.000 string
+ResourceAttribute LANL|Woodchuck|turquoise|wc112|8 "CacheSize KB" 20480 string
