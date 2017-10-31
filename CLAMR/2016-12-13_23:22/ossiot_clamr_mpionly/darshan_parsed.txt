@@ -1,0 +1,837 @@
+# darshan log version: 3.10
+# compression method: ZLIB
+# exe: /turquoise/usr/projects/workflow_perf/CLAMR_wc/build/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -0 10
+# uid: 28309
+# jobid: 60985
+# start_time: 1481698192
+# start_time_asci: Tue Dec 13 23:49:52 2016
+# end_time: 1481698216
+# end_time_asci: Tue Dec 13 23:50:16 2016
+# nprocs: 4
+# run time: 25
+# metadata: lib_ver = 3.1.2
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 360 bytes (uncompressed)
+# job data: 280 bytes (compressed)
+# record table: 369 bytes (compressed)
+# POSIX module: 1005 bytes (compressed), ver=3
+# HDF5 module: 160 bytes (compressed), ver=1
+# STDIO module: 731 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/turquoise/usr/projects/workflow_perf	nfs
+# mount entry:	/turquoise/usr/projects/hpcsoft	nfs
+# mount entry:	/turquoise/usr/projects/darshan	nfs
+# mount entry:	/turquoise/usr/projects/cint	nfs
+# mount entry:	/var/lib/perceus/vnfs	nfs
+# mount entry:	/lustre/scratch2	lustre
+# mount entry:	/lustre/scratch3	lustre
+# mount entry:	/turquoise/users	nfs
+# mount entry:	/fs4	nfs
+# mount entry:	/fs5	nfs
+# mount entry:	/fs6	nfs
+
+# description of columns:
+#   <module>: module responsible for this I/O record.
+#   <rank>: MPI rank.  -1 indicates that the file is shared
+#      across all processes and statistics are aggregated.
+#   <record id>: hash of the record's file path
+#   <counter name> and <counter value>: statistical counters.
+#      A value of -1 indicates that Darshan could not monitor
+#      that counter, and its value should be ignored.
+#   <file name>: full file path for the record.
+#   <mount pt>: mount point that the file resides on.
+#   <fs type>: type of file system that the file resides on.
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# description of POSIX counters:
+#   POSIX_*: posix operation counts.
+#   READS,WRITES,OPENS,SEEKS,STATS, and MMAPS are types of operations.
+#   POSIX_MODE: mode that file was opened in.
+#   POSIX_BYTES_*: total bytes read and written.
+#   POSIX_MAX_BYTE_*: highest offset byte read and written.
+#   POSIX_CONSEC_*: number of exactly adjacent reads and writes.
+#   POSIX_SEQ_*: number of reads and writes from increasing offsets.
+#   POSIX_RW_SWITCHES: number of times access alternated between read and write.
+#   POSIX_*_ALIGNMENT: memory and file alignment.
+#   POSIX_*_NOT_ALIGNED: number of reads and writes that were not aligned.
+#   POSIX_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   POSIX_SIZE_*_*: histogram of read and write access sizes.
+#   POSIX_STRIDE*_STRIDE: the four most common strides detected.
+#   POSIX_STRIDE*_COUNT: count of the four most common strides.
+#   POSIX_ACCESS*_ACCESS: the four most common access sizes.
+#   POSIX_ACCESS*_COUNT: count of the four most common access sizes.
+#   POSIX_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   POSIX_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   POSIX_F_*_START_TIMESTAMP: timestamp of first open/read/write/close.
+#   POSIX_F_*_END_TIMESTAMP: timestamp of last open/read/write/close.
+#   POSIX_F_READ/WRITE/META_TIME: cumulative time spent in read, write, or metadata operations.
+#   POSIX_F_MAX_*_TIME: duration of the slowest read and write operations.
+#   POSIX_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   POSIX_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+POSIX	-1	1693238671135298967	POSIX_OPENS	5	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STATS	9	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_BYTES_WRITTEN	10037264	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MAX_BYTE_WRITTEN	2511623	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_MAX_WRITE_TIME_SIZE	555408	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE4_STRIDE	840860	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS4_ACCESS	555408	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FASTEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_FASTEST_RANK_BYTES	2509876	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_SLOWEST_RANK_BYTES	2509876	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_OPEN_START_TIMESTAMP	13.951739	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_READ_START_TIMESTAMP	14.047346	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_WRITE_START_TIMESTAMP	13.954794	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_CLOSE_START_TIMESTAMP	13.952995	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_OPEN_END_TIMESTAMP	13.953843	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_READ_END_TIMESTAMP	14.354173	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_WRITE_END_TIMESTAMP	14.365055	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_CLOSE_END_TIMESTAMP	14.371911	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_READ_TIME	0.000040	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_WRITE_TIME	1.620420	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_META_TIME	0.041390	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_MAX_WRITE_TIME	0.085825	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_FASTEST_RANK_TIME	0.413907	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_SLOWEST_RANK_TIME	0.416508	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_VARIANCE_RANK_TIME	0.000001	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	1693238671135298967	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_OPENS	5	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STATS	9	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_BYTES_WRITTEN	9931856	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MAX_BYTE_WRITTEN	2485271	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MAX_READ_TIME_SIZE	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_MAX_WRITE_TIME_SIZE	549552	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE4_STRIDE	832076	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS4_ACCESS	549552	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_FASTEST_RANK_BYTES	2483524	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_SLOWEST_RANK_BYTES	2483524	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_OPEN_START_TIMESTAMP	18.725103	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_READ_START_TIMESTAMP	18.819398	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_WRITE_START_TIMESTAMP	18.728392	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_CLOSE_START_TIMESTAMP	18.726402	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_OPEN_END_TIMESTAMP	18.727285	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_READ_END_TIMESTAMP	19.131900	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_WRITE_END_TIMESTAMP	19.151567	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_CLOSE_END_TIMESTAMP	19.159987	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_READ_TIME	0.000049	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_WRITE_TIME	1.660297	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_META_TIME	0.035891	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_MAX_READ_TIME	0.000004	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_MAX_WRITE_TIME	0.118888	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_FASTEST_RANK_TIME	0.420460	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_SLOWEST_RANK_TIME	0.430306	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_VARIANCE_RANK_TIME	0.000014	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	6828468263980811411	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_BYTES_WRITTEN	9825152	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MAX_BYTE_WRITTEN	2458595	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MAX_READ_TIME_SIZE	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_MAX_WRITE_TIME_SIZE	543624	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE4_STRIDE	823184	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS4_ACCESS	543624	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_FASTEST_RANK_BYTES	2456848	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_SLOWEST_RANK_BYTES	2456848	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_OPEN_START_TIMESTAMP	9.584063	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_READ_START_TIMESTAMP	9.678097	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_WRITE_START_TIMESTAMP	9.586937	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_CLOSE_START_TIMESTAMP	9.585313	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_OPEN_END_TIMESTAMP	9.586786	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_READ_END_TIMESTAMP	10.000596	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_WRITE_END_TIMESTAMP	10.016465	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_CLOSE_END_TIMESTAMP	10.024006	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_READ_TIME	0.000041	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_WRITE_TIME	1.688906	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_META_TIME	0.027999	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_MAX_READ_TIME	0.000003	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_MAX_WRITE_TIME	0.094170	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_FASTEST_RANK_TIME	0.426582	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_SLOWEST_RANK_TIME	0.432925	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_VARIANCE_RANK_TIME	0.000005	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	8923772154455137323	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_BYTES_WRITTEN	9915296	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MAX_BYTE_WRITTEN	2481131	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MAX_READ_TIME_SIZE	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_MAX_WRITE_TIME_SIZE	548632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE4_STRIDE	830696	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS4_ACCESS	548632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FASTEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_FASTEST_RANK_BYTES	2479384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_SLOWEST_RANK_BYTES	2479384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_OPEN_START_TIMESTAMP	4.915746	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_READ_START_TIMESTAMP	5.013616	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_WRITE_START_TIMESTAMP	4.919121	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_CLOSE_START_TIMESTAMP	4.917353	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_OPEN_END_TIMESTAMP	4.918281	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_READ_END_TIMESTAMP	5.319417	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_WRITE_END_TIMESTAMP	5.330650	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_CLOSE_END_TIMESTAMP	5.336933	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_READ_TIME	0.000041	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_WRITE_TIME	1.625465	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_META_TIME	0.041095	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_MAX_WRITE_TIME	0.086886	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_FASTEST_RANK_TIME	0.414858	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_SLOWEST_RANK_TIME	0.417770	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_VARIANCE_RANK_TIME	0.000001	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	14181445814600223315	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_OPENS	5	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STATS	9	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_BYTES_WRITTEN	9627296	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MAX_BYTE_WRITTEN	2409131	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MAX_READ_TIME_SIZE	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_MAX_WRITE_TIME_SIZE	532632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE4_STRIDE	806696	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS4_ACCESS	532632	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_FASTEST_RANK_BYTES	2407384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SLOWEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_SLOWEST_RANK_BYTES	2407384	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_OPEN_START_TIMESTAMP	0.314939	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_READ_START_TIMESTAMP	0.366736	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_WRITE_START_TIMESTAMP	0.317700	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_CLOSE_START_TIMESTAMP	0.315946	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_OPEN_END_TIMESTAMP	0.316763	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_READ_END_TIMESTAMP	0.723465	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_WRITE_END_TIMESTAMP	0.740294	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_CLOSE_END_TIMESTAMP	0.749002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_READ_TIME	0.000044	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_WRITE_TIME	1.664940	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_META_TIME	0.042340	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_MAX_READ_TIME	0.000002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_MAX_WRITE_TIME	0.090462	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_FASTEST_RANK_TIME	0.421034	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_SLOWEST_RANK_TIME	0.429869	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_VARIANCE_RANK_TIME	0.000012	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	16419455663796340256	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_OPENS	6	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_READS	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_WRITES	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SEEKS	92	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STATS	10	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MMAPS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FDSYNCS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MODE	438	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_BYTES_READ	2240	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_BYTES_WRITTEN	10120208	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MAX_BYTE_READ	7919	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MAX_BYTE_WRITTEN	2532359	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_CONSEC_READS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_CONSEC_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SEQ_READS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SEQ_WRITES	68	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_RW_SWITCHES	48	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MEM_NOT_ALIGNED	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MEM_ALIGNMENT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FILE_NOT_ALIGNED	112	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FILE_ALIGNMENT	32768	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MAX_READ_TIME_SIZE	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_MAX_WRITE_TIME_SIZE	560016	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_0_100	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_100_1K	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_1K_10K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_100K_1M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_READ_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_0_100	36	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_100_1K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_1K_10K	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_10K_100K	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_100K_1M	24	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_1M_4M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_4M_10M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_10M_100M	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_100M_1G	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SIZE_WRITE_1G_PLUS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE1_STRIDE	2048	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE2_STRIDE	1680	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE3_STRIDE	88	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE4_STRIDE	847772	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE1_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE2_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE3_COUNT	8	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_STRIDE4_COUNT	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS1_ACCESS	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS2_ACCESS	192	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS3_ACCESS	72	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS4_ACCESS	560016	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS1_COUNT	20	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS2_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS3_COUNT	16	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_ACCESS4_COUNT	12	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FASTEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_FASTEST_RANK_BYTES	2530612	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_SLOWEST_RANK_BYTES	2530612	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_OPEN_START_TIMESTAMP	23.706161	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_READ_START_TIMESTAMP	23.808854	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_WRITE_START_TIMESTAMP	23.708828	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_CLOSE_START_TIMESTAMP	23.707258	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_OPEN_END_TIMESTAMP	23.708308	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_READ_END_TIMESTAMP	24.127592	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_WRITE_END_TIMESTAMP	24.139383	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_CLOSE_END_TIMESTAMP	24.146696	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_READ_TIME	0.000045	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_WRITE_TIME	1.697002	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_META_TIME	0.048890	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_MAX_READ_TIME	0.000003	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_MAX_WRITE_TIME	0.089342	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_FASTEST_RANK_TIME	0.435077	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_SLOWEST_RANK_TIME	0.437590	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_VARIANCE_RANK_TIME	0.000001	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+POSIX	-1	17007648183585760156	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+
+# *******************************************************
+# HDF5 module data
+# *******************************************************
+
+# description of HDF5 counters:
+#   HDF5_OPENS: HDF5 file open operation counts.
+#   HDF5_F_OPEN_TIMESTAMP: timestamp of first HDF5 file open.
+#   HDF5_F_CLOSE_TIMESTAMP: timestamp of last HDF5 file close.
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+HDF5	-1	1693238671135298967	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	1693238671135298967	HDF5_F_OPEN_TIMESTAMP	13.951698	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	1693238671135298967	HDF5_F_CLOSE_TIMESTAMP	14.371914	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	6828468263980811411	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	6828468263980811411	HDF5_F_OPEN_TIMESTAMP	18.725062	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	6828468263980811411	HDF5_F_CLOSE_TIMESTAMP	19.159992	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	8923772154455137323	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	8923772154455137323	HDF5_F_OPEN_TIMESTAMP	9.584054	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	8923772154455137323	HDF5_F_CLOSE_TIMESTAMP	10.024010	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	14181445814600223315	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	14181445814600223315	HDF5_F_OPEN_TIMESTAMP	4.915736	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	14181445814600223315	HDF5_F_CLOSE_TIMESTAMP	5.336937	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	16419455663796340256	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	16419455663796340256	HDF5_F_OPEN_TIMESTAMP	0.282852	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	16419455663796340256	HDF5_F_CLOSE_TIMESTAMP	0.749006	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17007648183585760156	HDF5_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17007648183585760156	HDF5_F_OPEN_TIMESTAMP	23.706145	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+HDF5	-1	17007648183585760156	HDF5_F_CLOSE_TIMESTAMP	24.146700	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.h5	/turquoise/usr/projects/workflow_perf	nfs
+
+# *******************************************************
+# STDIO module data
+# *******************************************************
+
+# description of STDIO counters:
+#   STDIO_{OPENS|WRITES|READS|SEEKS|FLUSHES} are types of operations.
+#   STDIO_BYTES_*: total bytes read and written.
+#   STDIO_MAX_BYTE_*: highest offset byte read and written.
+#   STDIO_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   STDIO_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   STDIO_F_*_START_TIMESTAMP: timestamp of the first call to that type of function.
+#   STDIO_F_*_END_TIMESTAMP: timestamp of the completion of the last call to that type of function.
+#   STDIO_F_*_TIME: cumulative time spent in different types of functions.
+#   STDIO_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   STDIO_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+STDIO	-1	1087467774245625053	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_WRITES	28	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_BYTES_WRITTEN	1519	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_MAX_BYTE_WRITTEN	379	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_FASTEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_FASTEST_RANK_BYTES	380	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_SLOWEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_SLOWEST_RANK_BYTES	379	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_META_TIME	0.009498	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_WRITE_TIME	0.000115	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_OPEN_START_TIMESTAMP	0.004779	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_CLOSE_START_TIMESTAMP	24.147082	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_WRITE_START_TIMESTAMP	0.740321	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_OPEN_END_TIMESTAMP	0.006650	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_CLOSE_END_TIMESTAMP	24.150003	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_WRITE_END_TIMESTAMP	24.147705	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_FASTEST_RANK_TIME	0.001760	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_SLOWEST_RANK_TIME	0.003722	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_VARIANCE_RANK_TIME	0.000001	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	1087467774245625053	STDIO_F_VARIANCE_RANK_BYTES	0.187500	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/crux_timing.log	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_FASTEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_SLOWEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_META_TIME	0.005248	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_WRITE_TIME	0.000195	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_OPEN_START_TIMESTAMP	9.585321	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_CLOSE_START_TIMESTAMP	10.000842	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_WRITE_START_TIMESTAMP	9.586951	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_OPEN_END_TIMESTAMP	9.588233	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_CLOSE_END_TIMESTAMP	10.001976	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_WRITE_END_TIMESTAMP	10.001638	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_FASTEST_RANK_TIME	0.000988	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_SLOWEST_RANK_TIME	0.001810	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	5287771289253601540	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00200.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_SLOWEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_META_TIME	0.004466	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_WRITE_TIME	0.000201	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_OPEN_START_TIMESTAMP	0.316159	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_CLOSE_START_TIMESTAMP	0.693997	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_WRITE_START_TIMESTAMP	0.317726	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_OPEN_END_TIMESTAMP	0.318229	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_CLOSE_END_TIMESTAMP	0.724721	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_WRITE_END_TIMESTAMP	0.724378	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_FASTEST_RANK_TIME	0.001074	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_SLOWEST_RANK_TIME	0.001312	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	9364157586589082683	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00000.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_META_TIME	0.004253	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_WRITE_TIME	0.000220	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_OPEN_START_TIMESTAMP	4.917482	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_CLOSE_START_TIMESTAMP	5.319641	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_WRITE_START_TIMESTAMP	4.919136	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_OPEN_END_TIMESTAMP	4.919389	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_CLOSE_END_TIMESTAMP	5.320855	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_WRITE_END_TIMESTAMP	5.320575	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_FASTEST_RANK_TIME	0.000948	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_SLOWEST_RANK_TIME	0.001317	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12333731816885747862	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00100.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_SLOWEST_RANK	3	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_META_TIME	0.005757	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_WRITE_TIME	0.000224	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_OPEN_START_TIMESTAMP	18.726406	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_CLOSE_START_TIMESTAMP	19.132174	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_WRITE_START_TIMESTAMP	18.728407	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_OPEN_END_TIMESTAMP	18.728753	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_CLOSE_END_TIMESTAMP	19.133336	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_WRITE_END_TIMESTAMP	19.132957	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_FASTEST_RANK_TIME	0.001082	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_SLOWEST_RANK_TIME	0.001889	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12708043594554333436	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00400.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_FASTEST_RANK	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_SLOWEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_META_TIME	0.003834	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_WRITE_TIME	0.000239	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_OPEN_START_TIMESTAMP	23.707385	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_CLOSE_START_TIMESTAMP	24.127378	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_WRITE_START_TIMESTAMP	23.708842	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_OPEN_END_TIMESTAMP	23.709758	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_CLOSE_END_TIMESTAMP	24.128761	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_WRITE_END_TIMESTAMP	24.128428	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_FASTEST_RANK_TIME	0.000818	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_SLOWEST_RANK_TIME	0.001397	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	12756934152430402329	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00500.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_OPENS	4	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_READS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_WRITES	148	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_SEEKS	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_FLUSHES	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_BYTES_WRITTEN	1920	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_BYTES_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_MAX_BYTE_READ	0	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_MAX_BYTE_WRITTEN	479	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_FASTEST_RANK	2	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_FASTEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_SLOWEST_RANK	1	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_SLOWEST_RANK_BYTES	480	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_META_TIME	0.004767	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_WRITE_TIME	0.000195	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_READ_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_OPEN_START_TIMESTAMP	13.953131	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_CLOSE_START_TIMESTAMP	14.354381	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_WRITE_START_TIMESTAMP	13.954808	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_READ_START_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_OPEN_END_TIMESTAMP	13.955061	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_CLOSE_END_TIMESTAMP	14.355514	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_WRITE_END_TIMESTAMP	14.355202	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_READ_END_TIMESTAMP	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_FASTEST_RANK_TIME	0.001139	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_SLOWEST_RANK_TIME	0.001332	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_VARIANCE_RANK_TIME	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	13696582828948570705	STDIO_F_VARIANCE_RANK_BYTES	0.000000	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-13_23:22/ossiot_clamr_mpionly/checkpoint_output/backup00300.crx	/turquoise/usr/projects/workflow_perf	nfs
+STDIO	-1	15920181672442173319	STDIO_OPENS	4	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_READS	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_WRITES	243	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SEEKS	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FLUSHES	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_BYTES_WRITTEN	5007	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_BYTES_READ	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_MAX_BYTE_READ	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_MAX_BYTE_WRITTEN	4766	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FASTEST_RANK	1	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_FASTEST_RANK_BYTES	80	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SLOWEST_RANK	0	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_SLOWEST_RANK_BYTES	4767	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_META_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_TIME	0.000480	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_OPEN_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_CLOSE_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_START_TIMESTAMP	0.282493	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_START_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_OPEN_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_CLOSE_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_WRITE_END_TIMESTAMP	24.147702	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_READ_END_TIMESTAMP	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_FASTEST_RANK_TIME	0.000020	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_SLOWEST_RANK_TIME	0.000419	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_VARIANCE_RANK_TIME	0.000000	<STDOUT>	UNKNOWN	UNKNOWN
+STDIO	-1	15920181672442173319	STDIO_F_VARIANCE_RANK_BYTES	4118994.187500	<STDOUT>	UNKNOWN	UNKNOWN

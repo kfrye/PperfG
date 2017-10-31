@@ -1,0 +1,161 @@
+RunDataBegin
+LaunchDateTime=1481579503
+UserName=kfrye
+ApplicationName=clamr_mpionly
+ExecutableName=/turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly
+RunMachine=wc068
+RunOSName=Linux
+RunOSReleaseVersion=#1 SMP Mon Oct 24 10:49:01 PDT 2016
+RunOSReleaseType=2.6.32-642.6.2.1chaos.ch5.5.x86_64
+RunEnv=SLURM_CHECKPOINT_IMAGE_DIR=/opt/MOAB@@@SLURM_NODELIST=wc068@@@REMOTEHOST=wtrw1.lanl.gov@@@_MODULES_FC=intel/16.0.3@@@SLURM_JOB_NAME=msub_mpi004@@@MANPATH=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/share/man:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/man/common:@@@SLURMD_NODENAME=wc068@@@SLURM_TOPOLOGY_ADDR=wc068@@@SLURM_NTASKS_PER_NODE=4@@@HOSTNAME=wc068@@@LCOMPILER=intel@@@SLURM_PRIO_PROCESS=0@@@INTEL_LICENSE_FILE=/usr/projects/hpcsoft/toss2/common/intel/license.dat@@@HOST=wc068.localdomain@@@SHELL=/bin/tcsh@@@TERM=screen@@@ORTE_CC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc@@@WISECONFIGDIR=/usr/share/wise2/@@@TMPDIR=/tmp@@@SLURM_TOPOLOGY_ADDR_PATTERN=node@@@SSH_CLIENT=204.121.65.1 54512 22@@@LMPI=openmpi@@@LD_PRELOAD=/usr/projects/darshan/sw/toss-x86_64_wc/lib/libdarshan.so@@@ORTE_CXX=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc@@@OMPI_F77=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort@@@QTDIR=/usr/lib64/qt-3.3@@@OMPI_FC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort@@@QTINC=/usr/lib64/qt-3.3/include@@@SSH_TTY=/dev/pts/2@@@LMPIVER=1.10.3@@@INTEL=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux@@@SLURM_NNODES=1@@@GROUP=kfrye@@@USER=kfrye@@@LD_LIBRARY_PATH=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/lib:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/lib64:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/lib/intel64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib:/usr/projects/workflow_perf/osscbtf_v2.3.0/lib64:/usr/projects/workflow_perf/cbtf_v2.30/lib64@@@LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:@@@SLURM_JOBID=77063@@@TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:\@@@	:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:\@@@	:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:\@@@	:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:\@@@	:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:\@@@	:li#24:co#80:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:\@@@	:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:\@@@	:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:\@@@	:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:\@@@	:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:\@@@	:se=\E[23m:mb=\E[5m:md=\E[1m:mr=\E[7m:me=\E[m:ms:\@@@	:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:\@@@	:vb=\Eg:G0:as=\E(0:ae=\E(B:\@@@	:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\@@@	:po=\E[5i:pf=\E[4i:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:\@@@	:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:\@@@	:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:F3=\E[1;2P:\@@@	:F4=\E[1;2Q:F5=\E[1;2R:F6=\E[1;2S:F7=\E[15;2~:\@@@	:F8=\E[17;2~:F9=\E[18;2~:FA=\E[19;2~:kb=:K2=\EOE:\@@@	:kB=\E[Z:kF=\E[1;2B:kR=\E[1;2A:*4=\E[3;2~:*7=\E[1;2F:\@@@	:#2=\E[1;2H:#3=\E[2;2~:#4=\E[1;2D:%c=\E[6;2~:%e=\E[5;2~:\@@@	:%i=\E[1;2C:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:\@@@	:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:\@@@	:kr=\EOC:kl=\EOD:km:@@@CPATH=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/include@@@HOSTTYPE=x86_64-linux@@@RUN_DIR=/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-12_11:43/ossiot_clamr_mpionly@@@SLURM_NTASKS=4@@@SLURM_TASKS_PER_NODE=4@@@MAIL=/var/spool/mail/kfrye@@@PATH=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/bin:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/bin:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/opt/MOAB/bin:/opt/PBS/bin:/opt/dell/srvadmin/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin@@@STY=972.pts-2.wc-fe1@@@MPI_NAME=openmpi@@@SLURM_JOB_ID=77063@@@PWD=/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-12_11:43/ossiot_clamr_mpionly@@@_LMFILES_=/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler/intel/16.0.3:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi/openmpi/1.10.3@@@SCRIPTS_DIR=/turquoise/usr/projects/workflow_perf/CLAMR_wc/woodchuck_scripts@@@LANG=en_US.UTF-8@@@DYNINSTAPI_RT_LIB=/usr/projects/workflow_perf/krellroot_v2.3.0/lib64/libdyninstAPI_RT.so@@@DARSHAN_LOG_PATH=/usr/projects/workflow_perf/darshan@@@MODULEPATH=/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/tools@@@MOABHOMEDIR=/opt/MOAB@@@LOADEDMODULES=intel/16.0.3:openmpi/1.10.3@@@SLURM_NODEID=0@@@OPAL_CC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc@@@PROJECT_DIR=/usr/projects/workflow_perf@@@SLURM_SUBMIT_DIR=/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-12_11:43@@@F77=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort@@@SLURM_TASK_PID=78557@@@SLURM_NPROCS=4@@@MPI_VERSION=1.10.3@@@SLURM_CPUS_ON_NODE=16@@@SLURM_PROCID=0@@@ENVIRONMENT=BATCH@@@CXX=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc@@@SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass@@@SLURM_JOB_NODELIST=wc068@@@OPAL_CXX=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc@@@SHLVL=5@@@HOME=/users/kfrye@@@SLURM_LOCALID=0@@@SLURM_GET_USER_ENV=1@@@OMPI_CC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc@@@OSTYPE=linux@@@SLURM_JOB_CPUS_PER_NODE=16@@@LCOMPILERMAJVER=16@@@SLURM_GTIDS=0@@@MPIHOME=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3@@@GCC=/usr/projects/hpcsoft/toss2/common/gcc/5.3.0@@@FC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort@@@RUNS_DIR=/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-12_11:43@@@VENDOR=unknown@@@MPI_ROOT=/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3@@@PYTHONPATH=/usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack@@@MACHTYPE=x86_64@@@LOGNAME=kfrye@@@LUSTRE_JOBID=wc.77063@@@BUILD_DIR=/turquoise/usr/projects/workflow_perf/CLAMR_wc@@@WINDOW=0@@@QTLIB=/usr/lib64/qt-3.3/lib@@@CVS_RSH=ssh@@@SSH_CONNECTION=204.121.65.1 54512 204.121.65.81 22@@@SLURM_JOB_NUM_NODES=1@@@MODULESHOME=/usr/share/Modules@@@OMPI_CXX=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc@@@LMPIMAJVER=1.10@@@LESSOPEN=||/usr/bin/lesspipe.sh %s@@@LCOMPILERVER=16.0.3@@@CC=/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc@@@PTDB=PG_PYGRESQL@@@G_BROKEN_FILENAMES=1@@@_MODULES_CC=intel/16.0.3@@@_=/bin/env
+PageSize=4096
+NumberOfProcesses=4
+UsesMPI=False
+UsesOpenMP=False
+UsesPthreads=False
+SubmissionBegin
+launcher = mpirun
+launcherVersion = mpirun (Open MPI) 1.10.3
+programVersion = clamr
+batchFile = None
+runCmd_1=mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly -n 512 -i 100 -t 500 -P "hilbert_sort" -p "local_hilbert" -l 2 -c 100 -b 10
+SubmissionEnd
+FileSystemBegin
+Name = lustre
+Version = lustre: 2.5.5
+kernel: patchless_client
+build:  -9chaos-CHANGED-2.6.32-642.6.2.1chaos.ch5.5.x86_64
+DeviceBegin
+Name = l2
+deviceName = 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2
+mountPoint = /lustre/scratch2
+Size = 2.3P
+Used = 1.8P
+Avail = 509T
+Used% = 78%
+DeviceEnd
+DeviceBegin
+Name = l3
+deviceName = 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3
+mountPoint = /lustre/scratch3
+Size = 9.2P
+Used = 2.0P
+Avail = 7.1P
+Used% = 22%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = tmpfs
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /dev/shm
+Size = 2.0G
+Used = 0
+Avail = 2.0G
+Used% = 0%
+DeviceEnd
+DeviceBegin
+Name = tmpfs
+deviceName = tmpfs
+mountPoint = /tmp
+Size = 2.0G
+Used = 12K
+Avail = 2.0G
+Used% = 1%
+DeviceEnd
+FileSystemEnd
+FileSystemBegin
+Name = nfs
+DeviceBegin
+Name = vnfs
+deviceName = 192.168.1.231:/var/lib/perceus/vnfs
+mountPoint = /var/lib/perceus/vnfs
+Size = 456G
+Used = 362G
+Avail = 71G
+Used% = 84%
+DeviceEnd
+DeviceBegin
+Name = fs4
+deviceName = wc-fs4-bond0:/fs4
+mountPoint = /fs4
+Size = 338T
+Used = 25T
+Avail = 313T
+Used% = 8%
+DeviceEnd
+DeviceBegin
+Name = hook
+deviceName = wc-fs5-bond0:/hook
+mountPoint = /fs5
+Size = 239T
+Used = 239T
+Avail = 0
+Used% = 100%
+DeviceEnd
+DeviceBegin
+Name = sparow
+deviceName = wc-fs6-bond0:/sparow
+mountPoint = /fs6
+Size = 471T
+Used = 468T
+Avail = 2.9T
+Used% = 100%
+DeviceEnd
+DeviceBegin
+Name = users
+deviceName = filer4:/users
+mountPoint = /turquoise/users
+Size = 2.1T
+Used = 757G
+Avail = 1.4T
+Used% = 37%
+DeviceEnd
+DeviceBegin
+Name = hpcsoft
+deviceName = filer4:/hpcsoft
+mountPoint = /turquoise/usr/projects/hpcsoft
+Size = 1.2T
+Used = 940G
+Avail = 261G
+Used% = 79%
+DeviceEnd
+DeviceBegin
+Name = packages
+deviceName = filer4:/packages
+mountPoint = /turquoise/usr/projects/packages
+Size = 338G
+Used = 301G
+Avail = 37G
+Used% = 90%
+DeviceEnd
+DeviceBegin
+Name = cint
+deviceName = filer4:/cint
+mountPoint = /turquoise/usr/projects/cint
+Size = 651G
+Used = 406G
+Avail = 245G
+Used% = 63%
+DeviceEnd
+DeviceBegin
+Name = workflow_perf
+deviceName = filer3:/workflow_perf
+mountPoint = /turquoise/usr/projects/workflow_perf
+Size = 21G
+Used = 3.9G
+Avail = 17G
+Used% = 19%
+DeviceEnd
+DeviceBegin
+Name = darshan
+deviceName = filer3:/darshan
+mountPoint = /turquoise/usr/projects/darshan
+Size = 2.3G
+Used = 64M
+Avail = 2.2G
+Used% = 3%
+DeviceEnd
+FileSystemEnd
+RunDataEnd
