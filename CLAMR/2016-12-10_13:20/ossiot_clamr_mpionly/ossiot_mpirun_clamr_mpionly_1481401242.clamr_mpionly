@@ -1,0 +1,91 @@
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/CLAMR_ml/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -b 10
+Number of mrnet backends: 4
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 4 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/CLAMR_ml/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -b 10
+App launch reported: 1 (out of 1) daemons - 4 (out of 4) procs
+Mass of initialized cells equal to  2003293.89775
+CPU:  setup time               time was	  0.2994	  0.2993	  0.2993	  0.2993	s
+Memory used      in startup 	     27008	     27632	     27628	     27548	kB
+Memory peak      in startup 	     34808	     35444	     35440	     35352	kB
+Memory free      at startup 	  31252876	  31252876	  31252876	  31252876	kB
+Memory available at startup 	  32957516	  32957516	  32957516	  32957516	kB
+Iteration   0 timestep      n/a Sim Time      0.0 cells 266316 Mass Sum  2003293.89775
+Iteration 100 timestep 0.000161 Sim Time 0.021659 cells 270060 Mass Sum  2003293.89775 Mass Change            0
+Iteration 200 timestep 0.000154 Sim Time 0.037352 cells 271812 Mass Sum  2003293.89775 Mass Change            0
+Iteration 300 timestep 0.000149 Sim Time 0.052410 cells 273384 Mass Sum  2003293.89775 Mass Change            0
+Iteration 400 timestep 0.000147 Sim Time 0.067222 cells 274776 Mass Sum  2003293.89775 Mass Change            0
+Iteration 500 timestep 0.000149 Sim Time 0.081992 cells 275640 Mass Sum  2003293.89775 Mass Change            0
+CRUX checkpointing time averaged 457.318664 msec, bandwidth 5.354118 Mbytes/sec
+CRUX checkpointing time averaged 457.174987 msec, bandwidth 5.355800 Mbytes/sec
+Memory used      	     30544	     31336	     31308	     31240	kB
+Memory peak      	     34808	     35444	     35440	     35352	kB
+Memory free      	  31251816	  31239128	  31251816	  31239128	kB
+Memory available 	  32957516	  32957516	  32957516	  32957516	kB
+
+~~~~~~~~~~~~~~~~ Device timing information ~~~~~~~~~~~~~~~~~~
+
+CPU: Parallel timings
+
+CPU: Device compute           time was	 20.8446	 20.8412	 20.8404	 20.8432	s
+CPU:   state_timer_set_timestep      		    0.7660	    0.7633	    0.7639	    0.7639	s
+CPU:   state_timer_finite_difference 		   12.0404	   11.9948	   11.9965	   12.0058	s
+CPU:   state_timer_refine_potential  		    1.2469	    1.2819	    1.2805	    1.2715	s
+CPU:     state_timer_calc_mpot         		      0.6387	      0.6704	      0.6699	      0.6618	s
+CPU:     mesh_timer_refine_smooth      		      0.4943	      0.4967	      0.4965	      0.4950	s
+CPU:   state_timer_rezone_all        		    1.0089	    1.0094	    1.0088	    1.0091	s
+CPU:   mesh_timer_partition          		    0.0000	    0.0000	    0.0000	    0.0000	s
+CPU:   mesh_timer_calc_neighbors     		    5.7783	    5.7877	    5.7878	    5.7880	s
+CPU:     mesh_timer_hash_setup         		      0.7180	      0.7290	      0.7285	      0.7216	s
+CPU:     mesh_timer_hash_query         		      2.2532	      2.2551	      2.2668	      2.2397	s
+CPU:     mesh_timer_find_boundary      		      0.3448	      0.3655	      0.3526	      0.3877	s
+CPU:     mesh_timer_push_setup         		      0.1401	      0.1093	      0.1105	      0.1094	s
+CPU:     mesh_timer_push_boundary      		      0.0104	      0.0081	      0.0079	      0.0081	s
+CPU:     mesh_timer_local_list         		      0.0005	      0.0005	      0.0005	      0.0006	s
+CPU:     mesh_timer_layer1             		      0.0909	      0.0857	      0.0883	      0.0852	s
+CPU:     mesh_timer_layer2             		      0.0438	      0.0391	      0.0427	      0.0380	s
+CPU:     mesh_timer_layer_list         		      0.0002	      0.0002	      0.0002	      0.0002	s
+CPU:     mesh_timer_copy_mesh_data     		      0.0108	      0.0089	      0.0082	      0.0092	s
+CPU:     mesh_timer_fill_mesh_ghost    		      0.0024	      0.0018	      0.0018	      0.0018	s
+CPU:     mesh_timer_fill_neigh_ghost   		      0.2051	      1.8919	      1.9156	      1.8848	s
+CPU:     mesh_timer_set_corner_neigh   		      0.0001	      0.0003	      0.0003	      0.0003	s
+CPU:     mesh_timer_neigh_adjust       		      0.1024	      0.1023	      0.1028	      0.1026	s
+CPU:     mesh_timer_setup_comm         		      1.7588	      0.0837	      0.0535	      0.0915	s
+CPU:   state_timer_mass_sum          		    0.0036	    0.0037	    0.0024	    0.0042	s
+CPU:   mesh_timer_load_balance       		    0.0005	    0.0005	    0.0005	    0.0005	s
+CPU:   mesh_timer_calc_spatial_coordi		    0.0000	    0.0000	    0.0000	    0.0000	s
+=============================================================
+Profiling: Total CPU          time was	 20.8446	 20.8412	 20.8404	 20.8432	s
+-------------------------------------------------------------
+Mesh Ops (Neigh+rezone+smooth+balance) 	  7.2821	  7.2943	  7.2937	  7.2927	s
+Mesh Ops Percentage                    	 34.9350	 34.9993	 34.9978	 34.9884	percent
+=============================================================
+Profiling: Total              time was	 23.2086	 23.2086	 23.2093	 23.2086	s
+=============================================================
+CPU:  calc incl part meas     time was	 20.9496	 20.9481	 20.9476	 20.9490	s
+CPU:  calculation only        time was	 20.9488	 20.9474	 20.9468	 20.9482	s
+CPU:  partition measure       time was	  0.0008	  0.0008	  0.0008	  0.0008	s
+CPU:  graphics                time was	  0.0000	  0.0000	  0.0000	  0.0000	s
+The MPI surface area to volume ratio 	  0.0157	  0.0157	  0.0157	  0.0157	without duplicates
+Using hash tables to calculate neighbors
+Initial order is Hilbert sort.   No cycle reorder.   Local Stencil is on.
+CPU:  rezone frequency                	  49.6000	percent
+CPU:  calc neigh frequency            	  49.8000	percent
+CPU:  load balance frequency          	   0.0000	percent
+CPU:  refine_smooth_iter per rezone   	 CRUX checkpointing time averaged 457.518488 msec, bandwidth 5.351779 Mbytes/sec
+  0.8952	
+CRUX checkpointing time averaged 457.043499 msec, bandwidth 5.357341 Mbytes/sec
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 24.189903 seconds  from 2016/12/10 13:20:43 to 2016/12/10 13:21:07
+
+    I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+    Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                   Time   Calls              Written              Written     Written  
+                                                                                       
+10520.385688  98.759647     592         4          5        12     560016    59459166  __GI___write (libc-2.12.so: syscall-template.S,82)
+   82.772168   0.777020      24                                                        __GI___libc_close (libc-2.12.so: syscall-template.S,82)
+   45.968873   0.431531      48                                                        __GI_open64 (libc-2.12.so: syscall-template.S,82)
+    2.357107   0.022127     552                                                        __GI_lseek64 (libc-2.12.so: syscall-template.S,82)
+    1.030632   0.009675     226        34          8         4      25021      119612  __read (libc-2.12.so: syscall-template.S,82)

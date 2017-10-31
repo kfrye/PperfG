@@ -1,0 +1,928 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application clamr_mpionly
+Execution ossiot_mpirun_clamr_mpionly_1481073550 clamr_mpionly
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 LaunchDateTime 1481073550 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 UserName kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 ApplicationName clamr_mpionly string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 ExecutableName /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_CHECKPOINT_IMAGE_DIR /opt/MOAB string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NODELIST wc124 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_REMOTEHOST wtrw2.lanl.gov string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env__MODULES_FC intel/16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOB_NAME msub_mpi004 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MANPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/share/man:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/man/common:/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-gcc-4.4.7/share/man: string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURMD_NODENAME wc124 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_TOPOLOGY_ADDR wc124 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NTASKS_PER_NODE 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_HOSTNAME wc124 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LCOMPILER intel string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_INTEL_LICENSE_FILE /usr/projects/hpcsoft/toss2/common/intel/license.dat string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_HOST wc124.localdomain string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SHELL /bin/tcsh string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_TERM xterm-256color string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_ORTE_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_TMPDIR /tmp string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SSH_CLIENT "204.121.65.2 54712 22" string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LMPI openmpi string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_ORTE_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OMPI_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OMPI_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SSH_TTY /dev/pts/1 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LMPIVER 1.10.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_INTEL /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NNODES 1 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_GROUP kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_USER kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/lib:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/lib64:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/lib/intel64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib:/usr/projects/workflow_perf/osscbtf_v2.3.0/lib64:/usr/projects/workflow_perf/cbtf_v2.30/lib64 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LS_COLORS rs string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOBID 74464 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_CPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/include:/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-gcc-4.4.7/include string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-06_18:08/ossiot_clamr_mpionly string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NTASKS 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_TASKS_PER_NODE 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/bin:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/bin:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64:/usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-gcc-4.4.7/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/opt/MOAB/bin:/opt/PBS/bin:/opt/dell/srvadmin/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MPI_NAME openmpi string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOB_ID 74464 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_PWD /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-06_18:08/ossiot_clamr_mpionly string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env__LMFILES_ /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi/openmpi/1.10.3:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc/friendly-testing:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler/intel/16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/CLAMR_wc/woodchuck_scripts string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LANG en_US.UTF-8 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/krellroot_v2.3.0/lib64/libdyninstAPI_RT.so string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MODULEPATH /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/tools:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/friendly-testing string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LOADEDMODULES openmpi/1.10.3:friendly-testing:intel/16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NODEID 0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OPAL_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-06_18:08 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_TASK_PID 52740 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_NPROCS 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MPI_VERSION 1.10.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_PROCID 0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_ENVIRONMENT BATCH string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOB_NODELIST wc124 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OPAL_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SHLVL 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_HOME /users/kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_LOCALID 0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_GET_USER_ENV 1 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OMPI_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OSTYPE linux string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOB_CPUS_PER_NODE 16 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LCOMPILERMAJVER 16 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_GTIDS 0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MPIHOME /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_GCC /usr/projects/hpcsoft/toss2/common/gcc/5.3.0 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-06_18:08 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_VENDOR unknown string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MPI_ROOT /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MACHTYPE x86_64 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LOGNAME kfrye string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LUSTRE_JOBID wc.74464 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/CLAMR_wc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_CVS_RSH ssh string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SSH_CONNECTION "204.121.65.2 54712 204.121.65.81 22" string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_SLURM_JOB_NUM_NODES 1 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_MODULESHOME /usr/share/Modules string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_OMPI_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LMPIMAJVER 1.10 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_LCOMPILERVER 16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_PTDB PG_PYGRESQL string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env_G_BROKEN_FILENAMES 1 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env__MODULES_CC intel/16.0.3 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 Env__ /bin/env string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 PageSize 4096 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 NumberOfProcesses 4 string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 UsesMPI False string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 UsesOpenMP False string
+ResourceAttribute ossiot_mpirun_clamr_mpionly_1481073550 UsesPthreads False string
+Resource 17.26640 metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource 17.26641 metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource 17.26642 metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calc incl part meas time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calc incl part meas time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calc incl part meas time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calc incl part meas time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calc neigh frequency0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calculation only time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calculation only time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calculation only time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: calculation only time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: graphics time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: graphics time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: graphics time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: graphics time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: load balance frequency0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_neighbors0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_neighbors1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_neighbors2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_neighbors3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_spatial_coordi0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_spatial_coordi1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_spatial_coordi2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_calc_spatial_coordi3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_copy_mesh_data0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_copy_mesh_data1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_copy_mesh_data2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_copy_mesh_data3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_mesh_ghost0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_mesh_ghost1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_mesh_ghost2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_mesh_ghost3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_neigh_ghost0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_neigh_ghost1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_neigh_ghost2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_fill_neigh_ghost3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_find_boundary0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_find_boundary1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_find_boundary2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_find_boundary3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_query0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_query1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_query2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_query3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_setup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_setup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_setup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_hash_setup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer10" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer11" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer12" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer13" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer20" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer21" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer22" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer23" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer_list0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer_list1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer_list2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_layer_list3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_load_balance0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_load_balance1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_load_balance2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_load_balance3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_local_list0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_local_list1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_local_list2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_local_list3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_neigh_adjust0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_neigh_adjust1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_neigh_adjust2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_neigh_adjust3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_partition0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_partition1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_partition2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_partition3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_boundary0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_boundary1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_boundary2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_boundary3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_setup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_setup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_setup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_push_setup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_refine_smooth0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_refine_smooth1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_refine_smooth2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_refine_smooth3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_set_corner_neigh0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_set_corner_neigh1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_set_corner_neigh2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_set_corner_neigh3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_setup_comm0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_setup_comm1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_setup_comm2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: mesh_timer_setup_comm3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: partition measure time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: partition measure time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: partition measure time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: partition measure time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: refine_smooth_iter per rezone0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: rezone frequency0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: setup time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: setup time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: setup time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: setup time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_calc_mpot0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_calc_mpot1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_calc_mpot2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_calc_mpot3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_finite_difference0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_finite_difference1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_finite_difference2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_finite_difference3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_mass_sum0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_mass_sum1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_mass_sum2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_mass_sum3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_refine_potential0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_refine_potential1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_refine_potential2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_refine_potential3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_rezone_all0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_rezone_all1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_rezone_all2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_rezone_all3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_set_timestep0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_set_timestep1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_set_timestep2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CPU: state_timer_set_timestep3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing bandwidth0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing bandwidth1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing bandwidth2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing bandwidth3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing time0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing time1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing time2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "CRUX checkpointing time3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Change100" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Change200" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Change300" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Change400" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Change500" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum100" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum200" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum300" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum400" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Mass Sum500" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time100" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time200" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time300" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time400" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration Sim time500" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells100" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells200" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells300" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells400" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration cells500" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration timestep100" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration timestep200" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration timestep300" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration timestep400" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Iteration timestep500" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource LANL|Woodchuck|turquoise|wc124 grid|machine|partition|node ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65" operatingSystem ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mass of initialized cells" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available at startup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available at startup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available at startup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available at startup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory available3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free at startup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free at startup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free at startup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free at startup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory free3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak in startup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak in startup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak in startup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak in startup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory peak3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used in startup0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used in startup1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used in startup2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used in startup3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Memory used3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Neigh+rezone+smooth+balance0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Neigh+rezone+smooth+balance1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Neigh+rezone+smooth+balance2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Neigh+rezone+smooth+balance3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Percentage0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Percentage1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Percentage2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Mesh Ops Percentage3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total CPU time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total CPU time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total CPU time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total CPU time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total time was0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total time was1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total time was2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "Profiling: Total time was3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "The MPI surface area to volume ratio0" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "The MPI surface area to volume ratio1" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "The MPI surface area to volume ratio2" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource "The MPI surface area to volume ratio3" metric ossiot_mpirun_clamr_mpionly_1481073550
+Resource env-66 environment ossiot_mpirun_clamr_mpionly_1481073550
+Resource io_call_time___GI___libc_lseek64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_call_time___GI___libc_lseek64 performanceTool ossiot string
+ResourceAttribute io_call_time___GI___libc_lseek64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_call_time___GI___open64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_call_time___GI___open64 performanceTool ossiot string
+ResourceAttribute io_call_time___GI___open64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_call_time___GI_close metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_call_time___GI_close performanceTool ossiot string
+ResourceAttribute io_call_time___GI_close description (libc-2.12.so:syscall-template.S,82) string
+Resource io_call_time___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_call_time___libc_write performanceTool ossiot string
+ResourceAttribute io_call_time___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_call_time___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_call_time___read performanceTool ossiot string
+ResourceAttribute io_call_time___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_max_bytes_count___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_max_bytes_count___libc_write performanceTool ossiot string
+ResourceAttribute io_max_bytes_count___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_max_bytes_count___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_max_bytes_count___read performanceTool ossiot string
+ResourceAttribute io_max_bytes_count___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_max_bytes_read_written___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_max_bytes_read_written___libc_write performanceTool ossiot string
+ResourceAttribute io_max_bytes_read_written___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_max_bytes_read_written___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_max_bytes_read_written___read performanceTool ossiot string
+ResourceAttribute io_max_bytes_read_written___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_min_bytes_count___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_min_bytes_count___libc_write performanceTool ossiot string
+ResourceAttribute io_min_bytes_count___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_min_bytes_count___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_min_bytes_count___read performanceTool ossiot string
+ResourceAttribute io_min_bytes_count___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_min_bytes_read_written___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_min_bytes_read_written___libc_write performanceTool ossiot string
+ResourceAttribute io_min_bytes_read_written___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_min_bytes_read_written___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_min_bytes_read_written___read performanceTool ossiot string
+ResourceAttribute io_min_bytes_read_written___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_number_of_calls___GI___libc_lseek64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_number_of_calls___GI___libc_lseek64 performanceTool ossiot string
+ResourceAttribute io_number_of_calls___GI___libc_lseek64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_number_of_calls___GI___open64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_number_of_calls___GI___open64 performanceTool ossiot string
+ResourceAttribute io_number_of_calls___GI___open64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_number_of_calls___GI_close metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_number_of_calls___GI_close performanceTool ossiot string
+ResourceAttribute io_number_of_calls___GI_close description (libc-2.12.so:syscall-template.S,82) string
+Resource io_number_of_calls___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_number_of_calls___libc_write performanceTool ossiot string
+ResourceAttribute io_number_of_calls___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_number_of_calls___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_number_of_calls___read performanceTool ossiot string
+ResourceAttribute io_number_of_calls___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_percent___GI___libc_lseek64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_percent___GI___libc_lseek64 performanceTool ossiot string
+ResourceAttribute io_percent___GI___libc_lseek64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_percent___GI___open64 metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_percent___GI___open64 performanceTool ossiot string
+ResourceAttribute io_percent___GI___open64 description (libc-2.12.so:syscall-template.S,82) string
+Resource io_percent___GI_close metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_percent___GI_close performanceTool ossiot string
+ResourceAttribute io_percent___GI_close description (libc-2.12.so:syscall-template.S,82) string
+Resource io_percent___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_percent___libc_write performanceTool ossiot string
+ResourceAttribute io_percent___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_percent___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_percent___read performanceTool ossiot string
+ResourceAttribute io_percent___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource io_total_byes_read_written___libc_write metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_total_byes_read_written___libc_write performanceTool ossiot string
+ResourceAttribute io_total_byes_read_written___libc_write description __libc_write(libc-2.12.so:syscall-template.S,82) string
+Resource io_total_byes_read_written___read metric ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute io_total_byes_read_written___read performanceTool ossiot string
+ResourceAttribute io_total_byes_read_written___read description __read(libc-2.12.so:syscall-template.S,82) string
+Resource lustre-68 fileSystem ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute lustre-68 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-68 fs_type lustre string
+Resource lustre-68|l2 fileSystem|device ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute lustre-68|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-68|l2 mountPoint /lustre/scratch2 string
+ResourceAttribute lustre-68|l2 Size 2.3P string
+ResourceAttribute lustre-68|l2 Used 1.8P string
+ResourceAttribute lustre-68|l2 Avail 466T string
+ResourceAttribute lustre-68|l2 Used% 80% string
+Resource lustre-68|l3 fileSystem|device ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute lustre-68|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-68|l3 mountPoint /lustre/scratch3 string
+ResourceAttribute lustre-68|l3 Size 9.2P string
+ResourceAttribute lustre-68|l3 Used 1.9P string
+ResourceAttribute lustre-68|l3 Avail 7.3P string
+ResourceAttribute lustre-68|l3 Used% 21% string
+Resource ossiot_mpirun_clamr_mpionly_1481073550|Process-0 execution|process ossiot_mpirun_clamr_mpionly_1481073550
+Resource ossiot_mpirun_clamr_mpionly_1481073550|Process-1 execution|process ossiot_mpirun_clamr_mpionly_1481073550
+Resource ossiot_mpirun_clamr_mpionly_1481073550|Process-2 execution|process ossiot_mpirun_clamr_mpionly_1481073550
+Resource ossiot_mpirun_clamr_mpionly_1481073550|Process-3 execution|process ossiot_mpirun_clamr_mpionly_1481073550
+Resource "self instrumentation" performanceTool ossiot_mpirun_clamr_mpionly_1481073550
+Resource submission-67 submission ossiot_mpirun_clamr_mpionly_1481073550
+ResourceAttribute submission-67 launcher mpirun string
+ResourceAttribute submission-67 launcherVersion "mpirun (Open MPI) 1.10.3" string
+ResourceAttribute submission-67 programVersion clamr string
+ResourceAttribute submission-67 batchFile None string
+ResourceAttribute submission-67 runCmd_1 "ossiot\"\"mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly -n 512 -i 100 -t 500 -P \"hilbert_sort\" -p \"local_hilbert\" -l 2 -c 100 -b 10\"\"" string
+ResourceConstraint 17.26640 "self instrumentation"
+ResourceConstraint 17.26641 "self instrumentation"
+ResourceConstraint 17.26642 "self instrumentation"
+ResourceConstraint "CPU: calc incl part meas time was0" "self instrumentation"
+ResourceConstraint "CPU: calc incl part meas time was1" "self instrumentation"
+ResourceConstraint "CPU: calc incl part meas time was2" "self instrumentation"
+ResourceConstraint "CPU: calc incl part meas time was3" "self instrumentation"
+ResourceConstraint "CPU: calc neigh frequency0" "self instrumentation"
+ResourceConstraint "CPU: calculation only time was0" "self instrumentation"
+ResourceConstraint "CPU: calculation only time was1" "self instrumentation"
+ResourceConstraint "CPU: calculation only time was2" "self instrumentation"
+ResourceConstraint "CPU: calculation only time was3" "self instrumentation"
+ResourceConstraint "CPU: graphics time was0" "self instrumentation"
+ResourceConstraint "CPU: graphics time was1" "self instrumentation"
+ResourceConstraint "CPU: graphics time was2" "self instrumentation"
+ResourceConstraint "CPU: graphics time was3" "self instrumentation"
+ResourceConstraint "CPU: load balance frequency0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_neighbors0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_neighbors1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_neighbors2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_neighbors3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_spatial_coordi0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_spatial_coordi1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_spatial_coordi2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_calc_spatial_coordi3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_copy_mesh_data0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_copy_mesh_data1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_copy_mesh_data2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_copy_mesh_data3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_mesh_ghost0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_mesh_ghost1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_mesh_ghost2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_mesh_ghost3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_neigh_ghost0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_neigh_ghost1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_neigh_ghost2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_fill_neigh_ghost3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_find_boundary0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_find_boundary1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_find_boundary2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_find_boundary3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_query0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_query1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_query2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_query3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_setup0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_setup1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_setup2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_hash_setup3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer10" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer11" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer12" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer13" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer20" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer21" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer22" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer23" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer_list0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer_list1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer_list2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_layer_list3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_load_balance0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_load_balance1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_load_balance2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_load_balance3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_local_list0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_local_list1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_local_list2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_local_list3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_neigh_adjust0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_neigh_adjust1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_neigh_adjust2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_neigh_adjust3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_partition0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_partition1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_partition2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_partition3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_boundary0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_boundary1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_boundary2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_boundary3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_setup0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_setup1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_setup2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_push_setup3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_refine_smooth0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_refine_smooth1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_refine_smooth2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_refine_smooth3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_set_corner_neigh0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_set_corner_neigh1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_set_corner_neigh2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_set_corner_neigh3" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_setup_comm0" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_setup_comm1" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_setup_comm2" "self instrumentation"
+ResourceConstraint "CPU: mesh_timer_setup_comm3" "self instrumentation"
+ResourceConstraint "CPU: partition measure time was0" "self instrumentation"
+ResourceConstraint "CPU: partition measure time was1" "self instrumentation"
+ResourceConstraint "CPU: partition measure time was2" "self instrumentation"
+ResourceConstraint "CPU: partition measure time was3" "self instrumentation"
+ResourceConstraint "CPU: refine_smooth_iter per rezone0" "self instrumentation"
+ResourceConstraint "CPU: rezone frequency0" "self instrumentation"
+ResourceConstraint "CPU: setup time was0" "self instrumentation"
+ResourceConstraint "CPU: setup time was1" "self instrumentation"
+ResourceConstraint "CPU: setup time was2" "self instrumentation"
+ResourceConstraint "CPU: setup time was3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_calc_mpot0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_calc_mpot1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_calc_mpot2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_calc_mpot3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_finite_difference0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_finite_difference1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_finite_difference2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_finite_difference3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_mass_sum0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_mass_sum1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_mass_sum2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_mass_sum3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_refine_potential0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_refine_potential1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_refine_potential2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_refine_potential3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_rezone_all0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_rezone_all1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_rezone_all2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_rezone_all3" "self instrumentation"
+ResourceConstraint "CPU: state_timer_set_timestep0" "self instrumentation"
+ResourceConstraint "CPU: state_timer_set_timestep1" "self instrumentation"
+ResourceConstraint "CPU: state_timer_set_timestep2" "self instrumentation"
+ResourceConstraint "CPU: state_timer_set_timestep3" "self instrumentation"
+ResourceConstraint "CRUX checkpointing bandwidth0" "self instrumentation"
+ResourceConstraint "CRUX checkpointing bandwidth1" "self instrumentation"
+ResourceConstraint "CRUX checkpointing bandwidth2" "self instrumentation"
+ResourceConstraint "CRUX checkpointing bandwidth3" "self instrumentation"
+ResourceConstraint "CRUX checkpointing time0" "self instrumentation"
+ResourceConstraint "CRUX checkpointing time1" "self instrumentation"
+ResourceConstraint "CRUX checkpointing time2" "self instrumentation"
+ResourceConstraint "CRUX checkpointing time3" "self instrumentation"
+ResourceConstraint "Iteration Mass Change100" "self instrumentation"
+ResourceConstraint "Iteration Mass Change200" "self instrumentation"
+ResourceConstraint "Iteration Mass Change300" "self instrumentation"
+ResourceConstraint "Iteration Mass Change400" "self instrumentation"
+ResourceConstraint "Iteration Mass Change500" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum0" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum100" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum200" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum300" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum400" "self instrumentation"
+ResourceConstraint "Iteration Mass Sum500" "self instrumentation"
+ResourceConstraint "Iteration Sim time0" "self instrumentation"
+ResourceConstraint "Iteration Sim time100" "self instrumentation"
+ResourceConstraint "Iteration Sim time200" "self instrumentation"
+ResourceConstraint "Iteration Sim time300" "self instrumentation"
+ResourceConstraint "Iteration Sim time400" "self instrumentation"
+ResourceConstraint "Iteration Sim time500" "self instrumentation"
+ResourceConstraint "Iteration cells0" "self instrumentation"
+ResourceConstraint "Iteration cells100" "self instrumentation"
+ResourceConstraint "Iteration cells200" "self instrumentation"
+ResourceConstraint "Iteration cells300" "self instrumentation"
+ResourceConstraint "Iteration cells400" "self instrumentation"
+ResourceConstraint "Iteration cells500" "self instrumentation"
+ResourceConstraint "Iteration timestep100" "self instrumentation"
+ResourceConstraint "Iteration timestep200" "self instrumentation"
+ResourceConstraint "Iteration timestep300" "self instrumentation"
+ResourceConstraint "Iteration timestep400" "self instrumentation"
+ResourceConstraint "Iteration timestep500" "self instrumentation"
+ResourceConstraint "Mass of initialized cells" "self instrumentation"
+ResourceConstraint "Memory available at startup0" "self instrumentation"
+ResourceConstraint "Memory available at startup1" "self instrumentation"
+ResourceConstraint "Memory available at startup2" "self instrumentation"
+ResourceConstraint "Memory available at startup3" "self instrumentation"
+ResourceConstraint "Memory available0" "self instrumentation"
+ResourceConstraint "Memory available1" "self instrumentation"
+ResourceConstraint "Memory available2" "self instrumentation"
+ResourceConstraint "Memory available3" "self instrumentation"
+ResourceConstraint "Memory free at startup0" "self instrumentation"
+ResourceConstraint "Memory free at startup1" "self instrumentation"
+ResourceConstraint "Memory free at startup2" "self instrumentation"
+ResourceConstraint "Memory free at startup3" "self instrumentation"
+ResourceConstraint "Memory free0" "self instrumentation"
+ResourceConstraint "Memory free1" "self instrumentation"
+ResourceConstraint "Memory free2" "self instrumentation"
+ResourceConstraint "Memory free3" "self instrumentation"
+ResourceConstraint "Memory peak in startup0" "self instrumentation"
+ResourceConstraint "Memory peak in startup1" "self instrumentation"
+ResourceConstraint "Memory peak in startup2" "self instrumentation"
+ResourceConstraint "Memory peak in startup3" "self instrumentation"
+ResourceConstraint "Memory peak0" "self instrumentation"
+ResourceConstraint "Memory peak1" "self instrumentation"
+ResourceConstraint "Memory peak2" "self instrumentation"
+ResourceConstraint "Memory peak3" "self instrumentation"
+ResourceConstraint "Memory used in startup0" "self instrumentation"
+ResourceConstraint "Memory used in startup1" "self instrumentation"
+ResourceConstraint "Memory used in startup2" "self instrumentation"
+ResourceConstraint "Memory used in startup3" "self instrumentation"
+ResourceConstraint "Memory used0" "self instrumentation"
+ResourceConstraint "Memory used1" "self instrumentation"
+ResourceConstraint "Memory used2" "self instrumentation"
+ResourceConstraint "Memory used3" "self instrumentation"
+ResourceConstraint "Mesh Ops Neigh+rezone+smooth+balance0" "self instrumentation"
+ResourceConstraint "Mesh Ops Neigh+rezone+smooth+balance1" "self instrumentation"
+ResourceConstraint "Mesh Ops Neigh+rezone+smooth+balance2" "self instrumentation"
+ResourceConstraint "Mesh Ops Neigh+rezone+smooth+balance3" "self instrumentation"
+ResourceConstraint "Mesh Ops Percentage0" "self instrumentation"
+ResourceConstraint "Mesh Ops Percentage1" "self instrumentation"
+ResourceConstraint "Mesh Ops Percentage2" "self instrumentation"
+ResourceConstraint "Mesh Ops Percentage3" "self instrumentation"
+ResourceConstraint "Profiling: Total CPU time was0" "self instrumentation"
+ResourceConstraint "Profiling: Total CPU time was1" "self instrumentation"
+ResourceConstraint "Profiling: Total CPU time was2" "self instrumentation"
+ResourceConstraint "Profiling: Total CPU time was3" "self instrumentation"
+ResourceConstraint "Profiling: Total time was0" "self instrumentation"
+ResourceConstraint "Profiling: Total time was1" "self instrumentation"
+ResourceConstraint "Profiling: Total time was2" "self instrumentation"
+ResourceConstraint "Profiling: Total time was3" "self instrumentation"
+ResourceConstraint "The MPI surface area to volume ratio0" "self instrumentation"
+ResourceConstraint "The MPI surface area to volume ratio1" "self instrumentation"
+ResourceConstraint "The MPI surface area to volume ratio2" "self instrumentation"
+ResourceConstraint "The MPI surface area to volume ratio3" "self instrumentation"
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-0 env-66
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-0 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65"
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-0 LANL|Woodchuck|turquoise|wc124
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-1 env-66
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-1 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65"
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-1 LANL|Woodchuck|turquoise|wc124
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-2 env-66
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-2 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65"
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-2 LANL|Woodchuck|turquoise|wc124
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-3 env-66
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-3 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65"
+ResourceConstraint ossiot_mpirun_clamr_mpionly_1481073550|Process-3 LANL|Woodchuck|turquoise|wc124
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mass of initialized cells" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: setup time was0" 0.2713 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: setup time was1" 0.2712 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: setup time was2" 0.2712 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: setup time was3" 0.2712 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used in startup0" 23212 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used in startup1" 28508 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used in startup2" 25624 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used in startup3" 25468 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak in startup0" 29860 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak in startup1" 32656 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak in startup2" 29772 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak in startup3" 29616 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free at startup0" 195561500 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free at startup1" 195561500 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free at startup2" 195561500 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free at startup3" 195561500 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available at startup0" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available at startup1" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available at startup2" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available at startup3" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time0" 0.0 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells0" 266316 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum0" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration timestep100" 0.000161 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time100" 0.021659 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells100" 270060 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum100" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Change100" 0 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration timestep200" 0.000154 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time200" 0.037352 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells200" 271812 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum200" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Change200" 0 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration timestep300" 0.000149 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time300" 0.052410 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells300" 273384 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum300" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Change300" 0 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration timestep400" 0.000147 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time400" 0.067222 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells400" 274776 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum400" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Change400" 0 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration timestep500" 0.000149 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Sim time500" 0.081992 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration cells500" 275640 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Sum500" 2003293.89775 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Iteration Mass Change500" 0 count noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing time0" 464.726686 msec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing bandwidth0" 5.268770 Mbytes/sec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing time1" 462.033361 msec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing bandwidth1" 5.299483 Mbytes/sec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used0" 30216 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used1" 31552 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used2" 30944 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory used3" 30284 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak0" 30220 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak1" 32656 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak2" 30948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory peak3" 30288 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free0" 195544280 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free1" 195544280 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free2" 195544280 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory free3" 195544280 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available0" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available1" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available2" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Memory available3" 198376948 kB noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing time2" 463.355660 msec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing bandwidth2" 5.284359 Mbytes/sec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" 17.26640 17.2362 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" 17.26641 17.2517 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" 17.26642 17.2530 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_set_timestep0" 0.7294 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_set_timestep1" 0.7005 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_set_timestep2" 0.7168 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_set_timestep3" 0.7169 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_finite_difference0" 9.7255 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_finite_difference1" 9.7110 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_finite_difference2" 9.7050 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_finite_difference3" 9.7109 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_refine_potential0" 0.9263 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_refine_potential1" 0.9402 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_refine_potential2" 0.9466 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_refine_potential3" 0.9405 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_calc_mpot0" 0.5776 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_calc_mpot1" 0.5951 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_calc_mpot2" 0.5980 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_calc_mpot3" 0.5927 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_refine_smooth0" 0.3006 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_refine_smooth1" 0.2963 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_refine_smooth2" 0.2996 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_refine_smooth3" 0.2991 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_rezone_all0" 0.4993 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_rezone_all1" 0.4994 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_rezone_all2" 0.4995 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_rezone_all3" 0.4996 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_partition0" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_partition1" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_partition2" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_partition3" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_neighbors0" 5.3809 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_neighbors1" 5.3808 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_neighbors2" 5.3808 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_neighbors3" 5.3807 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_setup0" 0.5543 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_setup1" 0.5460 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_setup2" 0.5550 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_setup3" 0.5548 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_query0" 2.1585 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_query1" 2.1080 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_query2" 2.1377 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_hash_query3" 2.1491 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_find_boundary0" 0.2698 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_find_boundary1" 0.3158 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_find_boundary2" 0.2757 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_find_boundary3" 0.2627 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_setup0" 0.0828 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_setup1" 0.0966 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_setup2" 0.0980 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_setup3" 0.0990 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_boundary0" 0.0067 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_boundary1" 0.0066 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_boundary2" 0.0068 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_push_boundary3" 0.0071 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_local_list0" 0.0004 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_local_list1" 0.0005 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_local_list2" 0.0005 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_local_list3" 0.0004 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer10" 0.0784 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer11" 0.0751 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer12" 0.0808 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer13" 0.0758 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer20" 0.0420 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer21" 0.0365 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer22" 0.0407 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer23" 0.0362 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer_list0" 0.0001 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer_list1" 0.0002 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer_list2" 0.0001 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_layer_list3" 0.0002 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_copy_mesh_data0" 0.0871 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_copy_mesh_data1" 0.0935 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_copy_mesh_data2" 0.0918 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_copy_mesh_data3" 0.0919 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_mesh_ghost0" 0.0022 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_mesh_ghost1" 0.0020 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_mesh_ghost2" 0.0017 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_mesh_ghost3" 0.0019 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_neigh_ghost0" 0.1986 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_neigh_ghost1" 1.9341 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_neigh_ghost2" 1.8678 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_fill_neigh_ghost3" 1.8627 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_set_corner_neigh0" 0.0001 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_set_corner_neigh1" 0.0004 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_set_corner_neigh2" 0.0003 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_set_corner_neigh3" 0.0003 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_neigh_adjust0" 0.0698 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_neigh_adjust1" 0.0701 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_neigh_adjust2" 0.0698 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_neigh_adjust3" 0.0703 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_setup_comm0" 1.7798 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_setup_comm1" 0.0454 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_setup_comm2" 0.1041 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_setup_comm3" 0.1179 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_mass_sum0" 0.0041 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_mass_sum1" 0.0034 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_mass_sum2" 0.0022 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: state_timer_mass_sum3" 0.0037 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_load_balance0" 0.0009 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_load_balance1" 0.0008 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_load_balance2" 0.0008 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_load_balance3" 0.0008 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_spatial_coordi0" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_spatial_coordi1" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_spatial_coordi2" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: mesh_timer_calc_spatial_coordi3" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total CPU time was0" 17.2664 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total CPU time was1" 17.2362 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total CPU time was2" 17.2517 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total CPU time was3" 17.2530 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Neigh+rezone+smooth+balance0" 6.1817 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Neigh+rezone+smooth+balance1" 6.1773 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Neigh+rezone+smooth+balance2" 6.1807 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Neigh+rezone+smooth+balance3" 6.1802 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Percentage0" 35.8020 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Percentage1" 35.8393 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Percentage2" 35.8268 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Mesh Ops Percentage3" 35.8207 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total time was0" 19.5960 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total time was1" 19.5833 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total time was2" 19.5911 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "Profiling: Total time was3" 19.5833 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calc incl part meas time was0" 17.2929 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calc incl part meas time was1" 17.2642 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calc incl part meas time was2" 17.2802 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calc incl part meas time was3" 17.2803 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calculation only time was0" 17.2919 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calculation only time was1" 17.2632 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calculation only time was2" 17.2792 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calculation only time was3" 17.2793 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: partition measure time was0" 0.0010 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: partition measure time was1" 0.0010 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: partition measure time was2" 0.0010 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: partition measure time was3" 0.0010 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: graphics time was0" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: graphics time was1" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: graphics time was2" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: graphics time was3" 0.0000 s noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "The MPI surface area to volume ratio0" 0.0157 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "The MPI surface area to volume ratio1" 0.0157 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "The MPI surface area to volume ratio2" 0.0157 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "The MPI surface area to volume ratio3" 0.0157 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: rezone frequency0" 49.6000 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: calc neigh frequency0" 49.8000 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: load balance frequency0" 0.0000 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CPU: refine_smooth_iter per rezone0" 0.8952 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing time3" 459.915489 msec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" "self instrumentation" "CRUX checkpointing bandwidth3" 5.323887 Mbytes/sec noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_call_time___libc_write 10654.568141 ms noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_percent___libc_write 98.469871 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_number_of_calls___libc_write 592 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_min_bytes_count___libc_write 4 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_min_bytes_read_written___libc_write 5 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_max_bytes_count___libc_write 12 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_max_bytes_read_written___libc_write 560016 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_total_byes_read_written___libc_write 59458948 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_call_time___GI_close 131.730149 ms noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_percent___GI_close 1.217454 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_number_of_calls___GI_close 24 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_call_time___GI___open64 30.981025 ms noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_percent___GI___open64 0.286328 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_number_of_calls___GI___open64 48 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_call_time___GI___libc_lseek64 1.992348 ms noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_percent___GI___libc_lseek64 0.018413 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_number_of_calls___GI___libc_lseek64 552 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_call_time___read 0.858420 ms noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_percent___read 0.007934 percent noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_number_of_calls___read 208 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_min_bytes_count___read 36 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_min_bytes_read_written___read 8 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_max_bytes_count___read 4 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_max_bytes_read_written___read 25714 each noValue noValue
+PerfResult ossiot_mpirun_clamr_mpionly_1481073550 "clamr_mpionly,env-66,ossiot_mpirun_clamr_mpionly_1481073550,lustre-68,LANL|Woodchuck|turquoise|wc124,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-65,submission-67" ossiot io_total_byes_read_written___read 121224 each noValue noValue
