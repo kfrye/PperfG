@@ -1,0 +1,5 @@
+ossiot_mpirun_clamr_mpionly_1483648336 clamr_mpionly NONE 4 1 1483648336 1483648336 ossiot
+ossiot_mpirun_clamr_mpionly_1483648384 clamr_mpionly NONE 4 1 1483648384 1483648384 ossiot
+ossiot_mpirun_clamr_mpionly_1483648427 clamr_mpionly NONE 4 1 1483648427 1483648427 ossiot
+ossiot_mpirun_clamr_mpionly_1483648471 clamr_mpionly NONE 4 1 1483648471 1483648471 ossiot
+ossiot_mpirun_clamr_mpionly_1483648513 clamr_mpionly NONE 4 1 1483648513 1483648513 ossiot

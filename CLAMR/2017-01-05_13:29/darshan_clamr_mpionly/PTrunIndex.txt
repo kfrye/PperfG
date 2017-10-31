@@ -1,0 +1,5 @@
+darshan_mpirun_clamr_mpionly_1483648563 clamr_mpionly NONE 4 1 1483648563 1483648563 darshan
+darshan_mpirun_clamr_mpionly_1483648589 clamr_mpionly NONE 4 1 1483648589 1483648589 darshan
+darshan_mpirun_clamr_mpionly_1483648614 clamr_mpionly NONE 4 1 1483648614 1483648614 darshan
+darshan_mpirun_clamr_mpionly_1483648641 clamr_mpionly NONE 4 1 1483648641 1483648641 darshan
+darshan_mpirun_clamr_mpionly_1483648666 clamr_mpionly NONE 4 1 1483648666 1483648666 darshan

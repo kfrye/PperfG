@@ -1,0 +1,181 @@
+# darshan log version: 3.10
+# compression method: ZLIB
+# exe: /turquoise/usr/projects/workflow_perf/CLAMR_wc/build/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -0 10
+# uid: 28309
+# jobid: 97691
+# start_time: 1483648565
+# start_time_asci: Thu Jan  5 13:36:05 2017
+# end_time: 1483648589
+# end_time_asci: Thu Jan  5 13:36:29 2017
+# nprocs: 4
+# run time: 25
+# metadata: lib_ver = 3.1.2
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 360 bytes (uncompressed)
+# job data: 282 bytes (compressed)
+# record table: 367 bytes (compressed)
+# POSIX module: 988 bytes (compressed), ver=3
+# HDF5 module: 156 bytes (compressed), ver=1
+# STDIO module: 720 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/turquoise/usr/projects/workflow_perf	nfs
+# mount entry:	/turquoise/usr/projects/hpcsoft	nfs
+# mount entry:	/turquoise/usr/projects/darshan	nfs
+# mount entry:	/turquoise/usr/projects/cint	nfs
+# mount entry:	/var/lib/perceus/vnfs	nfs
+# mount entry:	/lustre/scratch2	lustre
+# mount entry:	/lustre/scratch3	lustre
+# mount entry:	/lustre/scratch1	lustre
+# mount entry:	/turquoise/users	nfs
+# mount entry:	/fs4	nfs
+# mount entry:	/fs5	nfs
+# mount entry:	/fs6	nfs
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# Total file counts
+# -----
+# <file_type>: type of file access:
+#    *read_only: file was only read
+#    *write_only: file was only written
+#    *read_write: file was read and written
+#    *unique: file was opened by a single process only
+#    *shared: file was accessed by a group of processes (maybe all processes)
+# <file_count> total number of files of this type
+# <total_bytes> total number of bytes moved to/from files of this type
+# <max_byte_offset> maximum byte offset accessed for a file of this type
+
+# <file_type> <file_count> <total_bytes> <max_byte_offset>
+# total: 6 59470512 10122448
+# read_only: 0 0 0
+# write_only: 0 0 0
+# read_write: 6 59470512 10122448
+# unique: 0 0 0
+# shared: 6 59470512 10122448
+
+# performance
+# -----------
+# total_bytes: 59470512
+#
+# I/O timing for unique files (seconds):
+# ...........................
+# unique files: slowest_rank_io_time: 0.000000
+# unique files: slowest_rank_meta_only_time: 0.000000
+# unique files: slowest rank: 0
+#
+# I/O timing for shared files (seconds):
+# (multiple estimates shown; time_by_slowest is generally the most accurate)
+# ...........................
+# shared files: time_by_cumul_io_only: 2.591522
+# shared files: time_by_cumul_meta_only: 0.047815
+# shared files: time_by_open: 2.634423
+# shared files: time_by_open_lastio: 2.600338
+# shared files: time_by_slowest: 2.610527
+#
+# Aggregate performance, including both shared and unique files (MiB/s):
+# (multiple estimates shown; agg_perf_by_slowest is generally the most accurate)
+# ...........................
+# agg_perf_by_cumul: 21.885016
+# agg_perf_by_open: 21.528623
+# agg_perf_by_open_lastio: 21.810818
+# agg_perf_by_slowest: 21.725690
+
+# Per-file summary of I/O activity (detailed).
+# -----
+# <record_id>: darshan record id for this file
+# <file_name>: full file name
+# <nprocs>: number of processes that opened the file
+# <slowest>: (estimated) time in seconds consumed in IO by slowest process
+# <avg>: average time in seconds consumed in IO per process
+# <start_{open/read/write/close}>: start timestamp of first open, read, write, or close
+# <end_{open/read/write/close}>: end timestamp of last open, read, write, or close
+# <posix_opens>: POSIX open calls
+# <POSIX_SIZE_READ_*>: POSIX read size histogram
+# <POSIX_SIZE_WRITE_*>: POSIX write size histogram
+
+# <record_id>	<file_name>	<nprocs>	<slowest>	<avg>	<start_open>	<start_read>	<start_write>	<start_close>	<end_open>	<end_read>	<end_write>	<end_close>	<posix_opens>	<POSIX_SIZE_READ_0_100>	<POSIX_SIZE_READ_100_1K>	<POSIX_SIZE_READ_1K_10K>	<POSIX_SIZE_READ_10K_100K>	<POSIX_SIZE_READ_100K_1M>	<POSIX_SIZE_READ_1M_4M>	<POSIX_SIZE_READ_4M_10M>	<POSIX_SIZE_READ_10M_100M>	<POSIX_SIZE_READ_100M_1G>	<POSIX_SIZE_READ_1G_PLUS>	<POSIX_SIZE_WRITE_0_100>	<POSIX_SIZE_WRITE_100_1K>	<POSIX_SIZE_WRITE_1K_10K>	<POSIX_SIZE_WRITE_10K_100K>	<POSIX_SIZE_WRITE_100K_1M>	<POSIX_SIZE_WRITE_1M_4M>	<POSIX_SIZE_WRITE_4M_10M>	<POSIX_SIZE_WRITE_10M_100M>	<POSIX_SIZE_WRITE_100M_1G>	<POSIX_SIZE_WRITE_1G_PLUS>
+448105473558732444	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00500.h5	4	0.446218	0.444611	23.870182	23.969587	23.872684	23.871489	23.872499	24.301832	24.311544	24.319483	6	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+11667770829441418054	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00400.h5	4	0.440138	0.433625	18.860066	18.956155	18.862350	18.861251	18.862194	19.278344	19.295609	19.304944	6	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+11693455505551191628	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00000.h5	4	0.413092	0.409057	0.345338	0.408645	0.347048	0.750732	0.346457	0.743432	0.762066	0.763043	4	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+13273258828990557113	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00300.h5	4	0.421091	0.419529	14.058435	14.152868	14.060678	14.059525	14.060521	14.465738	14.478104	14.482468	6	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+14845520531453332288	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00200.h5	4	0.427144	0.426069	9.710120	9.801557	9.712440	9.711157	9.712001	10.122487	10.139324	10.140623	6	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+15451233963068465147	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00100.h5	4	0.462844	0.458630	4.966952	5.068748	4.969286	4.968046	4.969033	5.407551	5.424784	5.434955	5	16	8	0	0	0	0	0	0	0	0	36	16	16	0	24	0	0	0	0	0
+
+# *******************************************************
+# STDIO module data
+# *******************************************************
+
+# Total file counts
+# -----
+# <file_type>: type of file access:
+#    *read_only: file was only read
+#    *write_only: file was only written
+#    *read_write: file was read and written
+#    *unique: file was opened by a single process only
+#    *shared: file was accessed by a group of processes (maybe all processes)
+# <file_count> total number of files of this type
+# <total_bytes> total number of bytes moved to/from files of this type
+# <max_byte_offset> maximum byte offset accessed for a file of this type
+
+# <file_type> <file_count> <total_bytes> <max_byte_offset>
+# total: 8 18045 5007
+# read_only: 0 0 0
+# write_only: 8 18045 5007
+# read_write: 0 0 0
+# unique: 0 0 0
+# shared: 8 18045 5007
+
+# performance
+# -----------
+# total_bytes: 18045
+#
+# I/O timing for unique files (seconds):
+# ...........................
+# unique files: slowest_rank_io_time: 0.000000
+# unique files: slowest_rank_meta_only_time: 0.000000
+# unique files: slowest rank: 0
+#
+# I/O timing for shared files (seconds):
+# (multiple estimates shown; time_by_slowest is generally the most accurate)
+# ...........................
+# shared files: time_by_cumul_io_only: 0.008685
+# shared files: time_by_cumul_meta_only: 0.008197
+# shared files: time_by_open: 26.769082
+# shared files: time_by_open_lastio: 51.087416
+# shared files: time_by_slowest: 0.010935
+#
+# Aggregate performance, including both shared and unique files (MiB/s):
+# (multiple estimates shown; agg_perf_by_slowest is generally the most accurate)
+# ...........................
+# agg_perf_by_cumul: 1.981412
+# agg_perf_by_open: 0.000643
+# agg_perf_by_open_lastio: 0.000337
+# agg_perf_by_slowest: 1.573759
+
+# Per-file summary of I/O activity (detailed).
+# -----
+# <record_id>: darshan record id for this file
+# <file_name>: full file name
+# <nprocs>: number of processes that opened the file
+# <slowest>: (estimated) time in seconds consumed in IO by slowest process
+# <avg>: average time in seconds consumed in IO per process
+# <start_{open/close/write/read}>: start timestamp of first open, close, write, or read
+# <end_{open/close/write/read}>: end timestamp of last open, close, write, or read
+# <stdio_opens>: STDIO open calls
+
+# <record_id>	<file_name>	<nprocs>	<slowest>	<avg>	<start_open>	<start_close>	<start_write>	<start_read>	<end_open>	<end_close>	<end_write>	<end_read>	<stdio_opens>
+1283355358080236370	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00300.crx	4	0.001441	0.001170	14.059563	14.465982	14.060693	0.000000	14.061820	14.466982	14.466684	0.000000	4
+1608932410012484950	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00500.crx	4	0.001401	0.001196	23.871522	24.302098	23.872699	0.000000	23.873793	24.303258	24.302913	0.000000	4
+5953115195136154493	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/crux_timing.log	4	0.002217	0.001685	0.061599	24.319879	0.762213	0.000000	0.063258	24.320995	24.320720	0.000000	4
+6748512448263551916	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00400.crx	4	0.001274	0.001078	18.861263	19.278637	18.862366	0.000000	18.863614	19.279828	19.279442	0.000000	4
+8148175306352766850	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00200.crx	4	0.001151	0.001095	9.711323	10.122710	9.712455	0.000000	9.713083	10.123773	10.123445	0.000000	4
+15670593895759218177	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00100.crx	4	0.001554	0.001253	4.968206	5.407740	4.969311	0.000000	4.970317	5.408924	5.408560	0.000000	4
+15920181672442173319	<STDOUT>	4	0.000528	0.000140	0.000000	0.000000	0.343898	0.000000	0.000000	0.000000	24.320716	0.000000	4
+17879656156824667913	/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2017-01-05_13:29/darshan_clamr_mpionly/checkpoint_output/backup00000.crx	4	0.001369	0.001067	0.346213	0.742445	0.347090	0.000000	0.347748	0.745011	0.744625	0.000000	4

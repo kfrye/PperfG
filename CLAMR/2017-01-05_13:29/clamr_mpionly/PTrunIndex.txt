@@ -1,0 +1,5 @@
+mpirun_clamr_mpionly_1483648210 clamr_mpionly NONE 4 1 1483648210 1483648210 None
+mpirun_clamr_mpionly_1483648236 clamr_mpionly NONE 4 1 1483648236 1483648236 None
+mpirun_clamr_mpionly_1483648261 clamr_mpionly NONE 4 1 1483648261 1483648261 None
+mpirun_clamr_mpionly_1483648285 clamr_mpionly NONE 4 1 1483648285 1483648285 None
+mpirun_clamr_mpionly_1483648310 clamr_mpionly NONE 4 1 1483648310 1483648310 None
