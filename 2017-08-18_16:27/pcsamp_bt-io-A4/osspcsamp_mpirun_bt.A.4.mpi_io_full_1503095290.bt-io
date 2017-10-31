@@ -1,0 +1,234 @@
+[openss]: pcsamp experiment using the default sampling rate: "100".
+Creating topology file for SLURM frontend node wc083
+Running pcsamp collector.
+Program: mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full 
+Number of mrnet backends: 4
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -n 4  cbtfrun  --mpi  --mrnet  -c pcsamp /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full 
+App launch reported: 1 (out of 1) daemons - 4 (out of 4) procs
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:     4
+
+ BTIO -- FULL MPI-IO write interval:   5
+
+ Time step    1
+ Writing data set, time step           5
+ Writing data set, time step          10
+ Writing data set, time step          15
+ Time step   20
+ Writing data set, time step          20
+ Writing data set, time step          25
+ Writing data set, time step          30
+ Writing data set, time step          35
+ Time step   40
+ Writing data set, time step          40
+ Writing data set, time step          45
+ Writing data set, time step          50
+ Writing data set, time step          55
+ Time step   60
+ Writing data set, time step          60
+ Writing data set, time step          65
+ Writing data set, time step          70
+ Writing data set, time step          75
+ Time step   80
+ Writing data set, time step          80
+ Writing data set, time step          85
+ Writing data set, time step          90
+ Writing data set, time step          95
+ Time step  100
+ Writing data set, time step         100
+ Writing data set, time step         105
+ Writing data set, time step         110
+ Writing data set, time step         115
+ Time step  120
+ Writing data set, time step         120
+ Writing data set, time step         125
+ Writing data set, time step         130
+ Writing data set, time step         135
+ Time step  140
+ Writing data set, time step         140
+ Writing data set, time step         145
+ Writing data set, time step         150
+ Writing data set, time step         155
+ Time step  160
+ Writing data set, time step         160
+ Writing data set, time step         165
+ Writing data set, time step         170
+ Writing data set, time step         175
+ Time step  180
+ Writing data set, time step         180
+ Writing data set, time step         185
+ Writing data set, time step         190
+ Writing data set, time step         195
+ Time step  200
+ Writing data set, time step         200
+ Reading data set            1
+ Reading data set            2
+ Reading data set            3
+ Reading data set            4
+ Reading data set            5
+ Reading data set            6
+ Reading data set            7
+ Reading data set            8
+ Reading data set            9
+ Reading data set           10
+ Reading data set           11
+ Reading data set           12
+ Reading data set           13
+ Reading data set           14
+ Reading data set           15
+ Reading data set           16
+ Reading data set           17
+ Reading data set           18
+ Reading data set           19
+ Reading data set           20
+ Reading data set           21
+ Reading data set           22
+ Reading data set           23
+ Reading data set           24
+ Reading data set           25
+ Reading data set           26
+ Reading data set           27
+ Reading data set           28
+ Reading data set           29
+ Reading data set           30
+ Reading data set           31
+ Reading data set           32
+ Reading data set           33
+ Reading data set           34
+ Reading data set           35
+ Reading data set           36
+ Reading data set           37
+ Reading data set           38
+ Reading data set           39
+ Reading data set           40
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7101254243319E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.9415542762816E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.6838887328685E-15
+           4 0.2366562254468E+02 0.2366562254468E+02 0.6455215276928E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1259241302557E-13
+ Comparison of RMS-norms of solution error
+           1 0.6482218724961E+02 0.6482218724961E+02 0.4976481290162E-13
+           2 0.5066461714527E+01 0.5066461714527E+01 0.7117401822347E-13
+           3 0.1613931961359E+02 0.1613931961359E+02 0.4820799849593E-13
+           4 0.1452010201481E+02 0.1452010201481E+02 0.2249791512708E-12
+           5 0.1420099377681E+03 0.1420099377681E+03 0.1236858258235E-12
+ Verification Successful
+
+ BTIO -- statistics:
+   I/O timing in seconds   :           5.43
+   I/O timing percentage   :          13.21
+   Total data written (MB) :         419.43
+   I/O data rate  (MB/sec) :          77.23
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    41.13
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  4091.78
+ Mop/s/process   =                  1022.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2017
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+All Threads are finished.
+
+Generated topology file: ./cbtfAutoTopology
+default view for /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/run/2017-08-18_16:27/pcsamp_bt-io-A4/bt.A.4.mpi_io_full-pcsamp-0.openss
+
+Parsing failed.
+Invalid argument: :
+<exp_Id> = expRestore -f <file_name>
+There is no focused experiment.
+No valid experiment was specified.
+Exclusive CPU time in se             % of CPU Time  Function (defining location)
+               15.570000                 17.962621  binvcrhs_ (bt.A.4.mpi_io_full)
+               10.950000                 12.632672  y_solve_cell_ (bt.A.4.mpi_io_full)
+                9.280000                 10.706045  z_solve_cell_ (bt.A.4.mpi_io_full)
+                8.460000                  9.760037  matmul_sub_ (bt.A.4.mpi_io_full)
+                7.710000                  8.894785  compute_rhs_ (bt.A.4.mpi_io_full)
+                6.540000                  7.544993  opal_timer_base_get_usec_sys_timer (libopen-pal.so.13.0.3)
+                5.900000                  6.806645  mca_btl_vader_component_progress (libmpi.so.12.0.5)
+                5.140000                  5.929857  x_solve_cell_ (bt.A.4.mpi_io_full)
+                3.660000                  4.222427  x_backsubstitute_ (bt.A.4.mpi_io_full)
+                2.420000                  2.791878  y_backsubstitute_ (bt.A.4.mpi_io_full)
+                2.150000                  2.480388  z_backsubstitute_ (bt.A.4.mpi_io_full)
+                2.120000                  2.445778  matvec_sub_ (bt.A.4.mpi_io_full)
+                1.710000                  1.972773  opal_progress (libopen-pal.so.13.0.3)
+                0.930000                  1.072912  mca_pml_ob1_progress (libmpi.so.12.0.5)
+                0.860000                  0.992155  __memcpy_ssse3_back (libc-2.17.so: memcpy-ssse3-back.S,59)
+                0.570000                  0.657591  add_ (bt.A.4.mpi_io_full)
+                0.450000                  0.519151  exact_solution_ (bt.A.4.mpi_io_full)
+                0.260000                  0.299954  __libc_read (libpthread-2.17.so: syscall-template.S,81)
+                0.250000                  0.288417  copy_faces_ (bt.A.4.mpi_io_full)
+                0.230000                  0.265344  __libc_fcntl (libpthread-2.17.so: fcntl.c,79)
+                0.190000                  0.219197  x_unpack_solve_info_ (bt.A.4.mpi_io_full)
+                0.190000                  0.219197  write (libpthread-2.17.so: syscall-template.S,81)
+                0.130000                  0.149977  binvrhs_ (bt.A.4.mpi_io_full)
+                0.090000                  0.103830  error_norm_ (bt.A.4.mpi_io_full)
+                0.070000                  0.080757  ompi_request_default_wait (libmpi.so.12.0.5)
+                0.070000                  0.080757  ompi_request_default_wait_all (libmpi.so.12.0.5)
+                0.070000                  0.080757  exact_rhs_ (bt.A.4.mpi_io_full)
+                0.060000                  0.069220  z_unpack_solve_info_ (bt.A.4.mpi_io_full)
+                0.060000                  0.069220  y_send_solve_info_ (bt.A.4.mpi_io_full)
+                0.050000                  0.057683  x_send_solve_info_ (bt.A.4.mpi_io_full)
+                0.050000                  0.057683  ADIOI_Calc_aggregator (libmpi.so.12.0.5)
+                0.040000                  0.046147  initialize_ (bt.A.4.mpi_io_full)
+                0.030000                  0.034610  z_unpack_backsub_info_ (bt.A.4.mpi_io_full)
+                0.030000                  0.034610  y_unpack_backsub_info_ (bt.A.4.mpi_io_full)
+                0.030000                  0.034610  vader_prepare_src (libmpi.so.12.0.5)
+                0.030000                  0.034610  mca_btl_vader_poll_handle_frag (libmpi.so.12.0.5)
+                0.030000                  0.034610  ADIOI_W_Exchange_data (libmpi.so.12.0.5)
+                0.020000                  0.023073  opal_datatype_construct (libopen-pal.so.13.0.3)
+                0.020000                  0.023073  opal_datatype_add (libopen-pal.so.13.0.3)
+                0.020000                  0.023073  __GI_poll (libc-2.17.so: syscall-template.S,81)
+                0.020000                  0.023073  __GI_memset (libc-2.17.so)
+                0.020000                  0.023073  _int_malloc (libc-2.17.so)
+                0.020000                  0.023073  y_unpack_solve_info_ (bt.A.4.mpi_io_full)
+                0.020000                  0.023073  clear_timestep_ (bt.A.4.mpi_io_full)
+                0.010000                  0.011537  opal_generic_simple_unpack (libopen-pal.so.13.0.3)
+                0.010000                  0.011537  x_send_backsub_info_ (bt.A.4.mpi_io_full)
+                0.010000                  0.011537  mpi_waitall (libmpi_mpifh.so.12.0.1)
+                0.010000                  0.011537  _gfortrani_free_internal_unit (libgfortran.so.3.0.0: unit.c,538)
+                0.010000                  0.011537  opal_datatype_commit (libopen-pal.so.13.0.3)
+                0.010000                  0.011537  lhsabinit_ (bt.A.4.mpi_io_full)
+                0.010000                  0.011537  lhsinit_ (bt.A.4.mpi_io_full)
+                0.010000                  0.011537  mca_pml_ob1_send_request_schedule_once (libmpi.so.12.0.5)
+                0.010000                  0.011537  brk (libc-2.17.so)
+                0.010000                  0.011537  mca_pml_ob1_isend (libmpi.so.12.0.5)
+                0.010000                  0.011537  mca_pml_ob1_isend_init (libmpi.so.12.0.5)
+                0.010000                  0.011537  ADIOI_Calc_my_off_len (libmpi.so.12.0.5)
+                0.010000                  0.011537  ADIOI_R_Exchange_data (libmpi.so.12.0.5)
+                0.010000                  0.011537  ADIOI_Calc_my_req (libmpi.so.12.0.5)
+                0.010000                  0.011537  MPI_Alltoall (libmpi.so.12.0.5)
+                0.010000                  0.011537  z_send_solve_info_ (bt.A.4.mpi_io_full)

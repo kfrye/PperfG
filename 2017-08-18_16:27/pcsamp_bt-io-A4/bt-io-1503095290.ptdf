@@ -1,0 +1,86 @@
+Application bt-io
+Collection bt-io-1503095290 bt-io
+Execution osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 bt-io-1503095290
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 performanceTool osspcsamp string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Class A string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Size "64x  64x  64" string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Iterations 200 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Total_processes 4 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Compiled_procs 4 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Operation_type "floating point" string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Verification SUCCESSFUL string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Version 3.3.1 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 Compile_date "14 May 2017" string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 MPIF77 mpif77 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 FLINK $MPIF77 string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 FMPI_LIB none string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 FMPI_INC none string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 FFLAGS -O string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 FLINKFLAGS -O string
+ResourceAttribute osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 RAND none string
+Resource IO_data_rate_MBsec metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource IO_timing_in_seconds metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource IO_timing_percentage metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource LANL|Woodchuck|turquoise|wc083 grid|machine|partition|node osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource "Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051" operatingSystem osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Mops_total metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Mopsprocess metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Time_in_seconds metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Total_data_written_MB metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Total_data_written_MB metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource Total_data_written_MB metric osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource env-4052 environment osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource lustre-4054 fileSystem osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute lustre-4054 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-4054 fs_type lustre string
+Resource lustre-4054|l1 fileSystem|device osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute lustre-4054|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-4054|l1 mountPoint /net/scratch1 string
+ResourceAttribute lustre-4054|l1 Size 3.4P string
+ResourceAttribute lustre-4054|l1 Used 654T string
+ResourceAttribute lustre-4054|l1 Avail 2.7P string
+ResourceAttribute lustre-4054|l1 Used% 20% string
+Resource lustre-4054|l2 fileSystem|device osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute lustre-4054|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-4054|l2 mountPoint /net/scratch2 string
+ResourceAttribute lustre-4054|l2 Size 2.3P string
+ResourceAttribute lustre-4054|l2 Used 1.7P string
+ResourceAttribute lustre-4054|l2 Avail 574T string
+ResourceAttribute lustre-4054|l2 Used% 76% string
+Resource lustre-4054|l3 fileSystem|device osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute lustre-4054|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-4054|l3 mountPoint /net/scratch3 string
+ResourceAttribute lustre-4054|l3 Size 9.2P string
+ResourceAttribute lustre-4054|l3 Used 4.0P string
+ResourceAttribute lustre-4054|l3 Avail 5.2P string
+ResourceAttribute lustre-4054|l3 Used% 44% string
+Resource lustre-4054|l3 fileSystem|device osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute lustre-4054|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-4054|l3 mountPoint /net/scratch3 string
+ResourceAttribute lustre-4054|l3 Size 9.2P string
+ResourceAttribute lustre-4054|l3 Used 4.0P string
+ResourceAttribute lustre-4054|l3 Avail 5.2P string
+ResourceAttribute lustre-4054|l3 Used% 44% string
+Resource "self instrumentation" performanceTool osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+Resource submission-4053 submission osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290
+ResourceAttribute submission-4053 launcher mpirun string
+ResourceAttribute submission-4053 launcherVersion "mpirun (Open MPI) 1.10.5" string
+ResourceAttribute submission-4053 programVersion 3.3.1 string
+ResourceAttribute submission-4053 batchFile None string
+ResourceAttribute submission-4053 runCmd_1 "/usr/projects/workflow_perf/kris/tools/osspcsamp\"\"mpirun -n 4 /turquoise/usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.A.4.mpi_io_full \"\"" string
+ResourceConstraint IO_data_rate_MBsec "self instrumentation"
+ResourceConstraint IO_timing_in_seconds "self instrumentation"
+ResourceConstraint IO_timing_percentage "self instrumentation"
+ResourceConstraint Mops_total "self instrumentation"
+ResourceConstraint Mopsprocess "self instrumentation"
+ResourceConstraint Time_in_seconds "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+ResourceConstraint Total_data_written_MB "self instrumentation"
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" IO_timing_in_seconds 5.43 s noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" IO_timing_percentage 13.21 percent noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" Total_data_written_MB 419.43 MB noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" IO_data_rate_MBsec 77.23 MB/sec noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" Time_in_seconds 41.13 s noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" Mops_total 4091.78 each noValue noValue
+PerfResult osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290 "bt-io,bt-io-1503095290,env-4052,osspcsamp_mpirun_bt.A.4.mpi_io_full_1503095290,lustre-4054,LANL|Woodchuck|turquoise|wc083,Linux #1 SMP Tue May 30 13:42:41 PDT 2017 3.10.0-514.21.1.1chaos.ch6_1.x86_64-4051,submission-4053" "self instrumentation" Mopsprocess 1022.94 each noValue noValue
