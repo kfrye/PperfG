@@ -1,0 +1,125 @@
+[openss]: usertime experiment using the default sampling rate: "35".
+Running usertime collector.
+Program: mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -b 10
+Number of mrnet backends: 4
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 4 -npernode 4  cbtfrun  --mpi  --mrnet  -c usertime /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly -n 512 -i 100 -t 500 -P hilbert_sort -p local_hilbert -l 2 -c 100 -b 10
+App launch reported: 1 (out of 1) daemons - 4 (out of 4) procs
+Mass of initialized cells equal to  2003293.89775
+CPU:  setup time               time was	  0.2814	  0.2814	  0.2814	  0.2814	s
+Memory used      in startup 	     23072	     27584	     26248	     26108	kB
+Memory peak      in startup 	     29724	     31732	     30396	     30256	kB
+Memory free      at startup 	 195619792	 195619792	 195619792	 195619792	kB
+Memory available at startup 	 198376948	 198376948	 198376948	 198376948	kB
+Iteration   0 timestep      n/a Sim Time      0.0 cells 266316 Mass Sum  2003293.89775
+Iteration 100 timestep 0.000161 Sim Time 0.021659 cells 270060 Mass Sum  2003293.89775 Mass Change            0
+Iteration 200 timestep 0.000154 Sim Time 0.037352 cells 271812 Mass Sum  2003293.89775 Mass Change            0
+Iteration 300 timestep 0.000149 Sim Time 0.052410 cells 273384 Mass Sum  2003293.89775 Mass Change            0
+Iteration 400 timestep 0.000147 Sim Time 0.067222 cells 274776 Mass Sum  2003293.89775 Mass Change            0
+Iteration 500 timestep 0.000149 Sim Time 0.081992 cells 275640 Mass Sum  2003293.89775 Mass Change            0
+CRUX checkpointing time averaged 464.140534 msec, bandwidth 5.275424 Mbytes/sec
+CRUX checkpointing time averaged 464.336991 msec, bandwidth 5.273192 Mbytes/sec
+CRUX checkpointing time averaged 465.896696 msec, bandwidth 5.255539 Mbytes/sec
+Memory used      	     29964	     30736	     30176	     30628	kB
+Memory peak      	     29968	     31732	     30396	     30632	kB
+Memory free      	 195594704	 195594704	 195594704	 195594704	kB
+Memory available 	 198376948	 198376948	 198376948	 198376948	kB
+
+~~~~~~~~~~~~~~~~ Device timing information ~~~~~~~~~~~~~~~~~~
+
+CPU: Parallel timings
+
+CPU: Device compute           time was	 17.4185	 17.3965	 17.3921	 17.3972	s
+CPU:   state_timer_set_timestep      		    0.7444	    0.7235	    0.7224	    0.7249	s
+CPU:   state_timer_finite_difference 		    9.7577	    9.7435	    9.7448	    9.7437	s
+CPU:   state_timer_refine_potential  		    0.9357	    0.9496	    0.9468	    0.9485	s
+CPU:     state_timer_calc_mpot         		      0.5843	      0.5980	      0.5938	      0.5965	s
+CPU:     mesh_timer_refine_smooth      		      0.3002	      0.3006	      0.3007	      0.2993	s
+CPU:   state_timer_rezone_all        		    0.5147	    0.5146	    0.5145	    0.5146	s
+CPU:   mesh_timer_partition          		    0.0000	    0.0000	    0.0000	    0.0000	s
+CPU:   mesh_timer_calc_neighbors     		    5.4607	    5.4605	    5.4606	    5.4607	s
+CPU:     mesh_timer_hash_setup         		      0.5655	      0.5621	      0.5646	      0.5650	s
+CPU:     mesh_timer_hash_query         		      2.2087	      2.1656	      2.1769	      2.1935	s
+CPU:     mesh_timer_find_boundary      		      0.2711	      0.3022	      0.2874	      0.2699	s
+CPU:     mesh_timer_push_setup         		      0.0832	      0.0992	      0.1000	      0.1001	s
+CPU:     mesh_timer_push_boundary      		      0.0067	      0.0068	      0.0068	      0.0069	s
+CPU:     mesh_timer_local_list         		      0.0005	      0.0005	      0.0005	      0.0005	s
+CPU:     mesh_timer_layer1             		      0.0785	      0.0756	      0.0776	      0.0750	s
+CPU:     mesh_timer_layer2             		      0.0429	      0.0378	      0.0417	      0.0371	s
+CPU:     mesh_timer_layer_list         		      0.0001	      0.0002	      0.0002	      0.0001	s
+CPU:     mesh_timer_copy_mesh_data     		      0.0864	      0.0977	      0.0990	      0.0989	s
+CPU:     mesh_timer_fill_mesh_ghost    		      0.0023	      0.0018	      0.0016	      0.0018	s
+CPU:     mesh_timer_fill_neigh_ghost   		      0.1995	      1.8970	      1.8961	      1.9146	s
+CPU:     mesh_timer_set_corner_neigh   		      0.0001	      0.0003	      0.0003	      0.0004	s
+CPU:     mesh_timer_neigh_adjust       		      0.0700	      0.0703	      0.0704	      0.0702	s
+CPU:     mesh_timer_setup_comm         		      1.7961	      0.0945	      0.0882	      0.0769	s
+CPU:   state_timer_mass_sum          		    0.0045	    0.0039	    0.0021	    0.0040	s
+CPU:   mesh_timer_load_balance       		    0.0008	    0.0009	    0.0008	    0.0008	s
+CPU:   mesh_timer_calc_spatial_coordi		    0.0000	    0.0000	    0.0000	    0.0000	s
+=============================================================
+Profiling: Total CPU          time was	 17.4185	 17.3965	 17.3921	 17.3972	s
+-------------------------------------------------------------
+Mesh Ops (Neigh+rezone+smooth+balance) 	  6.2764	  6.2766	  6.2766	  6.2754	s
+Mesh Ops Percentage                    	 36.0327	 36.0798	 36.0890	 36.0711	percent
+=============================================================
+Profiling: Total              time was	 19.7003	 19.7004	 19.7083	 19.7003	s
+=============================================================
+CPU:  calc incl part meas     time was	 17.4443	 17.4232	 17.4218	 17.4243	s
+CPU:  calculation only        time was	 17.4434	 17.4222	 17.4208	 17.4234	s
+CPU:  partition measure       time was	  0.0010	  0.0010	  0.0010	  0.0010	s
+CPU:  graphics                time was	  0.0000	  0.0000	  0.0000	  0.0000	s
+The MPI surface area to volume ratio 	  0.0157	  0.0157	  0.0157	  0.0157	without duplicates
+Using hash tables to calculate neighbors
+Initial order is Hilbert sort.   No cycle reorder.   Local Stencil is on.
+CPU:  rezone frequency                	  49.6000	percent
+CPU:  calc neigh frequency            	  49.8000	percent
+CPU:  load balance frequency          	   0.0000	percent
+CPU:  refine_smooth_iter per rezone   	   0.8952	
+CRUX checkpointing time averaged 460.782021 msec, bandwidth 5.313875 Mbytes/sec
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+
+Exclusive  Inclusive       % of  Function (defining location)
+ CPU time   CPU time      Total
+       in         in  Exclusive
+ seconds.   seconds.   CPU Time
+38.799999  39.599999  57.178947  State::calc_finite_difference(double) (clamr_mpionly: state.cpp,1125)
+11.828571  11.828571  17.431579  read_hash_quadratic_report_level_1 (clamr_mpionly: hash.c,845)
+ 4.885714  21.628571   7.200000  Mesh::calc_neighbors_local() (clamr_mpionly: mesh.cpp,4195)
+ 2.657143   2.771429   3.915789  State::set_timestep(double, double) (clamr_mpionly: state.cpp,771)
+ 1.514286   1.971429   2.231579  Mesh::rezone_all(int, int, std::vector<int, std::allocator<int> >, int, MallocPlus&) (clamr_mpionly: mesh.cpp,2616)
+ 1.371429   3.657143   2.021053  State::calc_refine_potential(std::vector<int, std::allocator<int> >&, int&, int&) (clamr_mpionly: state.cpp,2666)
+ 1.114286   1.542857   1.642105  Mesh::refine_smooth(std::vector<int, std::allocator<int> >&, int&, int&) (clamr_mpionly: mesh.cpp,1599)
+ 1.000000   1.000000   1.473684  write_hash_quadratic_report_level_2.localalias.3 (clamr_mpionly: hash.c,370)
+ 0.771429   0.771429   1.136842  __GI_memcpy (libc-2.12.so: memcpy.S,56)
+ 0.457143   0.457143   0.673684  State::apply_boundary_conditions_ghost() (clamr_mpionly: state.cpp,627)
+ 0.457143   0.457143   0.673684  __GI_memset (libc-2.12.so: memset.S,44)
+ 0.371429   0.828571   0.547368  compact_hash_init (clamr_mpionly: hash.c,54)
+ 0.342857   0.342857   0.505263  State::apply_boundary_conditions_local() (clamr_mpionly: state.cpp,578)
+ 0.342857   0.342857   0.505263  hsfc2d (libhsfc.so.2.0.0: hsfc.c,72)
+ 0.314286   0.314286   0.463158  _wordcopy_fwd_aligned (libc-2.12.so: wordcopy.c,38)
+ 0.257143   0.257143   0.378947  Mesh::calc_celltype(unsigned long) [clone .localalias.207] (clamr_mpionly: mesh.cpp,7988)
+ 0.228571   0.228571   0.336842  std::vector<int, std::allocator<int> >::_M_fill_insert(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, unsigned long, int const&) (clamr_mpionly: vector.tcc,452)
+ 0.171429   0.171429   0.252632  Mesh::rezone_count(std::vector<int, std::allocator<int> >, int&, int&) (clamr_mpionly: mesh.cpp,2324)
+ 0.142857   0.457143   0.210526  KDTree_CreateTree (libkdtree.so.2.0.0: KDTree.c,187)
+ 0.114286   0.114286   0.168421  Bounds_AddBounds (libkdtree.so.2.0.0: Bounds.c,78)
+ 0.085714   0.085714   0.126316  Bounds_CenterAxis (libkdtree.so.2.0.0)
+ 0.057143   3.142857   0.084211  opal_timer_base_get_usec_clock_gettime (libopen-pal.so.13.0.3)
+ 0.057143   0.114286   0.084211  mca_btl_vader_component_progress (libmpi.so.12.0.3)
+ 0.057143   0.057143   0.084211  __GI_mempcpy (libc-2.12.so)
+ 0.028571   0.428571   0.042105  L7_Update (clamr_mpionly: l7_update.c,49)
+ 0.028571   0.028571   0.042105  cbtf_connected_to_mrnet (libcbtf-services-collector-monitor-mrnet-mpi.so.1.1.0: monitor.c,132)
+ 0.028571   3.085714   0.042105  __GI_clock_gettime (librt-2.12.so: clock_gettime.c,94)
+ 0.028571   0.028571   0.042105  __memcmp_sse4_1 (libc-2.12.so)
+ 0.028571   0.028571   0.042105  __GI___libc_write (libc-2.12.so)
+ 0.028571   0.085714   0.042105  __GI___gettimeofday (libc-2.12.so: gettimeofday.S,29)
+ 0.028571   0.028571   0.042105  Mesh::do_load_balance_local(unsigned long, float*, MallocPlus&) (clamr_mpionly: mesh.cpp,8059)
+ 0.028571   0.028571   0.042105  write_hash_quadratic_report_level_1 (clamr_mpionly: hash.c,856)
+ 0.028571   0.028571   0.042105  Bounds_Infinite (libkdtree.so.2.0.0)
+ 0.028571   0.685714   0.042105  _int_realloc (libc-2.12.so: malloc.c,5269)
+ 0.028571   0.028571   0.042105  __GI___libc_malloc (libc-2.12.so: malloc.c,3656)
+ 0.028571   0.028571   0.042105  std::ios_base::_M_dispose_callbacks() (libstdc++.so.6.0.21)
+ 0.028571   0.028571   0.042105  std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&) (libstdc++.so.6.0.21: tree.cc,296)
+ 0.028571   0.028571   0.042105  mca_pml_ob1_recv_frag_callback_ack (libmpi.so.12.0.3)
+ 0.028571   0.028571   0.042105  MallocPlus::memory_swap(float**, float**) [clone .localalias.100] (clamr_mpionly: MallocPlus.cpp,1051)
+ 0.028571   0.028571   0.042105  Bounds_WidthAxis (libkdtree.so.2.0.0: Bounds.c,106)

@@ -1,0 +1,115 @@
+
+********************************************************************************************
+
+	OPENSS_RAWDATA_DIR is needed for raw output from processors and has been set to:
+
+	/users/kfrye/openss/raw
+
+********************************************************************************************
+
+JOBID: 29554
+NUM_NODES: 1
+NODES: wc132
+Thu Dec  1 12:02:25 MST 2016
+/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-01_12:02/weak_hilb_out004_2h_mpionly exists.
+outfile: /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-01_12:02/machines/wc132.ptdf
+calling get_sys_info
+my_exec2 cmd is get_sys_info.py node_info
+version:  new
+calling systemScan
+my_exec2 cmd is systemScan.py -f node_info -o /turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-01_12:02/machines/wc132.ptdf
+version:  new
+my_exec2 cmd is vstat 
+version:  new
+my_exec2 cmd is vstat 
+version:  new
+my_exec2 cmd is /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly --version
+version:  new
+my_exec2 cmd is mpirun --version
+version:  new
+my_exec2 cmd is ldd /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly
+version:  new
+my_exec2 cmd is which df
+version:  new
+my_exec2 cmd is /bin/df -PTh
+version:  new
+my_exec2 cmd is cat /proc/fs/lustre/version 
+version:  new
+my_exec2 cmd is mpirun -np 4 -npernode 4 /turquoise/usr/projects/workflow_perf/CLAMR_wc/clamr_mpionly -n 1024  -i 100 -t 500 -P "hilbert_sort" -p "local_hilbert" -l 2 -c 100 -b 10
+version:  new
+App launch reported: 1 (out of 1) daemons - 4 (out of 4) procs
+Mass of initialized cells equal to  8013184.37943
+CPU:  setup time               time was	  1.1710	  1.1710	  1.1710	  1.1710	s
+Memory used      in startup 	     66440	     76852	     72532	     76060	kB
+Memory peak      in startup 	     82932	     93352	     89032	     92560	kB
+Memory free      at startup 	 195501476	 195501476	 195501476	 195501476	kB
+Memory available at startup 	 198376948	 198376948	 198376948	 198376948	kB
+Iteration   0 timestep      n/a Sim Time      0.0 cells 1056932 Mass Sum  8013184.37943
+Iteration 100 timestep 0.000160 Sim Time 0.021507 cells 1064444 Mass Sum  8013184.37943 Mass Change            0
+Iteration 200 timestep 0.000152 Sim Time 0.037119 cells 1067924 Mass Sum  8013184.37943 Mass Change            0
+Iteration 300 timestep 0.000147 Sim Time 0.052071 cells 1071032 Mass Sum  8013184.37943 Mass Change            0
+Iteration 400 timestep 0.000146 Sim Time 0.066687 cells 1073456 Mass Sum  8013184.37943 Mass Change            0
+Iteration 500 timestep 0.000144 Sim Time 0.081181 cells 1074992 Mass Sum  8013184.37943 Mass Change            0
+CRUX checkpointing time averaged 1724.320412 msec, bandwidth 5.575371 Mbytes/sec
+CRUX checkpointing time averaged 1724.322319 msec, bandwidth 5.575365 Mbytes/sec
+CRUX checkpointing time averaged 1724.322200 msec, bandwidth 5.575365 Mbytes/sec
+Memory used      	     75572	     85832	     82148	     83468	kB
+Memory peak      	     82932	     93352	     89032	     92560	kB
+Memory free      	 195419000	 195419000	 195419000	 195419000	kB
+Memory available 	 198376948	 198376948	 198376948	 198376948	kB
+
+~~~~~~~~~~~~~~~~ Device timing information ~~~~~~~~~~~~~~~~~~
+
+CPU: Parallel timings
+
+CPU: Device compute           time was	 90.6552	 90.6596	 90.6736	 90.6524	s
+CPU:   state_timer_set_timestep      		    2.7557	    2.7552	    2.7559	    2.7556	s
+CPU:   state_timer_finite_difference 		   37.7652	   37.7503	   37.7190	   37.7749	s
+CPU:   state_timer_refine_potential  		    4.1072	    4.1262	    4.1707	    4.0914	s
+CPU:     state_timer_calc_mpot         		      2.4014	      2.4212	      2.4688	      2.3896	s
+CPU:     mesh_timer_refine_smooth      		      1.4981	      1.4980	      1.4943	      1.4921	s
+CPU:   state_timer_rezone_all        		    4.1282	    4.1275	    4.1272	    4.1278	s
+CPU:   mesh_timer_partition          		    0.0000	    0.0000	    0.0000	    0.0000	s
+CPU:   mesh_timer_calc_neighbors     		   41.8897	   41.8893	   41.8892	   41.8894	s
+CPU:     mesh_timer_hash_setup         		      4.7064	      4.8090	      4.7817	      4.7562	s
+CPU:     mesh_timer_hash_query         		     18.2271	     18.3586	     18.2685	     18.2610	s
+CPU:     mesh_timer_find_boundary      		      2.3902	      1.8084	      1.9309	      1.9621	s
+CPU:     mesh_timer_push_setup         		      0.2155	      0.5629	      0.5599	      0.5624	s
+CPU:     mesh_timer_push_boundary      		      0.0176	      0.0177	      0.0172	      0.0178	s
+CPU:     mesh_timer_local_list         		      0.0007	      0.0007	      0.0007	      0.0007	s
+CPU:     mesh_timer_layer1             		      0.3167	      0.3134	      0.3061	      0.3202	s
+CPU:     mesh_timer_layer2             		      0.1084	      0.1015	      0.1071	      0.0998	s
+CPU:     mesh_timer_layer_list         		      0.0002	      0.0002	      0.0002	      0.0002	s
+CPU:     mesh_timer_copy_mesh_data     		      0.7336	      0.6839	      0.7113	      0.7266	s
+CPU:     mesh_timer_fill_mesh_ghost    		      0.0067	      0.0071	      0.0063	      0.0055	s
+CPU:     mesh_timer_fill_neigh_ghost   		      1.0827	     14.0676	     13.8353	     13.8078	s
+CPU:     mesh_timer_set_corner_neigh   		      0.0002	      0.0006	      0.0005	      0.0006	s
+CPU:     mesh_timer_neigh_adjust       		      0.4075	      0.4101	      0.4097	      0.4100	s
+CPU:     mesh_timer_setup_comm         		     13.3234	      0.3933	      0.6015	      0.6072	s
+CPU:   state_timer_mass_sum          		    0.0085	    0.0104	    0.0109	    0.0127	s
+CPU:   mesh_timer_load_balance       		    0.0007	    0.0007	    0.0007	    0.0007	s
+CPU:   mesh_timer_calc_spatial_coordi		    0.0000	    0.0000	    0.0000	    0.0000	s
+=============================================================
+Profiling: Total CPU          time was	 90.6552	 90.6596	 90.6736	 90.6524	s
+-------------------------------------------------------------
+Mesh Ops (Neigh+rezone+smooth+balance) 	 47.5167	 47.5155	 47.5114	 47.5100	s
+Mesh Ops Percentage                    	 52.4147	 52.4110	 52.3983	 52.4090	percent
+=============================================================
+Profiling: Total              time was	 99.3677	 99.3677	 99.3677	 99.3677	s
+=============================================================
+CPU:  calc incl part meas     time was	 90.7885	 90.7885	 90.7885	 90.7885	s
+CPU:  calculation only        time was	 90.7875	 90.7875	 90.7875	 90.7875	s
+CPU:  partition measure       time was	  0.0010	  0.0010	  0.0010	  0.0010	s
+CPU:  graphics                time was	  0.0000	  0.0000	  0.0000	  0.0000	s
+The MPI surface area to volume ratio 	  0.0078	  0.0078	  0.0078	  0.0078	without duplicates
+Using hash tables to calculate neighbors
+Initial order is Hilbert sort.   No cycle reorder.   Local Stencil is on.
+CPU:  rezone frequency                	  75.2000	percent
+CPU:  calc neigh frequency            	  75.2000	percent
+CPU:  load balance frequency          	   0.0000	percent
+CPU:  refine_smooth_iter per rezone   	   0.9309	
+CRUX checkpointing time averaged 1724.298596 msec, bandwidth 5.575442 Mbytes/sec
+
+Destination path '/turquoise/usr/projects/workflow_perf/CLAMR_wc/run/2016-12-01_12:02/weak_hilb_out004_2h_mpionly/mpirun_clamr_mpionly_1480618946.run' already exists
+Thu Dec  1 12:04:09 MST 2016
+Done
