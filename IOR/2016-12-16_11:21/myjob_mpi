@@ -1,0 +1,40 @@
+JOBID: 84221
+NUM_NODES: 1
+NODES: wc059
+Fri Dec 16 11:21:07 MST 2016
+/turquoise/usr/projects/workflow_perf/IOR/run/2016-12-16_11:21/ossiot_ior exists.
+outfile: /turquoise/usr/projects/workflow_perf/IOR/run/2016-12-16_11:21/machines/wc059.ptdf
+calling get_sys_info
+calling systemScan
+App launch reported: 1 (out of 1) daemons - 4 (out of 4) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Dec 16 11:21:08 2016
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 256M
+Machine: Linux wc059.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 4 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 256 MiB
+	aggregate filesize = 1 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         190.74     190.74      190.74      0.00     762.94     762.94      762.94      0.00   5.36869   EXCEL
+read          132.55     132.55      132.55      0.00     530.18     530.18      530.18      0.00   7.72562   EXCEL
+
+Max Write: 190.74 MiB/sec (200.00 MB/sec)
+Max Read:  132.55 MiB/sec (138.98 MB/sec)
+
+Run finished: Fri Dec 16 11:21:22 2016
+
+Destination path '/turquoise/usr/projects/workflow_perf/IOR/run/2016-12-16_11:21/ossiot_ior/mpirun_IOR_1481912468.run' already exists
+Fri Dec 16 11:21:22 MST 2016
+Done

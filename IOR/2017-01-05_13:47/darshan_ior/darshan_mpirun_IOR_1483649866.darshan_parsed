@@ -1,0 +1,195 @@
+# darshan log version: 3.10
+# compression method: ZLIB
+# exe: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+# uid: 28309
+# jobid: 69625
+# start_time: 1483649867
+# start_time_asci: Thu Jan  5 13:57:47 2017
+# end_time: 1483649919
+# end_time_asci: Thu Jan  5 13:58:39 2017
+# nprocs: 4
+# run time: 53
+# metadata: lib_ver = 3.1.2
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 360 bytes (uncompressed)
+# job data: 244 bytes (compressed)
+# record table: 147 bytes (compressed)
+# POSIX module: 197 bytes (compressed), ver=3
+# STDIO module: 74 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/turquoise/usr/projects/workflow_perf	nfs
+# mount entry:	/turquoise/usr/projects/hpctools	nfs
+# mount entry:	/turquoise/usr/projects/packages	nfs
+# mount entry:	/turquoise/usr/projects/hpcsoft	nfs
+# mount entry:	/turquoise/usr/projects/darshan	nfs
+# mount entry:	/turquoise/usr/projects/cint	nfs
+# mount entry:	/var/lib/perceus/vnfs	nfs
+# mount entry:	/lustre/scratch2	lustre
+# mount entry:	/lustre/scratch3	lustre
+# mount entry:	/lustre/scratch1	lustre
+# mount entry:	/turquoise/users	nfs
+# mount entry:	/fs4	nfs
+# mount entry:	/fs5	nfs
+# mount entry:	/fs6	nfs
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# description of POSIX counters:
+#   POSIX_*: posix operation counts.
+#   READS,WRITES,OPENS,SEEKS,STATS, and MMAPS are types of operations.
+#   POSIX_MODE: mode that file was opened in.
+#   POSIX_BYTES_*: total bytes read and written.
+#   POSIX_MAX_BYTE_*: highest offset byte read and written.
+#   POSIX_CONSEC_*: number of exactly adjacent reads and writes.
+#   POSIX_SEQ_*: number of reads and writes from increasing offsets.
+#   POSIX_RW_SWITCHES: number of times access alternated between read and write.
+#   POSIX_*_ALIGNMENT: memory and file alignment.
+#   POSIX_*_NOT_ALIGNED: number of reads and writes that were not aligned.
+#   POSIX_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   POSIX_SIZE_*_*: histogram of read and write access sizes.
+#   POSIX_STRIDE*_STRIDE: the four most common strides detected.
+#   POSIX_STRIDE*_COUNT: count of the four most common strides.
+#   POSIX_ACCESS*_ACCESS: the four most common access sizes.
+#   POSIX_ACCESS*_COUNT: count of the four most common access sizes.
+#   POSIX_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   POSIX_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   POSIX_F_*_START_TIMESTAMP: timestamp of first open/read/write/close.
+#   POSIX_F_*_END_TIMESTAMP: timestamp of last open/read/write/close.
+#   POSIX_F_READ/WRITE/META_TIME: cumulative time spent in read, write, or metadata operations.
+#   POSIX_F_MAX_*_TIME: duration of the slowest read and write operations.
+#   POSIX_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   POSIX_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+total_POSIX_OPENS: 8
+total_POSIX_READS: 16384
+total_POSIX_WRITES: 16384
+total_POSIX_SEEKS: 32768
+total_POSIX_STATS: 8
+total_POSIX_MMAPS: 0
+total_POSIX_FSYNCS: 0
+total_POSIX_FDSYNCS: 0
+total_POSIX_MODE: 436
+total_POSIX_BYTES_READ: 4294967296
+total_POSIX_BYTES_WRITTEN: 4294967296
+total_POSIX_MAX_BYTE_READ: 4294967295
+total_POSIX_MAX_BYTE_WRITTEN: 4294967295
+total_POSIX_CONSEC_READS: 16380
+total_POSIX_CONSEC_WRITES: 16380
+total_POSIX_SEQ_READS: 16383
+total_POSIX_SEQ_WRITES: 16383
+total_POSIX_RW_SWITCHES: 4
+total_POSIX_MEM_NOT_ALIGNED: 0
+total_POSIX_MEM_ALIGNMENT: 8
+total_POSIX_FILE_NOT_ALIGNED: 0
+total_POSIX_FILE_ALIGNMENT: 32768
+total_POSIX_MAX_READ_TIME_SIZE: 262144
+total_POSIX_MAX_WRITE_TIME_SIZE: 262144
+total_POSIX_SIZE_READ_0_100: 0
+total_POSIX_SIZE_READ_100_1K: 0
+total_POSIX_SIZE_READ_1K_10K: 0
+total_POSIX_SIZE_READ_10K_100K: 0
+total_POSIX_SIZE_READ_100K_1M: 16384
+total_POSIX_SIZE_READ_1M_4M: 0
+total_POSIX_SIZE_READ_4M_10M: 0
+total_POSIX_SIZE_READ_10M_100M: 0
+total_POSIX_SIZE_READ_100M_1G: 0
+total_POSIX_SIZE_READ_1G_PLUS: 0
+total_POSIX_SIZE_WRITE_0_100: 0
+total_POSIX_SIZE_WRITE_100_1K: 0
+total_POSIX_SIZE_WRITE_1K_10K: 0
+total_POSIX_SIZE_WRITE_10K_100K: 0
+total_POSIX_SIZE_WRITE_100K_1M: 16384
+total_POSIX_SIZE_WRITE_1M_4M: 0
+total_POSIX_SIZE_WRITE_4M_10M: 0
+total_POSIX_SIZE_WRITE_10M_100M: 0
+total_POSIX_SIZE_WRITE_100M_1G: 0
+total_POSIX_SIZE_WRITE_1G_PLUS: 0
+total_POSIX_STRIDE1_STRIDE: 0
+total_POSIX_STRIDE2_STRIDE: 0
+total_POSIX_STRIDE3_STRIDE: 0
+total_POSIX_STRIDE4_STRIDE: 0
+total_POSIX_STRIDE1_COUNT: 0
+total_POSIX_STRIDE2_COUNT: 0
+total_POSIX_STRIDE3_COUNT: 0
+total_POSIX_STRIDE4_COUNT: 0
+total_POSIX_ACCESS1_ACCESS: 262144
+total_POSIX_ACCESS2_ACCESS: 0
+total_POSIX_ACCESS3_ACCESS: 0
+total_POSIX_ACCESS4_ACCESS: 0
+total_POSIX_ACCESS1_COUNT: 32768
+total_POSIX_ACCESS2_COUNT: 0
+total_POSIX_ACCESS3_COUNT: 0
+total_POSIX_ACCESS4_COUNT: 0
+total_POSIX_FASTEST_RANK: 0
+total_POSIX_FASTEST_RANK_BYTES: 0
+total_POSIX_SLOWEST_RANK: 0
+total_POSIX_SLOWEST_RANK_BYTES: 0
+total_POSIX_F_OPEN_START_TIMESTAMP: 0.016683
+total_POSIX_F_READ_START_TIMESTAMP: 21.631154
+total_POSIX_F_WRITE_START_TIMESTAMP: 0.018390
+total_POSIX_F_CLOSE_START_TIMESTAMP: 0.981609
+total_POSIX_F_OPEN_END_TIMESTAMP: 21.631206
+total_POSIX_F_READ_END_TIMESTAMP: 52.118909
+total_POSIX_F_WRITE_END_TIMESTAMP: 2.481607
+total_POSIX_F_CLOSE_END_TIMESTAMP: 52.118923
+total_POSIX_F_READ_TIME: 121.506936
+total_POSIX_F_WRITE_TIME: 7.845942
+total_POSIX_F_META_TIME: 78.601806
+total_POSIX_F_MAX_READ_TIME: 0.278376
+total_POSIX_F_MAX_WRITE_TIME: 1.161838
+total_POSIX_F_FASTEST_RANK_TIME: 0.000000
+total_POSIX_F_SLOWEST_RANK_TIME: 0.000000
+total_POSIX_F_VARIANCE_RANK_TIME: 0.000000
+total_POSIX_F_VARIANCE_RANK_BYTES: 0.000000
+
+# *******************************************************
+# STDIO module data
+# *******************************************************
+
+# description of STDIO counters:
+#   STDIO_{OPENS|WRITES|READS|SEEKS|FLUSHES} are types of operations.
+#   STDIO_BYTES_*: total bytes read and written.
+#   STDIO_MAX_BYTE_*: highest offset byte read and written.
+#   STDIO_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   STDIO_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   STDIO_F_*_START_TIMESTAMP: timestamp of the first call to that type of function.
+#   STDIO_F_*_END_TIMESTAMP: timestamp of the completion of the last call to that type of function.
+#   STDIO_F_*_TIME: cumulative time spent in different types of functions.
+#   STDIO_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   STDIO_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+total_STDIO_OPENS: 2
+total_STDIO_READS: 0
+total_STDIO_WRITES: 55
+total_STDIO_SEEKS: 0
+total_STDIO_FLUSHES: 3
+total_STDIO_BYTES_WRITTEN: 1114
+total_STDIO_BYTES_READ: 0
+total_STDIO_MAX_BYTE_READ: 0
+total_STDIO_MAX_BYTE_WRITTEN: 1113
+total_STDIO_FASTEST_RANK: 0
+total_STDIO_FASTEST_RANK_BYTES: 0
+total_STDIO_SLOWEST_RANK: 0
+total_STDIO_SLOWEST_RANK_BYTES: 0
+total_STDIO_F_META_TIME: 0.000000
+total_STDIO_F_WRITE_TIME: 0.000186
+total_STDIO_F_READ_TIME: 0.000000
+total_STDIO_F_OPEN_START_TIMESTAMP: 0.000000
+total_STDIO_F_CLOSE_START_TIMESTAMP: 0.000000
+total_STDIO_F_WRITE_START_TIMESTAMP: 0.000000
+total_STDIO_F_READ_START_TIMESTAMP: 0.000000
+total_STDIO_F_OPEN_END_TIMESTAMP: 0.000000
+total_STDIO_F_CLOSE_END_TIMESTAMP: 0.000000
+total_STDIO_F_WRITE_END_TIMESTAMP: 52.436999
+total_STDIO_F_READ_END_TIMESTAMP: 0.000000
+total_STDIO_F_FASTEST_RANK_TIME: 0.000000
+total_STDIO_F_SLOWEST_RANK_TIME: 0.000000
+total_STDIO_F_VARIANCE_RANK_TIME: 0.000000
+total_STDIO_F_VARIANCE_RANK_BYTES: 0.000000

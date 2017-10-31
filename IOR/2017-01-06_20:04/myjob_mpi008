@@ -1,0 +1,571 @@
+JOBID: 108677
+NUM_NODES: 2
+NODES: wc[007-008]
+Fri Jan  6 20:04:57 MST 2017
+/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/ior exists.
+outfile: /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/machines/wc007.ptdf
+calling get_sys_info
+calling systemScan
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:04:59 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         263.86     263.86      263.86      0.00    1055.42    1055.42     1055.42      0.00  31.04735   EXCEL
+read          249.63     249.63      249.63      0.00     998.53     998.53      998.53      0.00  32.81626   EXCEL
+
+Max Write: 263.86 MiB/sec (276.67 MB/sec)
+Max Read:  249.63 MiB/sec (261.76 MB/sec)
+
+Run finished: Fri Jan  6 20:06:03 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:06:03 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         248.32     248.32      248.32      0.00     993.27     993.27      993.27      0.00  32.98998   EXCEL
+read          244.06     244.06      244.06      0.00     976.23     976.23      976.23      0.00  33.56572   EXCEL
+
+Max Write: 248.32 MiB/sec (260.38 MB/sec)
+Max Read:  244.06 MiB/sec (255.91 MB/sec)
+
+Run finished: Fri Jan  6 20:07:10 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:07:10 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         249.89     249.89      249.89      0.00     999.55     999.55      999.55      0.00  32.78275   EXCEL
+read          248.28     248.28      248.28      0.00     993.12     993.12      993.12      0.00  32.99503   EXCEL
+
+Max Write: 249.89 MiB/sec (262.03 MB/sec)
+Max Read:  248.28 MiB/sec (260.34 MB/sec)
+
+Run finished: Fri Jan  6 20:08:16 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:08:17 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         247.52     247.52      247.52      0.00     990.07     990.07      990.07      0.00  33.09656   EXCEL
+read          245.70     245.70      245.70      0.00     982.79     982.79      982.79      0.00  33.34174   EXCEL
+
+Max Write: 247.52 MiB/sec (259.54 MB/sec)
+Max Read:  245.70 MiB/sec (257.63 MB/sec)
+
+Run finished: Fri Jan  6 20:09:23 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:09:24 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         251.40     251.40      251.40      0.00    1005.60    1005.60     1005.60      0.00  32.58563   EXCEL
+read          268.53     268.53      268.53      0.00    1074.12    1074.12     1074.12      0.00  30.50671   EXCEL
+
+Max Write: 251.40 MiB/sec (263.61 MB/sec)
+Max Read:  268.53 MiB/sec (281.58 MB/sec)
+
+Run finished: Fri Jan  6 20:10:27 2017
+
+Destination path '/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/ior/mpirun_IOR_1483758298.run' already exists
+/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/ossiot_ior exists.
+outfile: /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/machines/wc007.ptdf
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:10:30 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         253.86     253.86      253.86      0.00    1015.42    1015.42     1015.42      0.00  32.27038   EXCEL
+read          254.35     254.35      254.35      0.00    1017.41    1017.41     1017.41      0.00  32.20736   EXCEL
+
+Max Write: 253.86 MiB/sec (266.19 MB/sec)
+Max Read:  254.35 MiB/sec (266.71 MB/sec)
+
+Run finished: Fri Jan  6 20:11:35 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:5.421524 mm:ss  from 2017/01/06 20:10:29 to 2017/01/06 20:11:35
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+249869.331878  49.717763   32900        76          8     32768     262144  8590160872  __read (libpthread-2.12.so: syscall-template.S,82)
+237452.966427  47.247216      16                                                        close (libpthread-2.12.so: syscall-template.S,82)
+ 14899.485594   2.964626   32848         8          5     32768     262144  8589938368  write (libpthread-2.12.so: syscall-template.S,82)
+   235.796875   0.046918      16                                                        __open64 (libpthread-2.12.so: syscall-template.S,82)
+   116.541578   0.023189   65536                                                        lseek (libpthread-2.12.so: syscall-template.S,82)
+     0.839903   0.000167     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.609638   0.000121     181        55         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)
+Creating topology file for slurm frontend node wc007 for SLURM_JOB_ID 108677
+Generated topology file: ./cbtfAutoTopology
+default view for ./IOR-iot-0.openss
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:11:52 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         258.17     258.17      258.17      0.00    1032.69    1032.69     1032.69      0.00  31.73074   EXCEL
+read          246.22     246.22      246.22      0.00     984.87     984.87      984.87      0.00  33.27144   EXCEL
+
+Max Write: 258.17 MiB/sec (270.71 MB/sec)
+Max Read:  246.22 MiB/sec (258.18 MB/sec)
+
+Run finished: Fri Jan  6 20:12:57 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:5.906977 mm:ss  from 2017/01/06 20:11:52 to 2017/01/06 20:12:57
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+256712.114348  50.699677   32899        75          8     32768     262144  8590160864  __read (libpthread-2.12.so: syscall-template.S,82)
+233703.578876  46.155578      16                                                        close (libpthread-2.12.so: syscall-template.S,82)
+ 15551.559364   3.071374   32848         8          5     32768     262144  8589938368  write (libpthread-2.12.so: syscall-template.S,82)
+   255.170292   0.050395      16                                                        __open64 (libpthread-2.12.so: syscall-template.S,82)
+   114.804137   0.022673   65536                                                        __libc_lseek64 (libpthread-2.12.so: syscall-template.S,82)
+     0.901298   0.000178     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.626131   0.000124     181        56         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)
+Creating topology file for slurm frontend node wc007 for SLURM_JOB_ID 108677
+Generated topology file: ./cbtfAutoTopology
+default view for ./IOR-iot-1.openss
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:13:15 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         263.07     263.07      263.07      0.00    1052.28    1052.28     1052.28      0.00  31.14004   EXCEL
+read          247.43     247.43      247.43      0.00     989.74     989.74      989.74      0.00  33.10783   EXCEL
+
+Max Write: 263.07 MiB/sec (275.85 MB/sec)
+Max Read:  247.43 MiB/sec (259.45 MB/sec)
+
+Run finished: Fri Jan  6 20:14:20 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:5.147786 mm:ss  from 2017/01/06 20:13:15 to 2017/01/06 20:14:20
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+256429.256378  51.279450   32897        73          8     32768     262144  8590160848  read (libpthread-2.12.so: syscall-template.S,82)
+227128.603486  45.420051      16                                                        close (libpthread-2.12.so: syscall-template.S,82)
+ 16152.965268   3.230190   32848         8          5     32768     262144  8589938368  __write (libpthread-2.12.so: syscall-template.S,82)
+   237.728552   0.047540      16                                                        __open (libpthread-2.12.so: syscall-template.S,82)
+   112.304633   0.022458   65536                                                        __lseek (libpthread-2.12.so: syscall-template.S,82)
+     0.911717   0.000182     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.649165   0.000130     180        55         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)
+Creating topology file for slurm frontend node wc007 for SLURM_JOB_ID 108677
+Generated topology file: ./cbtfAutoTopology
+default view for ./IOR-iot-2.openss
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:14:37 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         269.57     269.57      269.57      0.00    1078.27    1078.27     1078.27      0.00  30.38948   EXCEL
+read          266.86     266.86      266.86      0.00    1067.42    1067.42     1067.42      0.00  30.69823   EXCEL
+
+Max Write: 269.57 MiB/sec (282.66 MB/sec)
+Max Read:  266.86 MiB/sec (279.82 MB/sec)
+
+Run finished: Fri Jan  6 20:15:38 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:1.993015 mm:ss  from 2017/01/06 20:14:36 to 2017/01/06 20:15:38
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+238938.758064  49.780368   32901        76          8     32768     262144  8590160872  read (libpthread-2.12.so: syscall-template.S,82)
+224764.357953  46.827282      16                                                        close (libpthread-2.12.so: syscall-template.S,82)
+ 15946.851591   3.322358   32848         8          5     32768     262144  8589938368  write (libpthread-2.12.so: syscall-template.S,82)
+   221.714771   0.046192      16                                                        __open (libpthread-2.12.so: syscall-template.S,82)
+   112.785765   0.023498   65536                                                        lseek64 (libpthread-2.12.so: syscall-template.S,82)
+     0.829567   0.000173     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.620613   0.000129     181        56         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)
+Creating topology file for slurm frontend node wc007 for SLURM_JOB_ID 108677
+Generated topology file: ./cbtfAutoTopology
+default view for ./IOR-iot-3.openss
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:15:56 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         269.13     269.13      269.13      0.00    1076.54    1076.54     1076.54      0.00  30.43826   EXCEL
+read          248.74     248.74      248.74      0.00     994.96     994.96      994.96      0.00  32.93412   EXCEL
+
+Max Write: 269.13 MiB/sec (282.21 MB/sec)
+Max Read:  248.74 MiB/sec (260.82 MB/sec)
+
+Run finished: Fri Jan  6 20:17:00 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:4.271449 mm:ss  from 2017/01/06 20:15:56 to 2017/01/06 20:17:00
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+249299.896055  51.000324   32900        76          8     32768     262144  8590160872  __libc_read (libpthread-2.12.so: syscall-template.S,82)
+223515.090031  45.725419      16                                                        __libc_close (libpthread-2.12.so: syscall-template.S,82)
+ 15631.179410   3.197736   32848         8          5     32768     262144  8589938368  __libc_write (libpthread-2.12.so: syscall-template.S,82)
+   259.049327   0.052995      16                                                        __open (libpthread-2.12.so: syscall-template.S,82)
+   113.543030   0.023228   65536                                                        lseek (libpthread-2.12.so: syscall-template.S,82)
+     0.839215   0.000172     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.619841   0.000127     182        56         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)
+Creating topology file for slurm frontend node wc007 for SLURM_JOB_ID 108677
+Generated topology file: ./cbtfAutoTopology
+default view for ./IOR-iot-4.openss
+Destination path '/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/ossiot_ior/ossiot_mpirun_IOR_1483758628.run' already exists
+/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/darshan_ior exists.
+outfile: /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/machines/wc007.ptdf
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:17:21 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         264.03     264.03      264.03      0.00    1056.14    1056.14     1056.14      0.00  31.02620   EXCEL
+read          248.23     248.23      248.23      0.00     992.93     992.93      992.93      0.00  33.00124   EXCEL
+
+Max Write: 264.03 MiB/sec (276.86 MB/sec)
+Max Read:  248.23 MiB/sec (260.29 MB/sec)
+
+Run finished: Fri Jan  6 20:18:25 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:18:26 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         264.31     264.31      264.31      0.00    1057.23    1057.23     1057.23      0.00  30.99427   EXCEL
+read          250.08     250.08      250.08      0.00    1000.30    1000.30     1000.30      0.00  32.75817   EXCEL
+
+Max Write: 264.31 MiB/sec (277.15 MB/sec)
+Max Read:  250.08 MiB/sec (262.22 MB/sec)
+
+Run finished: Fri Jan  6 20:19:30 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:19:31 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+WARNING: inconsistent file size by different tasks.
+WARNING: Expected aggregate file size       = 8589934592.
+WARNING: Stat() of aggregate file size      = 8553791488.
+WARNING: Using actual aggregate bytes moved = 8589934592.
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         256.12     256.12      256.12      0.00    1024.49    1024.49     1024.49      0.00  31.98478   EXCEL
+read          249.89     249.89      249.89      0.00     999.57     999.57      999.57      0.00  32.78209   EXCEL
+
+Max Write: 256.12 MiB/sec (268.56 MB/sec)
+Max Read:  249.89 MiB/sec (262.03 MB/sec)
+
+Run finished: Fri Jan  6 20:20:36 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:20:38 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         266.69     266.69      266.69      0.00    1066.77    1066.77     1066.77      0.00  30.71705   EXCEL
+read          245.82     245.82      245.82      0.00     983.29     983.29      983.29      0.00  33.32494   EXCEL
+
+Max Write: 266.69 MiB/sec (279.65 MB/sec)
+Max Read:  245.82 MiB/sec (257.76 MB/sec)
+
+Run finished: Fri Jan  6 20:21:43 2017
+
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:21:44 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         245.28     245.28      245.28      0.00     981.11     981.11      981.11      0.00  33.39887   EXCEL
+read          240.69     240.69      240.69      0.00     962.76     962.76      962.76      0.00  34.03565   EXCEL
+
+Max Write: 245.28 MiB/sec (257.19 MB/sec)
+Max Read:  240.69 MiB/sec (252.38 MB/sec)
+
+Run finished: Fri Jan  6 20:22:52 2017
+
+Destination path '/turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/darshan_ior/darshan_mpirun_IOR_1483759039.run' already exists
+Fri Jan  6 20:22:54 MST 2017
+Done

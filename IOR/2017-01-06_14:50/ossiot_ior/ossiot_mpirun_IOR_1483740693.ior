@@ -1,0 +1,49 @@
+[openss]: iot using default experiment trace function list.
+Running iot collector.
+Program: mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Number of mrnet backends: 8
+Topology file used: ./cbtfAutoTopology
+executing mpi program: mpirun -np 8 -npernode 4  cbtfrun  --mpi  --mrnet  -c iot /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 15:11:34 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc043.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         268.77     268.77      268.77      0.00    1075.08    1075.08     1075.08      0.00  30.47949   EXCEL
+read          244.12     244.12      244.12      0.00     976.48     976.48      976.48      0.00  33.55717   EXCEL
+
+Max Write: 268.77 MiB/sec (281.83 MB/sec)
+Max Read:  244.12 MiB/sec (255.98 MB/sec)
+
+Run finished: Fri Jan  6 15:12:38 2017
+All Threads are finished.
+[openss]: The restored experiment identifier is:  -x 1
+Performance data spans 1:10.498017 mm:ss  from 2017/01/06 15:11:28 to 2017/01/06 15:12:38
+
+     I/O Call       % of  Number  Min_Bytes  Min_Bytes  Max_Bytes  Max_Bytes  Total_Bytes  Function (defining location)
+     Time(ms)  Total I/O      of     Count       Read     Count       Read        Read  
+                    Time   Calls              Written              Written     Written  
+                                                                                        
+262541.844095  52.335691   32900        76          8     32768     262144  8590160872  read (libpthread-2.12.so: syscall-template.S,82)
+221564.287676  44.167131      16                                                        close (libpthread-2.12.so: syscall-template.S,82)
+ 17171.485822   3.423003   32848         8          5     32768     262144  8589938384  write (libpthread-2.12.so: syscall-template.S,82)
+   258.132675   0.051457      16                                                        __open (libpthread-2.12.so: syscall-template.S,82)
+   112.461393   0.022418   65536                                                        __lseek (libpthread-2.12.so: syscall-template.S,82)
+     0.875669   0.000175     186        56         22         8       1046       13084  __libc_writev (libc-2.12.so: writev.c,47)
+     0.629895   0.000126     180        55         22         8       1046       13084  __readv (libc-2.12.so: readv.c,47)

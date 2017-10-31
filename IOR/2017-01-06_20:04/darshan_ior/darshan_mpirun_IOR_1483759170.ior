@@ -1,0 +1,32 @@
+App launch reported: 2 (out of 2) daemons - 4 (out of 8) procs
+IOR-2.10.3: MPI Coordinated Test of Parallel I/O
+
+Run began: Fri Jan  6 20:19:31 2017
+Command line used: /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g
+Machine: Linux wc007.localdomain
+
+Summary:
+	api                = POSIX
+	test filename      = testFile
+	access             = single-shared-file
+	ordering in a file = sequential offsets
+	ordering inter file= no tasks offsets
+	clients            = 8 (4 per node)
+	repetitions        = 1
+	xfersize           = 262144 bytes
+	blocksize          = 1 GiB
+	aggregate filesize = 8 GiB
+
+WARNING: inconsistent file size by different tasks.
+WARNING: Expected aggregate file size       = 8589934592.
+WARNING: Stat() of aggregate file size      = 8553791488.
+WARNING: Using actual aggregate bytes moved = 8589934592.
+Operation  Max (MiB)  Min (MiB)  Mean (MiB)   Std Dev  Max (OPs)  Min (OPs)  Mean (OPs)   Std Dev  Mean (s)  
+---------  ---------  ---------  ----------   -------  ---------  ---------  ----------   -------  --------
+write         256.12     256.12      256.12      0.00    1024.49    1024.49     1024.49      0.00  31.98478   EXCEL
+read          249.89     249.89      249.89      0.00     999.57     999.57      999.57      0.00  32.78209   EXCEL
+
+Max Write: 256.12 MiB/sec (268.56 MB/sec)
+Max Read:  249.89 MiB/sec (262.03 MB/sec)
+
+Run finished: Fri Jan  6 20:20:36 2017

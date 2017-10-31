@@ -1,0 +1,46 @@
+# Resource Type/Name Section
+# This section defines parent hierarchy names.
+# These are names  that cannot be determined by
+# gathering methods or are names the user wishes
+# to override with.
+# ========================================
+#Resource Type: Resource Name
+ResourceType 'grid':'LANL'
+ResourceType 'machine':'Woodchuck'
+ResourceType 'partition':'turquoise'
+ResourceType 'node':wc053'
+ResourceType 'processor':'0'
+ResourceType 'processor':'1'
+ResourceType 'processor':'2'
+ResourceType 'processor':'3'
+ResourceType 'processor':'4'
+ResourceType 'processor':'5'
+ResourceType 'processor':'6'
+ResourceType 'processor':'7'
+ResourceType 'processor':'8'
+ResourceType 'processor':'9'
+ResourceType 'processor':'10'
+ResourceType 'processor':'11'
+ResourceType 'processor':'12'
+ResourceType 'processor':'13'
+ResourceType 'processor':'14'
+ResourceType 'processor':'15'
+
+# Hierarchy Section
+# This section specifies the machine hierarchy
+# ========================================
+Hierarchy grid/machine/partition/node/processor
+
+# Attribute Section
+# ========================================
+#Object (Host System GM Only)		# Attribute Name	# Lives at	# Resource Name hierarchy
+'attribFunc_Unix_hostName'          'HostName'		    'node'
+'attribFunc_linux_getArch'		    'Architecture'		'node'
+'attribFunc_linux_Versioin'		    'Version'	        'node'
+'attribFunc_linux_numOfProc'		'NumOfProcs'		'node'
+'attribFunc_linux_amountMem'		'Main Memory GB'    'node'
+'attribFunc_linux_amountSwap'		'AmountSwap KB'		'node'
+'attribFunc_linux_CPUCacheSize'		'CacheSize KB'		'processor'
+'attribFunc_linux_CPUMhz'		    'MHz'	            'processor'
+'attribFunc_linux_CPUModel'		    'Type'		    	'processor'
+'attribFunc_linux_CPUVendorID'		'Vendor'    		'processor'

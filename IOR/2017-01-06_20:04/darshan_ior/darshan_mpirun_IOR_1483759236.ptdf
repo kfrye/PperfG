@@ -1,0 +1,266 @@
+ResourceType application
+ResourceType environment
+ResourceType execution
+ResourceType execution|process
+ResourceType fileSystem
+ResourceType fileSystem|device
+ResourceType grid|machine|partition|node
+ResourceType metric
+ResourceType operatingSystem
+ResourceType performanceTool
+ResourceType submission
+Application ior
+Execution darshan_mpirun_IOR_1483759236 ior
+ResourceAttribute darshan_mpirun_IOR_1483759236 LaunchDateTime 1483759236 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 UserName kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 ApplicationName ior string
+ResourceAttribute darshan_mpirun_IOR_1483759236 ExecutableName /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_CHECKPOINT_IMAGE_DIR /opt/MOAB string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NODELIST wc[007-008] string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_REMOTEHOST wtrw1.lanl.gov string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env__MODULES_FC intel/16.0.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOB_NAME msub_mpi008 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MANPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/share/man:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/man/common: string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURMD_NODENAME wc007 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_TOPOLOGY_ADDR wc007 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NTASKS_PER_NODE 4 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_HOSTNAME wc007 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LCOMPILER intel string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_PRIO_PROCESS 0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_INTEL_LICENSE_FILE /usr/projects/hpcsoft/toss2/common/intel/license.dat string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_HOST wc007.localdomain string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SHELL /bin/tcsh string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_TERM xterm-256color string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_ORTE_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_WISECONFIGDIR /usr/share/wise2/ string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_TMPDIR /tmp string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_TOPOLOGY_ADDR_PATTERN node string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SSH_CLIENT "204.121.65.1 37652 22" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LMPI openmpi string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LD_PRELOAD /usr/projects/darshan/sw/toss-x86_64_wc/lib/libdarshan.so string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_ORTE_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OMPI_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_QTDIR /usr/lib64/qt-3.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OMPI_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_QTINC /usr/lib64/qt-3.3/include string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SSH_TTY /dev/pts/11 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LMPIVER 1.10.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_INTEL /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NNODES 2 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_GROUP kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_USER kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LD_LIBRARY_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/lib:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/lib64:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/lib/intel64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib64:/usr/projects/workflow_perf/krellroot_v2.3.0/lib:/usr/projects/workflow_perf/osscbtf_v2.3.0/lib64:/usr/projects/workflow_perf/cbtf_v2.30/lib64 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LS_COLORS rs string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOBID 108677 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_CPATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/include string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_HOSTTYPE x86_64-linux string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_RUN_DIR /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/darshan_ior string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NTASKS 8 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_ROOT_DIR /turquoise/usr/projects/workflow_perf/IOR string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_TASKS_PER_NODE 4(x2) string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MAIL /var/spool/mail/kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_PATH /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3/bin:/usr/projects/hpcsoft/toss2/common/gcc/5.3.0/bin:/usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/opt/MOAB/bin:/opt/PBS/bin:/opt/dell/srvadmin/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/opt/MOAB/bin:/opt/PBS/bin:/usr/projects/workflow_perf/PerfTrack/build/bin:/usr/projects/workflow_perf/postgres/bin:/usr/projects/workflow_perf/osscbtf_v2.3.0/bin:/usr/projects/workflow_perf/krellroot_v2.3.0/bin:/usr/projects/workflow_perf/cbtf_v2.30/sbin:/usr/projects/workflow_perf/cbtf_v2.30/bin:/turquoise/usr/projects/darshan/sw/toss-x86_64_wc/bin string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MPI_NAME openmpi string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOB_ID 108677 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_PWD /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04/darshan_ior string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env__LMFILES_ /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler/intel/16.0.3:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi/openmpi/1.10.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SCRIPTS_DIR /turquoise/usr/projects/workflow_perf/IOR/scripts string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LANG en_US.UTF-8 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_DYNINSTAPI_RT_LIB /usr/projects/workflow_perf/krellroot_v2.3.0/lib64/libdyninstAPI_RT.so string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_DARSHAN_LOG_PATH /usr/projects/workflow_perf/darshan string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MODULEPATH /usr/projects/hpcsoft/toss2/modulefiles/woodchuck/compiler:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/debugger:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/libraries:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/misc:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/mpi:/usr/projects/hpcsoft/toss2/modulefiles/woodchuck/tools string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MOABHOMEDIR /opt/MOAB string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LOADEDMODULES intel/16.0.3:openmpi/1.10.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NODEID 0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OPAL_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_PROJECT_DIR /usr/projects/workflow_perf string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_SUBMIT_DIR /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_F77 /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_TASK_PID 1826 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_NPROCS 8 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MPI_VERSION 1.10.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_CPUS_ON_NODE 16 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_PROCID 0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_ENVIRONMENT BATCH string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SSH_ASKPASS /usr/libexec/openssh/gnome-ssh-askpass string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOB_NODELIST wc[007-008] string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OPAL_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SHLVL 4 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_HOME /users/kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_LOCALID 0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_GET_USER_ENV 1 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OMPI_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OSTYPE linux string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOB_CPUS_PER_NODE 16(x2) string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LCOMPILERMAJVER 16 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_GTIDS 0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MPIHOME /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_GCC /usr/projects/hpcsoft/toss2/common/gcc/5.3.0 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_FC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/ifort string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_RUNS_DIR /turquoise/usr/projects/workflow_perf/IOR/run/2017-01-06_20:04 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_VENDOR unknown string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MPI_ROOT /usr/projects/hpcsoft/toss2/woodchuck/openmpi/1.10.3-intel-16.0.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_PYTHONPATH /usr/projects/workflow_perf/PerfTrack/build/lib/python2.6/site-packages/perftrack string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MACHTYPE x86_64 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LOGNAME kfrye string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LUSTRE_JOBID wc.108677 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_BUILD_DIR /turquoise/usr/projects/workflow_perf/IOR/src/C string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_QTLIB /usr/lib64/qt-3.3/lib string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_CVS_RSH ssh string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SSH_CONNECTION "204.121.65.1 37652 204.121.65.81 22" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_SLURM_JOB_NUM_NODES 2 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_MODULESHOME /usr/share/Modules string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_OMPI_CXX /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icpc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LMPIMAJVER 1.10 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LESSOPEN "||/usr/bin/lesspipe.sh %s" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_LCOMPILERVER 16.0.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_CC /usr/projects/hpcsoft/toss2/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_PTDB PG_PYGRESQL string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env_G_BROKEN_FILENAMES 1 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env__MODULES_CC intel/16.0.3 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 Env__ /bin/env string
+ResourceAttribute darshan_mpirun_IOR_1483759236 PageSize 4096 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 NumberOfProcesses 8 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 UsesMPI False string
+ResourceAttribute darshan_mpirun_IOR_1483759236 UsesOpenMP False string
+ResourceAttribute darshan_mpirun_IOR_1483759236 UsesPthreads False string
+ResourceAttribute darshan_mpirun_IOR_1483759236 performanceTool darshan string
+ResourceAttribute darshan_mpirun_IOR_1483759236 api POSIX string
+ResourceAttribute darshan_mpirun_IOR_1483759236 "test filename" testFile string
+ResourceAttribute darshan_mpirun_IOR_1483759236 access single-shared-file string
+ResourceAttribute darshan_mpirun_IOR_1483759236 "ordering in a file" "sequential offsets" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 "ordering inter file" "no tasks offsets" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 clients "8 (4 per node)" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 repetitions 1 string
+ResourceAttribute darshan_mpirun_IOR_1483759236 xfersize "262144 bytes" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 blocksize "1 GiB" string
+ResourceAttribute darshan_mpirun_IOR_1483759236 "aggregate filesize" "8 GiB" string
+Resource LANL|Woodchuck|turquoise|wc007 grid|machine|partition|node darshan_mpirun_IOR_1483759236
+Resource "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998" operatingSystem darshan_mpirun_IOR_1483759236
+Resource Max_MiB_read metric darshan_mpirun_IOR_1483759236
+Resource Max_MiB_write metric darshan_mpirun_IOR_1483759236
+Resource Max_OPs_read metric darshan_mpirun_IOR_1483759236
+Resource Max_OPs_write metric darshan_mpirun_IOR_1483759236
+Resource Max_Read_MB_sec metric darshan_mpirun_IOR_1483759236
+Resource Max_Read_MiB_sec metric darshan_mpirun_IOR_1483759236
+Resource Max_Write_MB_sec metric darshan_mpirun_IOR_1483759236
+Resource Max_Write_MiB_sec metric darshan_mpirun_IOR_1483759236
+Resource Mean_MiB_read metric darshan_mpirun_IOR_1483759236
+Resource Mean_MiB_write metric darshan_mpirun_IOR_1483759236
+Resource Mean_OPs_read metric darshan_mpirun_IOR_1483759236
+Resource Mean_OPs_write metric darshan_mpirun_IOR_1483759236
+Resource Mean_s_read metric darshan_mpirun_IOR_1483759236
+Resource Mean_s_write metric darshan_mpirun_IOR_1483759236
+Resource Min_MiB_read metric darshan_mpirun_IOR_1483759236
+Resource Min_MiB_write metric darshan_mpirun_IOR_1483759236
+Resource Std_Dev_MiB_read metric darshan_mpirun_IOR_1483759236
+Resource Std_Dev_MiB_write metric darshan_mpirun_IOR_1483759236
+Resource Std_Dev_OPs_read metric darshan_mpirun_IOR_1483759236
+Resource Std_Dev_OPs_write metric darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-0 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-1 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-2 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-3 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-4 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-5 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-6 execution|process darshan_mpirun_IOR_1483759236
+Resource darshan_mpirun_IOR_1483759236|Process-7 execution|process darshan_mpirun_IOR_1483759236
+Resource env-999 environment darshan_mpirun_IOR_1483759236
+Resource lustre-1001 fileSystem darshan_mpirun_IOR_1483759236
+ResourceAttribute lustre-1001 Version "lustre: 2.5.5" string
+ResourceAttribute lustre-1001 fs_type lustre string
+Resource lustre-1001|l1 fileSystem|device darshan_mpirun_IOR_1483759236
+ResourceAttribute lustre-1001|l1 deviceName 10.1.15.1@o2ib5:10.1.15.2@o2ib5:/l1 string
+ResourceAttribute lustre-1001|l1 mountPoint /lustre/scratch1 string
+ResourceAttribute lustre-1001|l1 Size 3.4P string
+ResourceAttribute lustre-1001|l1 Used 65T string
+ResourceAttribute lustre-1001|l1 Avail 3.3P string
+ResourceAttribute lustre-1001|l1 Used% 2% string
+Resource lustre-1001|l2 fileSystem|device darshan_mpirun_IOR_1483759236
+ResourceAttribute lustre-1001|l2 deviceName 10.1.15.3@o2ib25:10.1.15.4@o2ib25:/l2 string
+ResourceAttribute lustre-1001|l2 mountPoint /lustre/scratch2 string
+ResourceAttribute lustre-1001|l2 Size 2.3P string
+ResourceAttribute lustre-1001|l2 Used 1.3P string
+ResourceAttribute lustre-1001|l2 Avail 994T string
+ResourceAttribute lustre-1001|l2 Used% 57% string
+Resource lustre-1001|l3 fileSystem|device darshan_mpirun_IOR_1483759236
+ResourceAttribute lustre-1001|l3 deviceName 10.1.15.7@o2ib35:10.1.15.8@o2ib35:/l3 string
+ResourceAttribute lustre-1001|l3 mountPoint /lustre/scratch3 string
+ResourceAttribute lustre-1001|l3 Size 9.2P string
+ResourceAttribute lustre-1001|l3 Used 2.1P string
+ResourceAttribute lustre-1001|l3 Avail 7.1P string
+ResourceAttribute lustre-1001|l3 Used% 23% string
+Resource "self instrumentation" performanceTool darshan_mpirun_IOR_1483759236
+Resource submission-1000 submission darshan_mpirun_IOR_1483759236
+ResourceAttribute submission-1000 launcher mpirun string
+ResourceAttribute submission-1000 launcherVersion "mpirun (Open MPI) 1.10.3" string
+ResourceAttribute submission-1000 programVersion 0.0 string
+ResourceAttribute submission-1000 batchFile None string
+ResourceAttribute submission-1000 runCmd_1 "mpirun -np 8 -npernode 4 /turquoise/usr/projects/workflow_perf/IOR/src/C/IOR -b 1g" string
+ResourceConstraint Max_MiB_read "self instrumentation"
+ResourceConstraint Max_MiB_write "self instrumentation"
+ResourceConstraint Max_OPs_read "self instrumentation"
+ResourceConstraint Max_OPs_write "self instrumentation"
+ResourceConstraint Max_Read_MB_sec "self instrumentation"
+ResourceConstraint Max_Read_MiB_sec "self instrumentation"
+ResourceConstraint Max_Write_MB_sec "self instrumentation"
+ResourceConstraint Max_Write_MiB_sec "self instrumentation"
+ResourceConstraint Mean_MiB_read "self instrumentation"
+ResourceConstraint Mean_MiB_write "self instrumentation"
+ResourceConstraint Mean_OPs_read "self instrumentation"
+ResourceConstraint Mean_OPs_write "self instrumentation"
+ResourceConstraint Mean_s_read "self instrumentation"
+ResourceConstraint Mean_s_write "self instrumentation"
+ResourceConstraint Min_MiB_read "self instrumentation"
+ResourceConstraint Min_MiB_write "self instrumentation"
+ResourceConstraint Std_Dev_MiB_read "self instrumentation"
+ResourceConstraint Std_Dev_MiB_write "self instrumentation"
+ResourceConstraint Std_Dev_OPs_read "self instrumentation"
+ResourceConstraint Std_Dev_OPs_write "self instrumentation"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-0 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-0 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-0 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-1 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-1 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-1 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-2 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-2 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-2 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-3 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-3 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-3 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-4 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-4 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-4 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-5 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-5 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-5 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-6 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-6 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-6 LANL|Woodchuck|turquoise|wc007
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-7 env-999
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-7 "Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998"
+ResourceConstraint darshan_mpirun_IOR_1483759236|Process-7 LANL|Woodchuck|turquoise|wc007
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_MiB_write 266.69 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Min_MiB_write 266.69 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_MiB_write 266.69 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Std_Dev_MiB_write 0.00 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_OPs_write 1066.77 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_OPs_write 1066.77 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_OPs_write 1066.77 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Std_Dev_OPs_write 0.00 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_s_write 30.71705 s noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_MiB_read 245.82 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Min_MiB_read 245.82 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_MiB_read 245.82 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Std_Dev_MiB_read 0.00 MiB noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_OPs_read 983.29 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_OPs_read 983.29 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_OPs_read 983.29 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Std_Dev_OPs_read 0.00 OPs noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Mean_s_read 33.32494 s noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_Write_MiB_sec 266.69 MiB/sec noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_Write_MB_sec 279.65 MB/sec noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_Read_MiB_sec 245.82 MiB/sec noValue noValue
+PerfResult darshan_mpirun_IOR_1483759236 "ior,env-999,darshan_mpirun_IOR_1483759236,lustre-1001,LANL|Woodchuck|turquoise|wc007,Linux #1 SMP Mon Oct 24 10:49:01 PDT 2016 2.6.32-642.6.2.1chaos.ch5.5.x86_64-998,submission-1000" "self instrumentation" Max_Read_MB_sec 257.76 MB/sec noValue noValue
