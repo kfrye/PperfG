@@ -1,0 +1,40 @@
+#!/usr/bin/python
+import subprocess
+import sys
+import re
+import extract_openss
+
+debug = True
+
+if len(sys.argv) != 2:
+  print "Correct syntax is: 'osspcsamp \"<command>\"'"
+  exit(1)
+
+args = sys.argv[1]
+command = ['/usr/projects/workflow_perf/oss_install_dirs/openss/bin/osspcsamp', sys.argv[1]]
+
+if debug:
+    print 'DEBUG: Running command', command[0], 'with arguments', command[1]
+
+try:
+    p = subprocess.Popen(command,  
+                         stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                         stderr=subprocess.PIPE, shell=False)
+    if debug:
+        print 'Calling communicate. This will block until process is done'
+    stdout, stderr = p.communicate()
+except Exception as error:
+    print str(error) 
+
+if debug:
+    print 'DEBUG: After communicate'
+print stdout 
+print stderr 
+
+regex = re.search(r'default view for (.*).openss', stderr)
+db_name = regex.group(1).strip() + '.openss'
+
+if debug:
+    print 'DEBUG: Opening log file'
+with open('/usr/projects/darshan/logs/openss/pcsamp.log', 'a') as f:
+    f.write(extract_openss.extract_oss(db_name))

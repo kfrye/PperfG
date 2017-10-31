@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH -n 49                   # Number of nodes - all cores per node are allocated to the job
+#SBATCH --time=00:10:00              # Wall clock time (HH:MM:SS) - once the job exceeds this time, the job will be terminated (default is 5 minutes)
+#SBATCH --job-name=ldms_test
+
+# Note: SCRIPTS_DIR must be set containing the location of the start_ldms_pdsh and
+# stop_ldms_pdsh scripts
+# PROJECT_DIR must also be set to /usr/projects/workflow_perf. Alternately, update
+# the location of LDMS_PREFIX below.
+#export PROJECT_DIR=/usr/projects/workflow/perf
+#export SCRIPTS_DIR=$PROJECT_DIR/kris/tools
+export LDMS_PREFIX=${PROJECT_DIR}/ovis/install
+#export LDMSD_LOG_LEVEL=DEBUG
+
+ldmsslurmbin=$SCRIPTS_DIR
+export ldmsdatadir=`pwd`/ldms-${SLURM_JOB_ID}.data  #Location of ldms data 
+mkdir -p $ldmsdatadir
+
+# Start LDMS
+srun -n $SLURM_JOB_NUM_NODES $ldmsslurmbin/getslurminfo.sh $SLURM_JOB_ID $ldmsdatadir $HOME/.ldms_slurm_env.sh
+export PDSH_RCMD_TYPE=ssh
+pdsh -w $SLURM_NODELIST $ldmsslurmbin/start_ldms_pdsh.sh $SLURM_JOB_ID $ldmsdatadir $HOME/.ldms_slurm_env.sh
+sleep 5 ; # give ldms time to start and connect up
+export job_start_time=$(date +%s)
+
+# Start job here
+$SCRIPTS_DIR/mpi049
+# Stop LDMS
+export job_stop_time=$(date +%s)
+srun $SOPT -n $SLURM_JOB_NUM_NODES $ldmsslurmbin/stop_ldms_pdsh.sh $SLURM_JOB_ID $ldmsdatadir $HOME/.ldms_slurm_env.sh
+
+echo finished sbatch on lead node `hostname`
+
+$SCRIPTS_DIR/write_ldms.py

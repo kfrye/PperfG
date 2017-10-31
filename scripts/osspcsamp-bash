@@ -1,0 +1,5 @@
+#!/bin/bash
+
+output=$(/usr/projects/workflow_perf/oss_install_dirs/openss/bin/osspcsamp "mpirun -n 4 -v /usr/projects/workflow_perf/NPB3.3.1_wc/NPB3.3-MPI/bin/bt.S.1.mpi_io_full" 2>&1 >/dev/tty)
+ 
+echo $output

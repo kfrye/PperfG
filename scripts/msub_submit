@@ -1,0 +1,19 @@
+#!/bin/tcsh
+setenv ROOT_DIR `pwd`
+setenv SCRIPTS_DIR ${ROOT_DIR}/scripts
+setenv BUILD_DIR ${ROOT_DIR}/NPB3.3-MPI/bin
+setenv RUNS_DIR ${ROOT_DIR}/run/`date +%F_%R`
+setenv PROJECT_DIR /usr/projects/workflow_perf
+setenv PYTHONPATH ${PROJECT_DIR}/PerfTrack/build/lib/python2.6/site-packages/perftrack\:${PROJECT_DIR}/oss_install_dirs/openss/lib64/openspeedshop
+setenv PATH ${PATH}:${PROJECT_DIR}/PerfTrack/build/bin
+setenv PTDB PG_PYGRESQL
+module load gcc
+module load openmpi
+module load friendly-testing
+module load openspeedshop/2.2.4-osscbtf
+mkdir -p ${RUNS_DIR}
+cd ${RUNS_DIR}
+sbatch ${SCRIPTS_DIR}/slurm_mpi004
+#msub ${SCRIPTS_DIR}/msub_mpi004
+#msub ${SCRIPTS_DIR}/msub_mpi016
+#msub ${SCRIPTS_DIR}/msub_mpi064

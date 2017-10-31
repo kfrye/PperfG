@@ -1,0 +1,49 @@
+#!/bin/bash
+#SBATCH -t 0:15:00
+#SBATCH -N 1
+#SBATCH -n 4
+
+##### These are shell commands
+echo "JOBID: $SLURM_JOB_ID"
+echo "NUM_NODES: $SLURM_NNODES"
+echo "TASKS: $SLURM_NTASKS"
+date
+
+cd ${RUNS_DIR}
+mkdir ${RUNS_DIR}/machines
+
+#export RUN_DIR=$RUNS_DIR/bt-io-A4
+#mkdir $RUN_DIR
+#cd $RUN_DIR
+#ptGo.py --app bt-io --exeName $BUILD_DIR/bt.A.4.mpi_io_full --launcher mpirun -o $RUN_DIR --mpiArgs "-n 4" --machineDir $RUNS_DIR/machines --repeatRun 5
+#rm btio.full.out
+#
+# setenv RUN_DIR ${RUNS_DIR}/bt-io-B4
+# mkdir ${RUN_DIR}
+# cd ${RUN_DIR}
+# ptGo.py --app bt-io --exeName ${BUILD_DIR}/bt.B.4.mpi_io_full --launcher mpirun -o ${RUN_DIR} --mpiArgs "-np 4 -npernode 4" --machineDir ${RUNS_DIR}/machines --repeatRun 5
+# 
+export RUN_DIR=$RUNS_DIR/ossiot_bt-io-A4
+mkdir $RUN_DIR
+cd $RUN_DIR
+ptGo.py -v --app bt-io --exeName $BUILD_DIR/bt.S.4.mpi_io_full --launcher mpirun -o $RUN_DIR --mpiArgs "-n 4" --machineDir $RUNS_DIR/machines --perfTool ossmem --repeatRun 2
+rm btio.full.out
+# 
+# setenv RUN_DIR ${RUNS_DIR}/ossiot_bt-io-B4
+# mkdir ${RUN_DIR}
+# ptGo.py --app bt-io --exeName ${BUILD_DIR}/bt.B.4.mpi_io_full --launcher mpirun -o ${RUN_DIR} --mpiArgs "-np 4 -npernode 4" --machineDir ${RUNS_DIR}/machines --repeatRun 5 --perfTool ossiot
+#  
+# export RUN_DIR=$RUNS_DIR/pcsamp_bt-io-A4
+# mkdir $RUN_DIR
+# cd $RUN_DIR
+# #ptGo.py --app bt-io --exeName ${BUILD_DIR}/bt.A.4.mpi_io_full --launcher mpirun -o ${RUN_DIR} --mpiArgs "-n 4" --machineDir ${RUNS_DIR}/machines --repeatRun 1 --perfTool /usr/projects/workflow_perf/kris/tools/osspcsamp
+# ptGo.py --app bt-io --exeName ${BUILD_DIR}/bt.S.4.mpi_io_full --launcher mpirun -o ${RUN_DIR} --mpiArgs "-n 4" --machineDir ${RUNS_DIR}/machines --repeatRun 1 --perfTool osspcsamp
+#rm btio.full.out
+# 
+# setenv RUN_DIR ${RUNS_DIR}/darshan_bt-io-B4
+# mkdir ${RUN_DIR}
+# cd ${RUN_DIR}
+# ptGo.py --app bt-io --exeName ${BUILD_DIR}/bt.B.4.mpi_io_full --launcher mpirun -o ${RUN_DIR} --mpiArgs "-np 4 -npernode 4" --machineDir ${RUNS_DIR}/machines --repeatRun 5 --perfTool darshan
+# ${ROOT_DIR}/run/dparser.py 5
+date
+echo 'Done'
